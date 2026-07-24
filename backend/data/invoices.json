@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "rfa5jmqc1teizh3g3m3t8",
+    "invoiceNumber": "INV-2026-101",
+    "eventId": "mz0g7cbpkjp1x11of53g1e",
+    "customerName": "Jane Smith",
+    "customerEmail": "jane@example.com",
+    "date": "2026-06-20",
+    "items": [
+      {
+        "description": "Birthday Buffet Menu (45 Guests)",
+        "quantity": 45,
+        "rate": 25,
+        "amount": 1125
+      },
+      {
+        "description": "Decoration and Server Labour charges",
+        "quantity": 1,
+        "rate": 200,
+        "amount": 200
+      }
+    ],
+    "subtotal": 1325,
+    "discount": 100,
+    "tax": 61.25,
+    "total": 1286.25,
+    "status": "Partial",
+    "createdAt": "2026-07-24T15:27:24.239Z",
+    "updatedAt": "2026-07-24T15:27:24.239Z"
+  },
+  {
+    "_id": "os71kak6j7zudmm5mwela",
+    "invoiceNumber": "INV-2026-102",
+    "eventId": "9lhas5mhk6jjzrxvfp9db",
+    "customerName": "John Doe",
+    "customerEmail": "john@example.com",
+    "date": "2026-06-22",
+    "items": [
+      {
+        "description": "Wedding Lunch Feast (150 Guests)",
+        "quantity": 150,
+        "rate": 35,
+        "amount": 5250
+      }
+    ],
+    "subtotal": 5250,
+    "discount": 250,
+    "tax": 250,
+    "total": 5250,
+    "status": "Unpaid",
+    "createdAt": "2026-07-24T15:27:24.284Z",
+    "updatedAt": "2026-07-24T15:27:24.284Z"
+  }
+]

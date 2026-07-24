@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "id55ayp26l8n3gqmbhkoss",
+    "name": "John Doe",
+    "phone": "+1 (555) 123-4567",
+    "email": "john@example.com",
+    "address": "789 Maple St, Suburban Village",
+    "eventType": "Wedding",
+    "eventDate": "2026-07-15",
+    "guestCount": 150,
+    "notes": "Prefers organic options",
+    "createdAt": "2026-07-24T15:27:16.179Z",
+    "updatedAt": "2026-07-24T15:27:16.179Z"
+  },
+  {
+    "_id": "vdd1m6gmikmontfppqhhro",
+    "name": "Jane Smith",
+    "phone": "+1 (555) 234-5678",
+    "email": "jane@example.com",
+    "address": "101 Pine Ave, Downtown City",
+    "eventType": "Birthday",
+    "eventDate": "2026-06-30",
+    "guestCount": 45,
+    "notes": "Nut allergy awareness required",
+    "createdAt": "2026-07-24T15:27:16.210Z",
+    "updatedAt": "2026-07-24T15:27:16.210Z"
+  },
+  {
+    "_id": "05yheb07t40x1jxnw30oa2aj",
+    "name": "Michael Jenkins",
+    "phone": "+1 (555) 345-6789",
+    "email": "m.jenkins@corp.com",
+    "address": "55 Enterprise Way, Tech Hub",
+    "eventType": "Corporate",
+    "eventDate": "2026-08-01",
+    "guestCount": 200,
+    "notes": "Requires premium visual setup",
+    "createdAt": "2026-07-24T15:27:16.264Z",
+    "updatedAt": "2026-07-24T15:27:16.264Z"
+  }
+]

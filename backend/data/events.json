@@ -1,0 +1,100 @@
+[
+  {
+    "_id": "mz0g7cbpkjp1x11of53g1e",
+    "name": "Jane Smith Birthday Bash",
+    "customerId": "vdd1m6gmikmontfppqhhro",
+    "customerName": "Jane Smith",
+    "location": "101 Pine Ave, Downtown City",
+    "date": "2026-06-30",
+    "guestCount": 45,
+    "eventType": "Birthday",
+    "status": "Confirmed",
+    "menuPlan": {
+      "breakfast": [
+        {
+          "name": "Scrambled Eggs",
+          "qty": 45,
+          "estimatedCost": 18
+        },
+        {
+          "name": "Coffee/Tea",
+          "qty": 45,
+          "estimatedCost": 13.5
+        }
+      ],
+      "lunch": [],
+      "dinner": [
+        {
+          "name": "Paneer Butter Masala",
+          "qty": 45,
+          "estimatedCost": 90
+        },
+        {
+          "name": "Butter Naan",
+          "qty": 90,
+          "estimatedCost": 45
+        },
+        {
+          "name": "Gulab Jamun",
+          "qty": 45,
+          "estimatedCost": 36
+        }
+      ]
+    },
+    "timeline": [
+      {
+        "time": "11:00 AM",
+        "activity": "Staff arrival and decoration setup"
+      },
+      {
+        "time": "01:00 PM",
+        "activity": "Breakfast/Tea service starts"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Dinner service starts"
+      }
+    ],
+    "createdAt": "2026-07-24T15:27:24.153Z",
+    "updatedAt": "2026-07-24T15:27:24.153Z"
+  },
+  {
+    "_id": "9lhas5mhk6jjzrxvfp9db",
+    "name": "Doe Wedding Reception",
+    "customerId": "id55ayp26l8n3gqmbhkoss",
+    "customerName": "John Doe",
+    "location": "789 Maple St, Suburban Village",
+    "date": "2026-07-15",
+    "guestCount": 150,
+    "eventType": "Wedding",
+    "status": "Inquiry",
+    "menuPlan": {
+      "breakfast": [],
+      "lunch": [
+        {
+          "name": "Chicken Biryani",
+          "qty": 150,
+          "estimatedCost": 525
+        },
+        {
+          "name": "Gulab Jamun",
+          "qty": 150,
+          "estimatedCost": 120
+        }
+      ],
+      "dinner": []
+    },
+    "timeline": [
+      {
+        "time": "09:00 AM",
+        "activity": "Raw materials delivery"
+      },
+      {
+        "time": "01:30 PM",
+        "activity": "Wedding Buffet service"
+      }
+    ],
+    "createdAt": "2026-07-24T15:27:24.234Z",
+    "updatedAt": "2026-07-24T15:27:24.234Z"
+  }
+]

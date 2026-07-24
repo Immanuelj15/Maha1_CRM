@@ -1,0 +1,6086 @@
+[
+  {
+    "_id": "0plt5xm2cwi76mubynk0aw",
+    "name": "Wheat Halwa (கோதுமை அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.553Z",
+    "updatedAt": "2026-07-24T15:27:04.553Z"
+  },
+  {
+    "_id": "8599vilc0ir2e156bc0x95",
+    "name": "Wheat Halwa (கோதுமை அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.557Z",
+    "updatedAt": "2026-07-24T15:27:04.557Z"
+  },
+  {
+    "_id": "4fz32yb0q73p7l9sqo4eq",
+    "name": "Wheat Halwa (கோதுமை அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.562Z",
+    "updatedAt": "2026-07-24T15:27:04.562Z"
+  },
+  {
+    "_id": "m20qvoq559r49s7885mmm",
+    "name": "Asoka Halwa (அசோகா அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.566Z",
+    "updatedAt": "2026-07-24T15:27:04.566Z"
+  },
+  {
+    "_id": "0lxfrc58be6pa52wtucri9",
+    "name": "Asoka Halwa (அசோகா அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.570Z",
+    "updatedAt": "2026-07-24T15:27:04.570Z"
+  },
+  {
+    "_id": "eyq7g3t7bqooojs3yy9tb",
+    "name": "Asoka Halwa (அசோகா அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.574Z",
+    "updatedAt": "2026-07-24T15:27:04.574Z"
+  },
+  {
+    "_id": "9474fujf4d9bvgzzsu30o",
+    "name": "Bread Halwa (பிரட் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.578Z",
+    "updatedAt": "2026-07-24T15:27:04.578Z"
+  },
+  {
+    "_id": "b2rf5gus2siap4des81kh",
+    "name": "Bread Halwa (பிரட் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.582Z",
+    "updatedAt": "2026-07-24T15:27:04.582Z"
+  },
+  {
+    "_id": "cjfyk4z90bdgi1tm6bwll8",
+    "name": "Bread Halwa (பிரட் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.587Z",
+    "updatedAt": "2026-07-24T15:27:04.587Z"
+  },
+  {
+    "_id": "fveq47w477ge5bprrln0q9",
+    "name": "Gulkand Halwa (குல்கந்து அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:04.591Z",
+    "updatedAt": "2026-07-24T15:27:04.591Z"
+  },
+  {
+    "_id": "4jwp8ae2tuwyfphgc67c1q",
+    "name": "Gulkand Halwa (குல்கந்து அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:04.596Z",
+    "updatedAt": "2026-07-24T15:27:04.596Z"
+  },
+  {
+    "_id": "rh89sxwpl6mztjwqemuegn",
+    "name": "Gulkand Halwa (குல்கந்து அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:04.601Z",
+    "updatedAt": "2026-07-24T15:27:04.601Z"
+  },
+  {
+    "_id": "r7njs9yafxo578tx8u8x66",
+    "name": "Milk Halwa (பால் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:04.605Z",
+    "updatedAt": "2026-07-24T15:27:04.605Z"
+  },
+  {
+    "_id": "gsk90qc3i2j0w1aht78vul",
+    "name": "Milk Halwa (பால் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:04.610Z",
+    "updatedAt": "2026-07-24T15:27:04.610Z"
+  },
+  {
+    "_id": "eh5c71tnoxr7au49e0uw5o",
+    "name": "Milk Halwa (பால் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:04.614Z",
+    "updatedAt": "2026-07-24T15:27:04.614Z"
+  },
+  {
+    "_id": "f07yb0kzykvilu3hoe2e4a",
+    "name": "Badam Halwa (பாதாம் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:04.618Z",
+    "updatedAt": "2026-07-24T15:27:04.618Z"
+  },
+  {
+    "_id": "m3wbvky2f2bozzn8blfze",
+    "name": "Badam Halwa (பாதாம் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:04.623Z",
+    "updatedAt": "2026-07-24T15:27:04.623Z"
+  },
+  {
+    "_id": "raujo0lj6efo5d2m9r4yb",
+    "name": "Badam Halwa (பாதாம் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:04.631Z",
+    "updatedAt": "2026-07-24T15:27:04.631Z"
+  },
+  {
+    "_id": "hi90gznevdw7yc5j915koi",
+    "name": "Ash Gourd Halwa (தடியங்காய் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.639Z",
+    "updatedAt": "2026-07-24T15:27:04.639Z"
+  },
+  {
+    "_id": "amwbaycoy8gf0lm8brzk6k",
+    "name": "Ash Gourd Halwa (தடியங்காய் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.650Z",
+    "updatedAt": "2026-07-24T15:27:04.650Z"
+  },
+  {
+    "_id": "ckg6uovm9fpj5kkpnw4tc",
+    "name": "Ash Gourd Halwa (தடியங்காய் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.659Z",
+    "updatedAt": "2026-07-24T15:27:04.659Z"
+  },
+  {
+    "_id": "kzcccxy984kzwlfno4p3",
+    "name": "Vegetable Halwa (வெஜிடபிள்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.666Z",
+    "updatedAt": "2026-07-24T15:27:04.666Z"
+  },
+  {
+    "_id": "4hpeslyljj9cf0ozha9up6",
+    "name": "Vegetable Halwa (வெஜிடபிள்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.680Z",
+    "updatedAt": "2026-07-24T15:27:04.680Z"
+  },
+  {
+    "_id": "4xs5qxbl30o7prvah223do",
+    "name": "Vegetable Halwa (வெஜிடபிள்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.692Z",
+    "updatedAt": "2026-07-24T15:27:04.692Z"
+  },
+  {
+    "_id": "mbxa87gz1mtk6cxdc59opc",
+    "name": "Fruit Halwa (ப்ரூட்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.712Z",
+    "updatedAt": "2026-07-24T15:27:04.712Z"
+  },
+  {
+    "_id": "oj4xuu56ueayxgetu5zvq",
+    "name": "Fruit Halwa (ப்ரூட்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.723Z",
+    "updatedAt": "2026-07-24T15:27:04.723Z"
+  },
+  {
+    "_id": "slhbjlwphn77d8iwkd4kt",
+    "name": "Fruit Halwa (ப்ரூட்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.752Z",
+    "updatedAt": "2026-07-24T15:27:04.752Z"
+  },
+  {
+    "_id": "phj5n5lmdwgblujjouwh0k",
+    "name": "Tender Coconut Halwa (இளநீர் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:04.759Z",
+    "updatedAt": "2026-07-24T15:27:04.759Z"
+  },
+  {
+    "_id": "irrlnxaa0bctxun4m0zo5r",
+    "name": "Tender Coconut Halwa (இளநீர் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:04.768Z",
+    "updatedAt": "2026-07-24T15:27:04.769Z"
+  },
+  {
+    "_id": "bcevsgewpbobgmgie9oldl",
+    "name": "Tender Coconut Halwa (இளநீர் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:04.801Z",
+    "updatedAt": "2026-07-24T15:27:04.801Z"
+  },
+  {
+    "_id": "hwa1nr27v4jmcp8j9kpq0n",
+    "name": "Potato Halwa (உருளைக்கிழங்கு அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:04.832Z",
+    "updatedAt": "2026-07-24T15:27:04.832Z"
+  },
+  {
+    "_id": "ngto7hxv3babubsgjj4lxw",
+    "name": "Potato Halwa (உருளைக்கிழங்கு அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:04.861Z",
+    "updatedAt": "2026-07-24T15:27:04.861Z"
+  },
+  {
+    "_id": "7qu9cdcu9aey1g5dwua2ag",
+    "name": "Potato Halwa (உருளைக்கிழங்கு அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:04.869Z",
+    "updatedAt": "2026-07-24T15:27:04.869Z"
+  },
+  {
+    "_id": "krrri7ze6tbtuo8tme02z",
+    "name": "Kasi Halwa (காசி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:04.994Z",
+    "updatedAt": "2026-07-24T15:27:04.994Z"
+  },
+  {
+    "_id": "yz3zfdpk2tdlo1wro3n4xi",
+    "name": "Kasi Halwa (காசி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:05.095Z",
+    "updatedAt": "2026-07-24T15:27:05.095Z"
+  },
+  {
+    "_id": "664xymazkvxvukynnojzp",
+    "name": "Kasi Halwa (காசி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:05.127Z",
+    "updatedAt": "2026-07-24T15:27:05.127Z"
+  },
+  {
+    "_id": "v9dvtrixzkseq16127a1bo",
+    "name": "Pumpkin Halwa (பூசணி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.266Z",
+    "updatedAt": "2026-07-24T15:27:05.266Z"
+  },
+  {
+    "_id": "9kkino330nvv82hon1ooj",
+    "name": "Pumpkin Halwa (பூசணி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.358Z",
+    "updatedAt": "2026-07-24T15:27:05.358Z"
+  },
+  {
+    "_id": "zeu955rot1pppd9kpy7b",
+    "name": "Pumpkin Halwa (பூசணி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.514Z",
+    "updatedAt": "2026-07-24T15:27:05.514Z"
+  },
+  {
+    "_id": "uixb8uxdi7jt438y5rlst",
+    "name": "Rava Kesari (ரவா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:05.532Z",
+    "updatedAt": "2026-07-24T15:27:05.532Z"
+  },
+  {
+    "_id": "h4wlu3fkwodp84lu9tvihf",
+    "name": "Rava Kesari (ரவா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:05.610Z",
+    "updatedAt": "2026-07-24T15:27:05.610Z"
+  },
+  {
+    "_id": "7chy0uthu2sccvmus1pk6s",
+    "name": "Rava Kesari (ரவா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:05.647Z",
+    "updatedAt": "2026-07-24T15:27:05.647Z"
+  },
+  {
+    "_id": "yk7z8btz5mb6l01wxx5i8",
+    "name": "Vermicelli (Semiya) Kesari (சேமியா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:05.760Z",
+    "updatedAt": "2026-07-24T15:27:05.760Z"
+  },
+  {
+    "_id": "1vl4jbhidf6iba4pv91724",
+    "name": "Vermicelli (Semiya) Kesari (சேமியா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:05.777Z",
+    "updatedAt": "2026-07-24T15:27:05.777Z"
+  },
+  {
+    "_id": "udhway5ivxc1xo85fe7lsg",
+    "name": "Vermicelli (Semiya) Kesari (சேமியா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:05.860Z",
+    "updatedAt": "2026-07-24T15:27:05.860Z"
+  },
+  {
+    "_id": "4qer37u6d8x8zjjjoy50uv",
+    "name": "Fruit Kesari (ப்ரூட் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.881Z",
+    "updatedAt": "2026-07-24T15:27:05.881Z"
+  },
+  {
+    "_id": "o120f1jlocs70k7i6eb1q2",
+    "name": "Fruit Kesari (ப்ரூட் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.895Z",
+    "updatedAt": "2026-07-24T15:27:05.895Z"
+  },
+  {
+    "_id": "j91119heg263u1upmepqf",
+    "name": "Fruit Kesari (ப்ரூட் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.929Z",
+    "updatedAt": "2026-07-24T15:27:05.929Z"
+  },
+  {
+    "_id": "ijzc8e5ccedjlro2istjj9",
+    "name": "Milk Kesari (பால் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:05.985Z",
+    "updatedAt": "2026-07-24T15:27:05.985Z"
+  },
+  {
+    "_id": "2z44snkmbowpymmeilh63i",
+    "name": "Milk Kesari (பால் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.024Z",
+    "updatedAt": "2026-07-24T15:27:06.024Z"
+  },
+  {
+    "_id": "3xher3vzbfjub8szswekm",
+    "name": "Milk Kesari (பால் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.044Z",
+    "updatedAt": "2026-07-24T15:27:06.044Z"
+  },
+  {
+    "_id": "1ijr39fh5v5wceui1bq778",
+    "name": "Rasamalai (ரசமலாய்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.057Z",
+    "updatedAt": "2026-07-24T15:27:06.057Z"
+  },
+  {
+    "_id": "kr2vq6y4uugvczgehnmgu",
+    "name": "Rasamalai (ரசமலாய்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.077Z",
+    "updatedAt": "2026-07-24T15:27:06.077Z"
+  },
+  {
+    "_id": "aucn6siwvcl3oj5tz22av2",
+    "name": "Rasamalai (ரசமலாய்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.088Z",
+    "updatedAt": "2026-07-24T15:27:06.088Z"
+  },
+  {
+    "_id": "lcc9nmjm7qm371682cdu",
+    "name": "Bengali Sweets (பெங்காளி ஸ்வீட்'ஸ்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.099Z",
+    "updatedAt": "2026-07-24T15:27:06.099Z"
+  },
+  {
+    "_id": "i3prqmnvascf69js7wqcil",
+    "name": "Bengali Sweets (பெங்காளி ஸ்வீட்'ஸ்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.113Z",
+    "updatedAt": "2026-07-24T15:27:06.113Z"
+  },
+  {
+    "_id": "xr0jn60k4k9al9g8cf2r5",
+    "name": "Bengali Sweets (பெங்காளி ஸ்வீட்'ஸ்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.118Z",
+    "updatedAt": "2026-07-24T15:27:06.118Z"
+  },
+  {
+    "_id": "vwnl32aehvgdvisxw40we",
+    "name": "Beetroot Jam (பீட்ரூட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.127Z",
+    "updatedAt": "2026-07-24T15:27:06.127Z"
+  },
+  {
+    "_id": "4jrdbcrg0gn8yhslcd2kj",
+    "name": "Beetroot Jam (பீட்ரூட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.145Z",
+    "updatedAt": "2026-07-24T15:27:06.145Z"
+  },
+  {
+    "_id": "jzqpvjo7n6bauc6tyzp0n",
+    "name": "Beetroot Jam (பீட்ரூட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.160Z",
+    "updatedAt": "2026-07-24T15:27:06.161Z"
+  },
+  {
+    "_id": "en66ivho5d4dfk7ili26a7",
+    "name": "Pineapple Jam (பைனாப்பிள் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.166Z",
+    "updatedAt": "2026-07-24T15:27:06.166Z"
+  },
+  {
+    "_id": "red1zhwqnh98oe8k9qruf7",
+    "name": "Pineapple Jam (பைனாப்பிள் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.172Z",
+    "updatedAt": "2026-07-24T15:27:06.172Z"
+  },
+  {
+    "_id": "i1wuht365mptnq62b5j1r",
+    "name": "Pineapple Jam (பைனாப்பிள் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.177Z",
+    "updatedAt": "2026-07-24T15:27:06.177Z"
+  },
+  {
+    "_id": "vxar12sb83djavy0vn4y",
+    "name": "Carrot Jam (கேரட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.185Z",
+    "updatedAt": "2026-07-24T15:27:06.185Z"
+  },
+  {
+    "_id": "fm6x5nfrrjluvl8t4og7m",
+    "name": "Carrot Jam (கேரட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.190Z",
+    "updatedAt": "2026-07-24T15:27:06.190Z"
+  },
+  {
+    "_id": "c2aolljcenlzydfie5bz8",
+    "name": "Carrot Jam (கேரட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.197Z",
+    "updatedAt": "2026-07-24T15:27:06.197Z"
+  },
+  {
+    "_id": "p83xff9jloh58gvdtz5ov",
+    "name": "Coconut Milk Halwa (தேங்காய்ப்பால் ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:06.202Z",
+    "updatedAt": "2026-07-24T15:27:06.202Z"
+  },
+  {
+    "_id": "jwqzy6bbhfyu55timp11e",
+    "name": "Coconut Milk Halwa (தேங்காய்ப்பால் ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:06.207Z",
+    "updatedAt": "2026-07-24T15:27:06.207Z"
+  },
+  {
+    "_id": "0p9h0yw8nf7jmwel98rz3r",
+    "name": "Coconut Milk Halwa (தேங்காய்ப்பால் ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:06.214Z",
+    "updatedAt": "2026-07-24T15:27:06.214Z"
+  },
+  {
+    "_id": "bcfzeq8gc95ixsg2ci3geh",
+    "name": "Kavuni Rice (Black Rice) Halwa (கவுணி அரிசி ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.225Z",
+    "updatedAt": "2026-07-24T15:27:06.225Z"
+  },
+  {
+    "_id": "axj8ynexv6j1vccsj0dv2w",
+    "name": "Kavuni Rice (Black Rice) Halwa (கவுணி அரிசி ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.239Z",
+    "updatedAt": "2026-07-24T15:27:06.239Z"
+  },
+  {
+    "_id": "3jj9ahvkr5m9anpuirwdlg",
+    "name": "Kavuni Rice (Black Rice) Halwa (கவுணி அரிசி ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:06.246Z",
+    "updatedAt": "2026-07-24T15:27:06.246Z"
+  },
+  {
+    "_id": "u5lj5rebz9q6sqjubw5a",
+    "name": "Laddu (லட்டு)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.250Z",
+    "updatedAt": "2026-07-24T15:27:06.250Z"
+  },
+  {
+    "_id": "llh18vptvrfxzckkgm3hn",
+    "name": "Laddu (லட்டு)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.256Z",
+    "updatedAt": "2026-07-24T15:27:06.256Z"
+  },
+  {
+    "_id": "xm6ogutbu7pkis60egrmw",
+    "name": "Laddu (லட்டு)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.261Z",
+    "updatedAt": "2026-07-24T15:27:06.261Z"
+  },
+  {
+    "_id": "dwti30w0ysrb7w1d0a5q",
+    "name": "Jalebi (ஜிலேபி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.268Z",
+    "updatedAt": "2026-07-24T15:27:06.268Z"
+  },
+  {
+    "_id": "sq27svefgi9mse8xhzq9p",
+    "name": "Jalebi (ஜிலேபி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.279Z",
+    "updatedAt": "2026-07-24T15:27:06.279Z"
+  },
+  {
+    "_id": "yaxm9ee6zemnzibm150q6",
+    "name": "Jalebi (ஜிலேபி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.301Z",
+    "updatedAt": "2026-07-24T15:27:06.301Z"
+  },
+  {
+    "_id": "mz7xrm2f91ybr6jbglapn",
+    "name": "Gulab Jamun (குளோப் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.323Z",
+    "updatedAt": "2026-07-24T15:27:06.323Z"
+  },
+  {
+    "_id": "whbdym7476nrw0qkklleho",
+    "name": "Gulab Jamun (குளோப் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.331Z",
+    "updatedAt": "2026-07-24T15:27:06.331Z"
+  },
+  {
+    "_id": "plxk4rcxorguxjifhfpusf",
+    "name": "Gulab Jamun (குளோப் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.343Z",
+    "updatedAt": "2026-07-24T15:27:06.343Z"
+  },
+  {
+    "_id": "mzhzqotitxfrx4aykj2qwr",
+    "name": "Dry Gulab Jamun (டிரை குளோப் ஜாமுன்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.360Z",
+    "updatedAt": "2026-07-24T15:27:06.360Z"
+  },
+  {
+    "_id": "er70o86frje51v6ckolxkj",
+    "name": "Dry Gulab Jamun (டிரை குளோப் ஜாமுன்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.365Z",
+    "updatedAt": "2026-07-24T15:27:06.365Z"
+  },
+  {
+    "_id": "sg3igbr38qei57pi4deg2c",
+    "name": "Dry Gulab Jamun (டிரை குளோப் ஜாமுன்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.382Z",
+    "updatedAt": "2026-07-24T15:27:06.382Z"
+  },
+  {
+    "_id": "ou8yjnc3lhhxh73g1hnf5",
+    "name": "Badusha (பாதுர்சா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.392Z",
+    "updatedAt": "2026-07-24T15:27:06.392Z"
+  },
+  {
+    "_id": "l5j8b9qcku8acxt6afzj6",
+    "name": "Badusha (பாதுர்சா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.401Z",
+    "updatedAt": "2026-07-24T15:27:06.401Z"
+  },
+  {
+    "_id": "um97eizq48al8uymfl0pd",
+    "name": "Badusha (பாதுர்சா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.411Z",
+    "updatedAt": "2026-07-24T15:27:06.411Z"
+  },
+  {
+    "_id": "4xtfemtormklctjmv19pmb",
+    "name": "Coconut Burfi (தேங்காய் பர்பி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.419Z",
+    "updatedAt": "2026-07-24T15:27:06.419Z"
+  },
+  {
+    "_id": "507ucirhp6k01usupla7zym",
+    "name": "Coconut Burfi (தேங்காய் பர்பி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.432Z",
+    "updatedAt": "2026-07-24T15:27:06.432Z"
+  },
+  {
+    "_id": "tv4qjksjblgj7483j7j1m",
+    "name": "Coconut Burfi (தேங்காய் பர்பி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.437Z",
+    "updatedAt": "2026-07-24T15:27:06.437Z"
+  },
+  {
+    "_id": "fcicghlqmq2mwjbebx4t6",
+    "name": "Mysore Pak (மைசூர் பாகு)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.447Z",
+    "updatedAt": "2026-07-24T15:27:06.447Z"
+  },
+  {
+    "_id": "o01gcx6upaj81p8d4yo7sh",
+    "name": "Mysore Pak (மைசூர் பாகு)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.457Z",
+    "updatedAt": "2026-07-24T15:27:06.457Z"
+  },
+  {
+    "_id": "wo70rvl5pw995ntzlzy2w4",
+    "name": "Mysore Pak (மைசூர் பாகு)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.465Z",
+    "updatedAt": "2026-07-24T15:27:06.465Z"
+  },
+  {
+    "_id": "pdckah0sa9a2i6tny1uij",
+    "name": "Makkan Peda (மக்கன் பேடா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:06.470Z",
+    "updatedAt": "2026-07-24T15:27:06.470Z"
+  },
+  {
+    "_id": "qqfgvdp2yrc42er6zxk3qg",
+    "name": "Makkan Peda (மக்கன் பேடா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:06.479Z",
+    "updatedAt": "2026-07-24T15:27:06.479Z"
+  },
+  {
+    "_id": "tsn25vyy6n7g0jk8irkga",
+    "name": "Makkan Peda (மக்கன் பேடா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:06.492Z",
+    "updatedAt": "2026-07-24T15:27:06.492Z"
+  },
+  {
+    "_id": "7fi0kto5vhj7q0u1c6x9sv",
+    "name": "Pineapple Kesari (பைன்ஆப்பிள் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.512Z",
+    "updatedAt": "2026-07-24T15:27:06.512Z"
+  },
+  {
+    "_id": "8lqzmai5ehy5ta4xu1pgev",
+    "name": "Pineapple Kesari (பைன்ஆப்பிள் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.517Z",
+    "updatedAt": "2026-07-24T15:27:06.517Z"
+  },
+  {
+    "_id": "sf4jwn587t8zd7zx9zmf9f",
+    "name": "Pineapple Kesari (பைன்ஆப்பிள் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.528Z",
+    "updatedAt": "2026-07-24T15:27:06.528Z"
+  },
+  {
+    "_id": "co63h9oaqzskwocnei4bah",
+    "name": "Mini Jangiri (மினி ஜாங்கிரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.535Z",
+    "updatedAt": "2026-07-24T15:27:06.537Z"
+  },
+  {
+    "_id": "ydov0hell3c6mi3363our",
+    "name": "Mini Jangiri (மினி ஜாங்கிரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.545Z",
+    "updatedAt": "2026-07-24T15:27:06.545Z"
+  },
+  {
+    "_id": "jmwaydpfrueyj7cn7yj3f",
+    "name": "Mini Jangiri (மினி ஜாங்கிரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.566Z",
+    "updatedAt": "2026-07-24T15:27:06.566Z"
+  },
+  {
+    "_id": "y57qskenpzh6i6j93hfcnt",
+    "name": "Medu Vada / Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.577Z",
+    "updatedAt": "2026-07-24T15:27:06.577Z"
+  },
+  {
+    "_id": "5mgtcjg3jblsh0rutc3rjs",
+    "name": "Medu Vada / Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.584Z",
+    "updatedAt": "2026-07-24T15:27:06.584Z"
+  },
+  {
+    "_id": "rywrv2ys8z1c6lu2etnd1",
+    "name": "Onion Vada (வெங்காய வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.591Z",
+    "updatedAt": "2026-07-24T15:27:06.591Z"
+  },
+  {
+    "_id": "wmv4kape44265df3vz7fw",
+    "name": "Onion Vada (வெங்காய வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.600Z",
+    "updatedAt": "2026-07-24T15:27:06.600Z"
+  },
+  {
+    "_id": "6dc26lrzyqrb9e92g0c8lu",
+    "name": "Ragi (Keppai) Vada (கேப்பை வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.608Z",
+    "updatedAt": "2026-07-24T15:27:06.608Z"
+  },
+  {
+    "_id": "v1q6xupn1g01o2jrcmunhk",
+    "name": "Ragi (Keppai) Vada (கேப்பை வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.615Z",
+    "updatedAt": "2026-07-24T15:27:06.615Z"
+  },
+  {
+    "_id": "eis5wunsxkkng48f6w9xzr",
+    "name": "Banana Flower (Vaazhaipoo) Vada (வாழைப்பூ வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:06.619Z",
+    "updatedAt": "2026-07-24T15:27:06.619Z"
+  },
+  {
+    "_id": "hh1zgexy0hvcicz07wahk",
+    "name": "Banana Flower (Vaazhaipoo) Vada (வாழைப்பூ வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:06.625Z",
+    "updatedAt": "2026-07-24T15:27:06.625Z"
+  },
+  {
+    "_id": "s3sly2ybbco8ybev5hqbgw",
+    "name": "Mysore Bonda (மைசூர் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.631Z",
+    "updatedAt": "2026-07-24T15:27:06.631Z"
+  },
+  {
+    "_id": "gr6flfnc22j766nlhurt",
+    "name": "Mysore Bonda (மைசூர் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.636Z",
+    "updatedAt": "2026-07-24T15:27:06.636Z"
+  },
+  {
+    "_id": "c4sw7wk23qaywuv7ppzczk",
+    "name": "Masal Bonda (மசால் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.646Z",
+    "updatedAt": "2026-07-24T15:27:06.646Z"
+  },
+  {
+    "_id": "rxoyxkrsl1bux7hdwv3p",
+    "name": "Masal Bonda (மசால் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.652Z",
+    "updatedAt": "2026-07-24T15:27:06.652Z"
+  },
+  {
+    "_id": "gtjxu73azl5e9io3yvk9",
+    "name": "Keerai (Spinach) Vada (கீர வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.659Z",
+    "updatedAt": "2026-07-24T15:27:06.659Z"
+  },
+  {
+    "_id": "vsi2ahewoxpjpogk8hyml",
+    "name": "Keerai (Spinach) Vada (கீர வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.666Z",
+    "updatedAt": "2026-07-24T15:27:06.666Z"
+  },
+  {
+    "_id": "6gzb1se3dzmhsm1zazodho",
+    "name": "Aama Vada / Paruppu Vada (ஆம வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.673Z",
+    "updatedAt": "2026-07-24T15:27:06.673Z"
+  },
+  {
+    "_id": "hwgfggwu6y9w9n7sd95iwq",
+    "name": "Aama Vada / Paruppu Vada (ஆம வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.679Z",
+    "updatedAt": "2026-07-24T15:27:06.679Z"
+  },
+  {
+    "_id": "fv4pf6aozuk9zn09c0bilk",
+    "name": "Thayir (Curd) Vada (தயிர் வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.684Z",
+    "updatedAt": "2026-07-24T15:27:06.684Z"
+  },
+  {
+    "_id": "eczmrg8u5iv2w17wsuvdrl",
+    "name": "Thayir (Curd) Vada (தயிர் வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.693Z",
+    "updatedAt": "2026-07-24T15:27:06.693Z"
+  },
+  {
+    "_id": "77rik10aowvo7bgc8cnj2",
+    "name": "Sambar Vada (சாம்பார் வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.698Z",
+    "updatedAt": "2026-07-24T15:27:06.698Z"
+  },
+  {
+    "_id": "hbwm5qsgsfbe3lppup3dhl",
+    "name": "Sambar Vada (சாம்பார் வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.706Z",
+    "updatedAt": "2026-07-24T15:27:06.706Z"
+  },
+  {
+    "_id": "rzz5ygry55n2x182ozz7do",
+    "name": "Cabbage (Kose) Vada (கோஸ் வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.713Z",
+    "updatedAt": "2026-07-24T15:27:06.713Z"
+  },
+  {
+    "_id": "juacro08nkew63uja9cydn",
+    "name": "Cabbage (Kose) Vada (கோஸ் வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.719Z",
+    "updatedAt": "2026-07-24T15:27:06.719Z"
+  },
+  {
+    "_id": "z9amh9wqo0ks5otb0bpbf",
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:06.724Z",
+    "updatedAt": "2026-07-24T15:27:06.724Z"
+  },
+  {
+    "_id": "rm7v2iyg7fzt51rgi5j1",
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:06.730Z",
+    "updatedAt": "2026-07-24T15:27:06.730Z"
+  },
+  {
+    "_id": "0f1pft5jqcjtjmffrw6y5l",
+    "name": "Garlic Spicy Vada / Poondu Kara Vada (பூண்டு கார வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:06.737Z",
+    "updatedAt": "2026-07-24T15:27:06.737Z"
+  },
+  {
+    "_id": "hutfabbihlgqz2z4857cqq",
+    "name": "Garlic Spicy Vada / Poondu Kara Vada (பூண்டு கார வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:06.745Z",
+    "updatedAt": "2026-07-24T15:27:06.745Z"
+  },
+  {
+    "_id": "spwian37xktbz4oe5df7",
+    "name": "Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.766Z",
+    "updatedAt": "2026-07-24T15:27:06.766Z"
+  },
+  {
+    "_id": "q1lrupg216d5esklirwowp",
+    "name": "Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:06.774Z",
+    "updatedAt": "2026-07-24T15:27:06.774Z"
+  },
+  {
+    "_id": "258zfhtgu9phqylcgl9kb",
+    "name": "Mini Paruppu Vada (மினி பருப்பு வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.780Z",
+    "updatedAt": "2026-07-24T15:27:06.780Z"
+  },
+  {
+    "_id": "bzhpi4hg3sajj24cu06btc",
+    "name": "Mini Paruppu Vada (மினி பருப்பு வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.788Z",
+    "updatedAt": "2026-07-24T15:27:06.788Z"
+  },
+  {
+    "_id": "4vammr5m2zmntkmqmuet4",
+    "name": "Veg Roll (வெஜ் ரோல்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.792Z",
+    "updatedAt": "2026-07-24T15:27:06.793Z"
+  },
+  {
+    "_id": "9arkw7ri6iodj90jblua36",
+    "name": "Paneer Pakoda (பன்னீர் பக்கோடா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:06.800Z",
+    "updatedAt": "2026-07-24T15:27:06.800Z"
+  },
+  {
+    "_id": "9h710e4q6x4h05i2mdb6s",
+    "name": "Veg Lollipop (வெஜ் லாலிபாப்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.806Z",
+    "updatedAt": "2026-07-24T15:27:06.806Z"
+  },
+  {
+    "_id": "82we7vpd7lionddol3z9e",
+    "name": "Veg Cheese Samosa (வெஜ் சீஸ் சமோசா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.812Z",
+    "updatedAt": "2026-07-24T15:27:06.812Z"
+  },
+  {
+    "_id": "4iqa0bzitljh3dp415z4aj",
+    "name": "Baby Corn Roast (பேபி கார்ன் ரோஸ்ட்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:06.819Z",
+    "updatedAt": "2026-07-24T15:27:06.819Z"
+  },
+  {
+    "_id": "ezjyx7jyp8llqgk1ukf2cp",
+    "name": "Cutlet (கட்லட்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.824Z",
+    "updatedAt": "2026-07-24T15:27:06.824Z"
+  },
+  {
+    "_id": "owcp9wpkp24uojjlf0c8k",
+    "name": "Spring Roll (ஸ்பிரிங் ரோல்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:06.829Z",
+    "updatedAt": "2026-07-24T15:27:06.829Z"
+  },
+  {
+    "_id": "oo0qaihu3frts930jqcpa",
+    "name": "Mini Cheese Samosa (மினி சீஸ் சமோசா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:06.835Z",
+    "updatedAt": "2026-07-24T15:27:06.835Z"
+  },
+  {
+    "_id": "2famhjo0ic8ekvbjoegrf6",
+    "name": "French Fries (ஃப்ரெஞ்ச் ப்ரைஸ்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:06.841Z",
+    "updatedAt": "2026-07-24T15:27:06.841Z"
+  },
+  {
+    "_id": "0qm5e7n5gkqogu3sz883pn5",
+    "name": "Paneer Tikka (பன்னீர் டிக்கா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:06.847Z",
+    "updatedAt": "2026-07-24T15:27:06.847Z"
+  },
+  {
+    "_id": "qazm75x3uggvp032khp0kf",
+    "name": "Veg Chicken 65 (வெஜ் சிக்கன் 65)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:06.852Z",
+    "updatedAt": "2026-07-24T15:27:06.852Z"
+  },
+  {
+    "_id": "qh04m1jhvlfyjw2o6og9t",
+    "name": "Veg Fish Fry (வெஜ் மீன் ஃப்ரை)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:06.859Z",
+    "updatedAt": "2026-07-24T15:27:06.859Z"
+  },
+  {
+    "_id": "wlxo7hhdwxfe8zl8nnucg6",
+    "name": "Veg Noodles (வெஜ் நூடுல்ஸ்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:06.871Z",
+    "updatedAt": "2026-07-24T15:27:06.871Z"
+  },
+  {
+    "_id": "3x25ie8h27lds2fjglzm1d",
+    "name": "Tomato Sauce (தக்காளி சாஸ்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 5,
+    "createdAt": "2026-07-24T15:27:06.877Z",
+    "updatedAt": "2026-07-24T15:27:06.877Z"
+  },
+  {
+    "_id": "9tcv5ujhox9dcitw1oi5yr",
+    "name": "Coconut Chutney (தேங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.882Z",
+    "updatedAt": "2026-07-24T15:27:06.882Z"
+  },
+  {
+    "_id": "kjygbmzcu728adifiz9pd",
+    "name": "Coconut Chutney (தேங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.890Z",
+    "updatedAt": "2026-07-24T15:27:06.890Z"
+  },
+  {
+    "_id": "6robbmoqxtlio088j8usel",
+    "name": "Tomato Chutney (தக்காளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.897Z",
+    "updatedAt": "2026-07-24T15:27:06.897Z"
+  },
+  {
+    "_id": "fdm9er4uifl3y8qpx24wb",
+    "name": "Tomato Chutney (தக்காளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.902Z",
+    "updatedAt": "2026-07-24T15:27:06.903Z"
+  },
+  {
+    "_id": "hwg6b9oargwb6kgss2m9",
+    "name": "Coriander (Malli) Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.909Z",
+    "updatedAt": "2026-07-24T15:27:06.909Z"
+  },
+  {
+    "_id": "6yrtamdulrr5ds7nc2y287",
+    "name": "Coriander (Malli) Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.915Z",
+    "updatedAt": "2026-07-24T15:27:06.915Z"
+  },
+  {
+    "_id": "ab2gh3eyyl5tv4f4bt4c",
+    "name": "Capsicum Chutney (குடை மிளகாய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.921Z",
+    "updatedAt": "2026-07-24T15:27:06.921Z"
+  },
+  {
+    "_id": "umpom2639yphksax35s1n",
+    "name": "Capsicum Chutney (குடை மிளகாய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.927Z",
+    "updatedAt": "2026-07-24T15:27:06.927Z"
+  },
+  {
+    "_id": "mi9qcsdgwhks1exooi3d8",
+    "name": "Ginger Chutney (இஞ்சி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.932Z",
+    "updatedAt": "2026-07-24T15:27:06.932Z"
+  },
+  {
+    "_id": "b6h5lwmznyp28m97goawmi",
+    "name": "Ginger Chutney (இஞ்சி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.939Z",
+    "updatedAt": "2026-07-24T15:27:06.939Z"
+  },
+  {
+    "_id": "94yx9jzafht4qqh1zkmiy6",
+    "name": "Carrot Chutney (கேரட் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.944Z",
+    "updatedAt": "2026-07-24T15:27:06.944Z"
+  },
+  {
+    "_id": "m6jr24bw5khhriw8036f6",
+    "name": "Carrot Chutney (கேரட் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.950Z",
+    "updatedAt": "2026-07-24T15:27:06.950Z"
+  },
+  {
+    "_id": "ji020pcjdb9gmi2wwoeifl",
+    "name": "Kathamba Chutney / Mixed Chutney (கதம்ப சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.959Z",
+    "updatedAt": "2026-07-24T15:27:06.959Z"
+  },
+  {
+    "_id": "6p6xdsoh28e89t2shvdutm",
+    "name": "Kathamba Chutney / Mixed Chutney (கதம்ப சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:06.965Z",
+    "updatedAt": "2026-07-24T15:27:06.965Z"
+  },
+  {
+    "_id": "7g4gy8e2ksodr9k8bpqrgu",
+    "name": "Radish Chutney (முள்ளங்கி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.977Z",
+    "updatedAt": "2026-07-24T15:27:06.978Z"
+  },
+  {
+    "_id": "u97dtnei6e84z64exn5vdq",
+    "name": "Radish Chutney (முள்ளங்கி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.983Z",
+    "updatedAt": "2026-07-24T15:27:06.983Z"
+  },
+  {
+    "_id": "dtxkrcgckpduiml0hqrvnb",
+    "name": "Mint (Puthina) Chutney (புதினா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.989Z",
+    "updatedAt": "2026-07-24T15:27:06.989Z"
+  },
+  {
+    "_id": "i28f40kbml21l11192tbs",
+    "name": "Mint (Puthina) Chutney (புதினா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:06.997Z",
+    "updatedAt": "2026-07-24T15:27:06.997Z"
+  },
+  {
+    "_id": "786qo5wjqac89mfnmwvk8",
+    "name": "Tomato Thokku (தக்காளி தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.003Z",
+    "updatedAt": "2026-07-24T15:27:07.003Z"
+  },
+  {
+    "_id": "6r54h3i7q1tzi1uonissy",
+    "name": "Tomato Thokku (தக்காளி தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.011Z",
+    "updatedAt": "2026-07-24T15:27:07.011Z"
+  },
+  {
+    "_id": "ye9aub2snnln171qldzc",
+    "name": "Onion Chutney (வெங்காய சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.018Z",
+    "updatedAt": "2026-07-24T15:27:07.018Z"
+  },
+  {
+    "_id": "b5bk1rmmt3eqzwcc0mdc",
+    "name": "Onion Chutney (வெங்காய சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.026Z",
+    "updatedAt": "2026-07-24T15:27:07.026Z"
+  },
+  {
+    "_id": "4ksffusgryg3uz5ndavm5r",
+    "name": "Garlic Chutney (பூண்டு சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.032Z",
+    "updatedAt": "2026-07-24T15:27:07.032Z"
+  },
+  {
+    "_id": "ztnkh8ropos7cxwu4r0965",
+    "name": "Garlic Chutney (பூண்டு சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.038Z",
+    "updatedAt": "2026-07-24T15:27:07.038Z"
+  },
+  {
+    "_id": "6z3ftvlm2qwxzjmvr7odi",
+    "name": "Onion Thokku (வெங்காய தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.045Z",
+    "updatedAt": "2026-07-24T15:27:07.045Z"
+  },
+  {
+    "_id": "07m2a1wkkyfxov12qotn7qk",
+    "name": "Onion Thokku (வெங்காய தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.052Z",
+    "updatedAt": "2026-07-24T15:27:07.052Z"
+  },
+  {
+    "_id": "8dw1l8hka55e7nwp7kof6",
+    "name": "Curry Leaf Chutney (கருவேப்பிலை சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.058Z",
+    "updatedAt": "2026-07-24T15:27:07.058Z"
+  },
+  {
+    "_id": "d1trym8o84vb0olxqeskwh",
+    "name": "Curry Leaf Chutney (கருவேப்பிலை சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.064Z",
+    "updatedAt": "2026-07-24T15:27:07.064Z"
+  },
+  {
+    "_id": "zoo6mm5g98d564tzuscwvn",
+    "name": "Tamarind Chutney (புளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.071Z",
+    "updatedAt": "2026-07-24T15:27:07.071Z"
+  },
+  {
+    "_id": "r0bui0u0cyl258goiad23y",
+    "name": "Tamarind Chutney (புளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.078Z",
+    "updatedAt": "2026-07-24T15:27:07.078Z"
+  },
+  {
+    "_id": "l7txl156ryz9loow7puxc",
+    "name": "Snake Gourd Chutney (புடலங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.084Z",
+    "updatedAt": "2026-07-24T15:27:07.084Z"
+  },
+  {
+    "_id": "hq5v8gqw92ihj8u4j02x",
+    "name": "Snake Gourd Chutney (புடலங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.092Z",
+    "updatedAt": "2026-07-24T15:27:07.092Z"
+  },
+  {
+    "_id": "5pza95a59ovqdisk0okib",
+    "name": "Guava Chutney (கொய்யா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.100Z",
+    "updatedAt": "2026-07-24T15:27:07.100Z"
+  },
+  {
+    "_id": "whblx9f36las5dbzlmnhx",
+    "name": "Guava Chutney (கொய்யா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.105Z",
+    "updatedAt": "2026-07-24T15:27:07.105Z"
+  },
+  {
+    "_id": "jp7dsiwlho879dvyv47o26",
+    "name": "Banana Flower Chutney (வாழைப்பூ சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.112Z",
+    "updatedAt": "2026-07-24T15:27:07.112Z"
+  },
+  {
+    "_id": "8ethqqu00par5w362t16z",
+    "name": "Banana Flower Chutney (வாழைப்பூ சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.119Z",
+    "updatedAt": "2026-07-24T15:27:07.119Z"
+  },
+  {
+    "_id": "rdnxtgqlusq5earn4a9vjp",
+    "name": "Mango Chutney (மாங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.126Z",
+    "updatedAt": "2026-07-24T15:27:07.126Z"
+  },
+  {
+    "_id": "j5e46t6yxj0ju8xpybz165",
+    "name": "Mango Chutney (மாங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.132Z",
+    "updatedAt": "2026-07-24T15:27:07.132Z"
+  },
+  {
+    "_id": "r9gc2rffhueylojaeeryf",
+    "name": "Spicy Chutney / Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.138Z",
+    "updatedAt": "2026-07-24T15:27:07.138Z"
+  },
+  {
+    "_id": "pw3yejd2dkdkclgymx0vv",
+    "name": "Spicy Chutney / Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.144Z",
+    "updatedAt": "2026-07-24T15:27:07.144Z"
+  },
+  {
+    "_id": "ui0ilkjhhoseh62lhibk",
+    "name": "Coriander Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.150Z",
+    "updatedAt": "2026-07-24T15:27:07.150Z"
+  },
+  {
+    "_id": "8ojcvomuo0b255kz56srpl",
+    "name": "Coriander Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.156Z",
+    "updatedAt": "2026-07-24T15:27:07.157Z"
+  },
+  {
+    "_id": "h4jjvl3on6uv0zbgezsufq",
+    "name": "Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.164Z",
+    "updatedAt": "2026-07-24T15:27:07.164Z"
+  },
+  {
+    "_id": "mj57vlmavowldhh5cbxg9",
+    "name": "Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.169Z",
+    "updatedAt": "2026-07-24T15:27:07.169Z"
+  },
+  {
+    "_id": "qaknmqdahcnoqz6e83znnq",
+    "name": "Poori (பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.179Z",
+    "updatedAt": "2026-07-24T15:27:07.179Z"
+  },
+  {
+    "_id": "lolmlydovzn8qr8p4qzil",
+    "name": "Poori (பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.186Z",
+    "updatedAt": "2026-07-24T15:27:07.186Z"
+  },
+  {
+    "_id": "7h5ixxtwiqkjr7swte07o",
+    "name": "Maida Poori (மைதா பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.199Z",
+    "updatedAt": "2026-07-24T15:27:07.199Z"
+  },
+  {
+    "_id": "0zug58i7rmlaz8o0c2shxc",
+    "name": "Maida Poori (மைதா பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.207Z",
+    "updatedAt": "2026-07-24T15:27:07.207Z"
+  },
+  {
+    "_id": "yp5xqy6hqpra6yi1oqp71",
+    "name": "Mint Poori (புதினா பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.214Z",
+    "updatedAt": "2026-07-24T15:27:07.214Z"
+  },
+  {
+    "_id": "g5eiev34027lf2o880l2u8",
+    "name": "Mint Poori (புதினா பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.220Z",
+    "updatedAt": "2026-07-24T15:27:07.220Z"
+  },
+  {
+    "_id": "7d8g2pexn7dxuv0ptlw6qq",
+    "name": "Coriander Poori (மல்லி பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.231Z",
+    "updatedAt": "2026-07-24T15:27:07.231Z"
+  },
+  {
+    "_id": "a3584e4qik74qulhzhf1x",
+    "name": "Coriander Poori (மல்லி பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.239Z",
+    "updatedAt": "2026-07-24T15:27:07.239Z"
+  },
+  {
+    "_id": "yz90lcbzjz3utdviboepc",
+    "name": "Chola Poori (சோளா பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:07.246Z",
+    "updatedAt": "2026-07-24T15:27:07.246Z"
+  },
+  {
+    "_id": "2edcfuk5pthu2r9gzcwl19",
+    "name": "Chola Poori (சோளா பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:07.252Z",
+    "updatedAt": "2026-07-24T15:27:07.252Z"
+  },
+  {
+    "_id": "s3poni1oagf1ua3iaxbaop",
+    "name": "Mini Mix Veg Poori (மினி மிக்ஸ் வெஜ் பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.259Z",
+    "updatedAt": "2026-07-24T15:27:07.259Z"
+  },
+  {
+    "_id": "1svme0m4em9xyl82y7kt8l",
+    "name": "Mini Mix Veg Poori (மினி மிக்ஸ் வெஜ் பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.265Z",
+    "updatedAt": "2026-07-24T15:27:07.265Z"
+  },
+  {
+    "_id": "rl6g03r063saac38702p0r",
+    "name": "Ghee Pongal (நெய் பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.271Z",
+    "updatedAt": "2026-07-24T15:27:07.271Z"
+  },
+  {
+    "_id": "09hjdlhzbzmrmwgkpxb4kr",
+    "name": "Rava Pongal (ரவா பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.278Z",
+    "updatedAt": "2026-07-24T15:27:07.278Z"
+  },
+  {
+    "_id": "xfs0ghvifba207zmbdpllo",
+    "name": "Kodo Millet (Varagu) Pongal (வரகு பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.283Z",
+    "updatedAt": "2026-07-24T15:27:07.283Z"
+  },
+  {
+    "_id": "d7pgpc195iaf90skjwxx1v",
+    "name": "Little Millet (Kuthiraivali) Pongal (குதிரைவாலி பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.290Z",
+    "updatedAt": "2026-07-24T15:27:07.290Z"
+  },
+  {
+    "_id": "phk14e2r5ysnqhai8vi4hp",
+    "name": "Foxtail Millet (Thinai) Pongal (திணை பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.296Z",
+    "updatedAt": "2026-07-24T15:27:07.296Z"
+  },
+  {
+    "_id": "hdhhdbq8s6w4bho1c2aya",
+    "name": "Coriander Pongal (மல்லி பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.302Z",
+    "updatedAt": "2026-07-24T15:27:07.302Z"
+  },
+  {
+    "_id": "5isoxj7aqi2lfpsiej8ax",
+    "name": "Kavuni Rice Pongal (கவுனி பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:07.309Z",
+    "updatedAt": "2026-07-24T15:27:07.309Z"
+  },
+  {
+    "_id": "od2r9fd24l23g8qhj1i3o",
+    "name": "Samba Wheat Pongal (சம்பா பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.314Z",
+    "updatedAt": "2026-07-24T15:27:07.314Z"
+  },
+  {
+    "_id": "g6b1c52w6lt9i69ux0u7",
+    "name": "Veg Mutton Biryani (வெஜ் மட்டன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.319Z",
+    "updatedAt": "2026-07-24T15:27:07.319Z"
+  },
+  {
+    "_id": "hgidvwpos2t95ugqb6hhem",
+    "name": "Veg Mutton Biryani (வெஜ் மட்டன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.325Z",
+    "updatedAt": "2026-07-24T15:27:07.325Z"
+  },
+  {
+    "_id": "5j34140dtfog6gqf74ju8n",
+    "name": "Veg Liver (Eeral) Biryani (வெஜ் ஈரல் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.331Z",
+    "updatedAt": "2026-07-24T15:27:07.331Z"
+  },
+  {
+    "_id": "qo970jxgnojcygm5ka8vhf",
+    "name": "Veg Liver (Eeral) Biryani (வெஜ் ஈரல் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.337Z",
+    "updatedAt": "2026-07-24T15:27:07.337Z"
+  },
+  {
+    "_id": "jewfabwgp8wkvnvbi10j",
+    "name": "Veg Biryani (வெஜ் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:07.343Z",
+    "updatedAt": "2026-07-24T15:27:07.343Z"
+  },
+  {
+    "_id": "1zok9a4rmkifxtca4di1qk",
+    "name": "Veg Biryani (வெஜ் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:07.349Z",
+    "updatedAt": "2026-07-24T15:27:07.349Z"
+  },
+  {
+    "_id": "3qkn6tie7i9aua6pukxab",
+    "name": "Mushroom Biryani (காளான் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.355Z",
+    "updatedAt": "2026-07-24T15:27:07.355Z"
+  },
+  {
+    "_id": "ppfn3yfwd2m8j7mez2q6gm",
+    "name": "Mushroom Biryani (காளான் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.361Z",
+    "updatedAt": "2026-07-24T15:27:07.361Z"
+  },
+  {
+    "_id": "1len7pgrtc52lz4e9a8k3c",
+    "name": "Jackfruit (Palaakkai) Biryani (பலாக்காய் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.368Z",
+    "updatedAt": "2026-07-24T15:27:07.368Z"
+  },
+  {
+    "_id": "vkmw8x7f8fw9mxtdzlgo",
+    "name": "Jackfruit (Palaakkai) Biryani (பலாக்காய் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.375Z",
+    "updatedAt": "2026-07-24T15:27:07.375Z"
+  },
+  {
+    "_id": "q7f3deq3aaxilb1qidgue",
+    "name": "Veg Chicken Biryani (வெஜ் சிக்கன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.381Z",
+    "updatedAt": "2026-07-24T15:27:07.381Z"
+  },
+  {
+    "_id": "n428u4pjakicx0e4t4jcbj",
+    "name": "Veg Chicken Biryani (வெஜ் சிக்கன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:07.389Z",
+    "updatedAt": "2026-07-24T15:27:07.389Z"
+  },
+  {
+    "_id": "h10z6mwc69709bwoi2afe",
+    "name": "Bun Biryani (பன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.395Z",
+    "updatedAt": "2026-07-24T15:27:07.395Z"
+  },
+  {
+    "_id": "4nxwa40rwhl6mxowqbwz2",
+    "name": "Bun Biryani (பன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.402Z",
+    "updatedAt": "2026-07-24T15:27:07.402Z"
+  },
+  {
+    "_id": "tlnj2giqv2kgfqk042r2",
+    "name": "All Types of Biryani (அனைத்து வித பிரியாணி'ஸ்)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 90,
+    "createdAt": "2026-07-24T15:27:07.409Z",
+    "updatedAt": "2026-07-24T15:27:07.409Z"
+  },
+  {
+    "_id": "tdjr5x9dlc7mtw0qznuvs",
+    "name": "All Types of Biryani (அனைத்து வித பிரியாணி'ஸ்)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 90,
+    "createdAt": "2026-07-24T15:27:07.415Z",
+    "updatedAt": "2026-07-24T15:27:07.415Z"
+  },
+  {
+    "_id": "irns3ywbmcapco8oplesm",
+    "name": "Paneer Pulao (பன்னீர் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.422Z",
+    "updatedAt": "2026-07-24T15:27:07.422Z"
+  },
+  {
+    "_id": "u7n7tm58s70x26lqn49zj",
+    "name": "Paneer Pulao (பன்னீர் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.429Z",
+    "updatedAt": "2026-07-24T15:27:07.429Z"
+  },
+  {
+    "_id": "ina0w5dgylnfmhxsz5yhqs",
+    "name": "Veg Liver Pulao (வெஜ் ஈரல் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.436Z",
+    "updatedAt": "2026-07-24T15:27:07.436Z"
+  },
+  {
+    "_id": "te27n7ucpbsoj9032r5bi",
+    "name": "Veg Liver Pulao (வெஜ் ஈரல் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.443Z",
+    "updatedAt": "2026-07-24T15:27:07.443Z"
+  },
+  {
+    "_id": "qxmywc69daiz0f0ki3zno",
+    "name": "Veg Fried Rice (வெஜ் ப்ரைடு ரைஸ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:07.450Z",
+    "updatedAt": "2026-07-24T15:27:07.450Z"
+  },
+  {
+    "_id": "87b1ct4v4q6pcozsy1reni",
+    "name": "Veg Fried Rice (வெஜ் ப்ரைடு ரைஸ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:07.459Z",
+    "updatedAt": "2026-07-24T15:27:07.459Z"
+  },
+  {
+    "_id": "tttli8lx6edvt73gvugva",
+    "name": "And all other types of Pulao (மற்றும் அனைத்து வித புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.465Z",
+    "updatedAt": "2026-07-24T15:27:07.465Z"
+  },
+  {
+    "_id": "srmvtauv9jodsia0p3y8xk",
+    "name": "And all other types of Pulao (மற்றும் அனைத்து வித புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:07.472Z",
+    "updatedAt": "2026-07-24T15:27:07.472Z"
+  },
+  {
+    "_id": "kd7sm1auduact9akemg3q5",
+    "name": "Chilli Parotta (சில்லி பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:07.478Z",
+    "updatedAt": "2026-07-24T15:27:07.478Z"
+  },
+  {
+    "_id": "xpk6bo8mwemu9np9g2h5dr",
+    "name": "Kothu Parotta (கொத்து பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:07.484Z",
+    "updatedAt": "2026-07-24T15:27:07.484Z"
+  },
+  {
+    "_id": "y19eyhcetuoo60pn6y3nt",
+    "name": "Kaima Parotta (கைமா பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:07.490Z",
+    "updatedAt": "2026-07-24T15:27:07.490Z"
+  },
+  {
+    "_id": "2vmlxpyzidwr8ywlyeik79",
+    "name": "Bun Parotta (பன் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.496Z",
+    "updatedAt": "2026-07-24T15:27:07.496Z"
+  },
+  {
+    "_id": "niabbweoqmqelx3rs4xkd",
+    "name": "Coin Parotta (காயின் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:07.502Z",
+    "updatedAt": "2026-07-24T15:27:07.502Z"
+  },
+  {
+    "_id": "lac1vrny1neoqdke3tcwoa",
+    "name": "Nool Parotta (நூல் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.509Z",
+    "updatedAt": "2026-07-24T15:27:07.509Z"
+  },
+  {
+    "_id": "j2gpkn9ze7l40yqc96epq8",
+    "name": "Veg Stuff Parotta (வெஜ் ஸ்டஃப் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:07.515Z",
+    "updatedAt": "2026-07-24T15:27:07.515Z"
+  },
+  {
+    "_id": "ytme514b8zdex1fohq0sl",
+    "name": "Wheat Parotta (கோதுமை பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.520Z",
+    "updatedAt": "2026-07-24T15:27:07.520Z"
+  },
+  {
+    "_id": "yty0lnhc3a10zum54s3ycb",
+    "name": "Chapathi (சப்பாத்தி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.527Z",
+    "updatedAt": "2026-07-24T15:27:07.527Z"
+  },
+  {
+    "_id": "s3vmj8u94ih5l5im139i1s",
+    "name": "Aloo (Potato) Chapathi (ஆலு சப்பாத்தி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.533Z",
+    "updatedAt": "2026-07-24T15:27:07.533Z"
+  },
+  {
+    "_id": "9s2dcr1tscnmvx4fkjtd",
+    "name": "Veg Chapathi (வெஜ் சப்பாத்தி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.540Z",
+    "updatedAt": "2026-07-24T15:27:07.540Z"
+  },
+  {
+    "_id": "gaf0i7ybdda16454jf3afy",
+    "name": "Rumali Roti (ரொமாலி ரொட்டி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.547Z",
+    "updatedAt": "2026-07-24T15:27:07.547Z"
+  },
+  {
+    "_id": "wc1b1151e59sl3hhnou7e",
+    "name": "Naan (நான்)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.553Z",
+    "updatedAt": "2026-07-24T15:27:07.553Z"
+  },
+  {
+    "_id": "o8z4r7m2a7nfir6jzwr3i",
+    "name": "Phulka Roti (புல்கா ரொட்டி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.560Z",
+    "updatedAt": "2026-07-24T15:27:07.560Z"
+  },
+  {
+    "_id": "g9xft2ms65rjv3qeewigd",
+    "name": "Dosa (தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:07.566Z",
+    "updatedAt": "2026-07-24T15:27:07.566Z"
+  },
+  {
+    "_id": "s493olk303qrafocze2mws",
+    "name": "Dosa (தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:07.572Z",
+    "updatedAt": "2026-07-24T15:27:07.573Z"
+  },
+  {
+    "_id": "hq09w2dw43mi8fqs4hoiw8",
+    "name": "Ghee Roast (நெய் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.579Z",
+    "updatedAt": "2026-07-24T15:27:07.579Z"
+  },
+  {
+    "_id": "ym3duwkpnqdeb6fsrf5b",
+    "name": "Ghee Roast (நெய் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.585Z",
+    "updatedAt": "2026-07-24T15:27:07.585Z"
+  },
+  {
+    "_id": "u9s3v16g1yjjvhh4qeip",
+    "name": "Podi Roast (பொடி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.592Z",
+    "updatedAt": "2026-07-24T15:27:07.592Z"
+  },
+  {
+    "_id": "q08rpne1n9bv1ubarqglp",
+    "name": "Podi Roast (பொடி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.598Z",
+    "updatedAt": "2026-07-24T15:27:07.598Z"
+  },
+  {
+    "_id": "vdmhuf7fb203h1at0zibs7",
+    "name": "Masal Roast (மசால் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.605Z",
+    "updatedAt": "2026-07-24T15:27:07.605Z"
+  },
+  {
+    "_id": "au270hjadp49husb6dgo26",
+    "name": "Masal Roast (மசால் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.612Z",
+    "updatedAt": "2026-07-24T15:27:07.612Z"
+  },
+  {
+    "_id": "7sr6fkxawrmvuguxxzlox",
+    "name": "Veg Kari Roast (வெஜ் கறி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:07.619Z",
+    "updatedAt": "2026-07-24T15:27:07.619Z"
+  },
+  {
+    "_id": "fdsmfwxo8tect9jlykp7zl",
+    "name": "Veg Kari Roast (வெஜ் கறி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:07.627Z",
+    "updatedAt": "2026-07-24T15:27:07.627Z"
+  },
+  {
+    "_id": "q5bwhcg8s9ceys3ggondy",
+    "name": "Rava Roast (ரவா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.635Z",
+    "updatedAt": "2026-07-24T15:27:07.635Z"
+  },
+  {
+    "_id": "k7gz8kefc7a1mjq5naqhj",
+    "name": "Rava Roast (ரவா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.644Z",
+    "updatedAt": "2026-07-24T15:27:07.644Z"
+  },
+  {
+    "_id": "13jdyfhhjkveaetwpj25f3f",
+    "name": "Garlic Roast (பூண்டு ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.650Z",
+    "updatedAt": "2026-07-24T15:27:07.651Z"
+  },
+  {
+    "_id": "czf31x6m18vv1b5rfx1ig",
+    "name": "Garlic Roast (பூண்டு ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.659Z",
+    "updatedAt": "2026-07-24T15:27:07.659Z"
+  },
+  {
+    "_id": "z597r6p9dghv9ypg7352t",
+    "name": "Ginger Roast (இஞ்சி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.665Z",
+    "updatedAt": "2026-07-24T15:27:07.665Z"
+  },
+  {
+    "_id": "tkcssgr367c21wqkbeuh",
+    "name": "Ginger Roast (இஞ்சி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.676Z",
+    "updatedAt": "2026-07-24T15:27:07.676Z"
+  },
+  {
+    "_id": "y6b0nwzxg9yfvv1f7o91",
+    "name": "Coriander Roast (மல்லி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.683Z",
+    "updatedAt": "2026-07-24T15:27:07.683Z"
+  },
+  {
+    "_id": "yxvrok52s5e8h4zefx3qd",
+    "name": "Coriander Roast (மல்லி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.692Z",
+    "updatedAt": "2026-07-24T15:27:07.692Z"
+  },
+  {
+    "_id": "fywqcgkznofthzti381odr",
+    "name": "Mint Roast (புதினா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.698Z",
+    "updatedAt": "2026-07-24T15:27:07.698Z"
+  },
+  {
+    "_id": "1i7ldibm9r3cyonvevrtrr",
+    "name": "Mint Roast (புதினா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.706Z",
+    "updatedAt": "2026-07-24T15:27:07.706Z"
+  },
+  {
+    "_id": "tminv34micikbvxfymtcj",
+    "name": "Cone Roast (கோன் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.712Z",
+    "updatedAt": "2026-07-24T15:27:07.713Z"
+  },
+  {
+    "_id": "jppp645yh66txcwuk3mf6",
+    "name": "Cone Roast (கோன் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.719Z",
+    "updatedAt": "2026-07-24T15:27:07.719Z"
+  },
+  {
+    "_id": "n168g7w7jlv0vctoev18t",
+    "name": "Adai Dosa (அடை தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:07.726Z",
+    "updatedAt": "2026-07-24T15:27:07.726Z"
+  },
+  {
+    "_id": "6aoft3gikwritu8icq6rti",
+    "name": "Adai Dosa (அடை தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:07.733Z",
+    "updatedAt": "2026-07-24T15:27:07.733Z"
+  },
+  {
+    "_id": "wynvmr24un3voyhfo42h4",
+    "name": "Pearl Millet (Kambu) Dosa (கம்பு தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.741Z",
+    "updatedAt": "2026-07-24T15:27:07.741Z"
+  },
+  {
+    "_id": "txcw8fhvm11j52yeu8b6j",
+    "name": "Pearl Millet (Kambu) Dosa (கம்பு தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.748Z",
+    "updatedAt": "2026-07-24T15:27:07.748Z"
+  },
+  {
+    "_id": "pt32cp3w0lk2xs6h8tg8n",
+    "name": "Red Chilli Dosa (ரெட் சिल्ली தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.755Z",
+    "updatedAt": "2026-07-24T15:27:07.755Z"
+  },
+  {
+    "_id": "66jxizt4uh4mdmbfy1ij9",
+    "name": "Red Chilli Dosa (ரெட் சिल्ली தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:07.761Z",
+    "updatedAt": "2026-07-24T15:27:07.762Z"
+  },
+  {
+    "_id": "cpo5dkh8ggoeguqh32epv",
+    "name": "Rava Kichadi (ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.768Z",
+    "updatedAt": "2026-07-24T15:27:07.768Z"
+  },
+  {
+    "_id": "0z4ozvtem8xnfc4sa0ztgy6",
+    "name": "Rava Kichadi (ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.775Z",
+    "updatedAt": "2026-07-24T15:27:07.775Z"
+  },
+  {
+    "_id": "k9zr1qon0gl2nz1n1l8x",
+    "name": "Vermicelli (Semiya) Kichadi (சேமியா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.782Z",
+    "updatedAt": "2026-07-24T15:27:07.782Z"
+  },
+  {
+    "_id": "snbqoh69eks82lpgo83uma",
+    "name": "Vermicelli (Semiya) Kichadi (சேமியா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:07.790Z",
+    "updatedAt": "2026-07-24T15:27:07.790Z"
+  },
+  {
+    "_id": "whfczzz3ojr56lijul8i8h",
+    "name": "Samba Rava Kichadi (சம்பா ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.797Z",
+    "updatedAt": "2026-07-24T15:27:07.797Z"
+  },
+  {
+    "_id": "y2vascy9rpi1ro1wp6xin",
+    "name": "Samba Rava Kichadi (சம்பா ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.805Z",
+    "updatedAt": "2026-07-24T15:27:07.805Z"
+  },
+  {
+    "_id": "muuhxwu0syynzpe2od6v",
+    "name": "Samba Flaked Rice (Aval) Kichadi (சம்பா அவல் கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.812Z",
+    "updatedAt": "2026-07-24T15:27:07.812Z"
+  },
+  {
+    "_id": "zltfsuwjjqa7n3n7mw6et",
+    "name": "Samba Flaked Rice (Aval) Kichadi (சம்பா அவல் கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.819Z",
+    "updatedAt": "2026-07-24T15:27:07.819Z"
+  },
+  {
+    "_id": "oggft2fv5ugunmzvb64dmk",
+    "name": "Corn (Makkacholam) Kichadi (மக்காச்சோள கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.828Z",
+    "updatedAt": "2026-07-24T15:27:07.828Z"
+  },
+  {
+    "_id": "kqq6agn5g60ufpcnp6scdb",
+    "name": "Corn (Makkacholam) Kichadi (மக்காச்சோள கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:07.835Z",
+    "updatedAt": "2026-07-24T15:27:07.835Z"
+  },
+  {
+    "_id": "wxtnuonleh8ncnm326cfgk",
+    "name": "Idli (இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 8,
+    "createdAt": "2026-07-24T15:27:07.844Z",
+    "updatedAt": "2026-07-24T15:27:07.844Z"
+  },
+  {
+    "_id": "ebme26e6t6cs4e0n3hacz",
+    "name": "Idli (இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 8,
+    "createdAt": "2026-07-24T15:27:07.852Z",
+    "updatedAt": "2026-07-24T15:27:07.852Z"
+  },
+  {
+    "_id": "809u3j5ib6c7qmkmsrdlvy",
+    "name": "Samba Rava Idli (சம்பா ரவா இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.860Z",
+    "updatedAt": "2026-07-24T15:27:07.860Z"
+  },
+  {
+    "_id": "6qmmvrmg97985567os7kg",
+    "name": "Samba Rava Idli (சம்பா ரவா இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.867Z",
+    "updatedAt": "2026-07-24T15:27:07.867Z"
+  },
+  {
+    "_id": "ygb4wzapyhknjd0852b8d",
+    "name": "Carrot Idli (கேரட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.875Z",
+    "updatedAt": "2026-07-24T15:27:07.875Z"
+  },
+  {
+    "_id": "q2q0qoqzi7lm2pfv2ix8h",
+    "name": "Carrot Idli (கேரட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.882Z",
+    "updatedAt": "2026-07-24T15:27:07.882Z"
+  },
+  {
+    "_id": "c2v0xw5q0b8ah2co6thhu5",
+    "name": "Malli Poo Idli (Soft Feather-like Idli) (மல்லி பூ இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.889Z",
+    "updatedAt": "2026-07-24T15:27:07.889Z"
+  },
+  {
+    "_id": "ebeqhf9v71nwc9a6q4i09",
+    "name": "Malli Poo Idli (Soft Feather-like Idli) (மல்லி பூ இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:07.899Z",
+    "updatedAt": "2026-07-24T15:27:07.899Z"
+  },
+  {
+    "_id": "u8ma4sts3d7ex2d7yp4ph",
+    "name": "Tender Coconut Idli (இளநீர் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.906Z",
+    "updatedAt": "2026-07-24T15:27:07.906Z"
+  },
+  {
+    "_id": "9zbb5cw4wjcogy3h6uuva",
+    "name": "Tender Coconut Idli (இளநீர் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.913Z",
+    "updatedAt": "2026-07-24T15:27:07.913Z"
+  },
+  {
+    "_id": "jmy98yhl3w5s460o6nvl7",
+    "name": "Thattu Idli (Plate Idli) (தட்டு இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:07.921Z",
+    "updatedAt": "2026-07-24T15:27:07.921Z"
+  },
+  {
+    "_id": "edjyvls3amscyd9hkl1a",
+    "name": "Thattu Idli (Plate Idli) (தட்டு இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:07.929Z",
+    "updatedAt": "2026-07-24T15:27:07.929Z"
+  },
+  {
+    "_id": "rd1yyu45e68248btzbienj",
+    "name": "Mini Idli (மினி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.938Z",
+    "updatedAt": "2026-07-24T15:27:07.938Z"
+  },
+  {
+    "_id": "gjwedymqxpvfckrqhp1mtb",
+    "name": "Mini Idli (மினி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.947Z",
+    "updatedAt": "2026-07-24T15:27:07.947Z"
+  },
+  {
+    "_id": "3fdhqofkc4wr9ln6bf0urh",
+    "name": "Beetroot Idli (பீட்ரூட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.954Z",
+    "updatedAt": "2026-07-24T15:27:07.954Z"
+  },
+  {
+    "_id": "zi3hgk2apgpk02ehd583me",
+    "name": "Beetroot Idli (பீட்ரூட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.962Z",
+    "updatedAt": "2026-07-24T15:27:07.962Z"
+  },
+  {
+    "_id": "o5krgdnhacbpola1f6fo",
+    "name": "Green Idli (கிரீன் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.968Z",
+    "updatedAt": "2026-07-24T15:27:07.968Z"
+  },
+  {
+    "_id": "ewld2ffdxjojyo0u83qhei",
+    "name": "Green Idli (கிரீன் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:07.976Z",
+    "updatedAt": "2026-07-24T15:27:07.976Z"
+  },
+  {
+    "_id": "l2uxj9fwbzvemdm85nf2",
+    "name": "Thonnai Idli (Leaf-cup Idli) (தொன்னை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.983Z",
+    "updatedAt": "2026-07-24T15:27:07.983Z"
+  },
+  {
+    "_id": "vclyu5f1bko0h33ksdubmdd",
+    "name": "Thonnai Idli (Leaf-cup Idli) (தொன்னை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:07.991Z",
+    "updatedAt": "2026-07-24T15:27:07.991Z"
+  },
+  {
+    "_id": "y5girsikd2glcegoaeycoo",
+    "name": "Veg Stuff Idli (வெஜ் ஸ்டப் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:08.001Z",
+    "updatedAt": "2026-07-24T15:27:08.001Z"
+  },
+  {
+    "_id": "7ob1cm6vqkvbd1b370gw6",
+    "name": "Veg Stuff Idli (வெஜ் ஸ்டப் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:08.008Z",
+    "updatedAt": "2026-07-24T15:27:08.008Z"
+  },
+  {
+    "_id": "qnct37s4nccz4weyg82ab",
+    "name": "Masal Idli (மசால் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.020Z",
+    "updatedAt": "2026-07-24T15:27:08.020Z"
+  },
+  {
+    "_id": "hikh5xh8hbuhn6ugwco7m",
+    "name": "Masal Idli (மசால் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.029Z",
+    "updatedAt": "2026-07-24T15:27:08.029Z"
+  },
+  {
+    "_id": "rb0hngwixtgwx9w7stbt9",
+    "name": "Podi Idli (பொடி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.039Z",
+    "updatedAt": "2026-07-24T15:27:08.039Z"
+  },
+  {
+    "_id": "i29483z276tyevwanlx8k",
+    "name": "Podi Idli (பொடி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.047Z",
+    "updatedAt": "2026-07-24T15:27:08.047Z"
+  },
+  {
+    "_id": "hal9w9adxtrl9oogvd494",
+    "name": "Foxtail Millet (Thinai) Idli (திணை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:08.058Z",
+    "updatedAt": "2026-07-24T15:27:08.058Z"
+  },
+  {
+    "_id": "bwdapd04le51stu4gw75ow",
+    "name": "Foxtail Millet (Thinai) Idli (திணை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:08.066Z",
+    "updatedAt": "2026-07-24T15:27:08.066Z"
+  },
+  {
+    "_id": "l32k46uw32p65rvba59asn",
+    "name": "Coriander Idli (மல்லி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:08.073Z",
+    "updatedAt": "2026-07-24T15:27:08.073Z"
+  },
+  {
+    "_id": "2f6iddegw46fg78a6bncv",
+    "name": "Coriander Idli (மல்லி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:08.081Z",
+    "updatedAt": "2026-07-24T15:27:08.081Z"
+  },
+  {
+    "_id": "n7tfpiioafawb3vs76ehon",
+    "name": "Oothappam (ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.090Z",
+    "updatedAt": "2026-07-24T15:27:08.090Z"
+  },
+  {
+    "_id": "qz423p0ied2c9r1f8vh5r",
+    "name": "Oothappam (ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.097Z",
+    "updatedAt": "2026-07-24T15:27:08.097Z"
+  },
+  {
+    "_id": "1xulffju7nmi5por6om5rs",
+    "name": "Masal Oothappam (மசால் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.108Z",
+    "updatedAt": "2026-07-24T15:27:08.108Z"
+  },
+  {
+    "_id": "pec7ce7f9ohf5mp8jucz8h",
+    "name": "Masal Oothappam (மசால் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.115Z",
+    "updatedAt": "2026-07-24T15:27:08.115Z"
+  },
+  {
+    "_id": "pfllfx98a4jot7ydu3tze",
+    "name": "Veg Mix Oothappam (வெஜ் மிக்ஸ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.122Z",
+    "updatedAt": "2026-07-24T15:27:08.122Z"
+  },
+  {
+    "_id": "h1cot0y4fsocdq49jd3uzu",
+    "name": "Veg Mix Oothappam (வெஜ் மிக்ஸ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.130Z",
+    "updatedAt": "2026-07-24T15:27:08.130Z"
+  },
+  {
+    "_id": "dyyo1p70q4dge1ojtdq2z9",
+    "name": "Onion Oothappam (ஆனியன் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.137Z",
+    "updatedAt": "2026-07-24T15:27:08.137Z"
+  },
+  {
+    "_id": "89m2gq62rockxz4a0mnbyb",
+    "name": "Onion Oothappam (ஆனியன் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.144Z",
+    "updatedAt": "2026-07-24T15:27:08.144Z"
+  },
+  {
+    "_id": "c6jwft9y7qw028mtq7vcr4l",
+    "name": "Potato (Urulai) Oothappam (உருளை ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.152Z",
+    "updatedAt": "2026-07-24T15:27:08.152Z"
+  },
+  {
+    "_id": "qmlm7404figwj99lr4d5",
+    "name": "Potato (Urulai) Oothappam (உருளை ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.161Z",
+    "updatedAt": "2026-07-24T15:27:08.161Z"
+  },
+  {
+    "_id": "p27taf7k3dlx6wbn90yow",
+    "name": "Podi Oothappam (பொடி ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.168Z",
+    "updatedAt": "2026-07-24T15:27:08.168Z"
+  },
+  {
+    "_id": "0kgmkvx3l3gekd5ayfwagqo",
+    "name": "Podi Oothappam (பொடி ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.175Z",
+    "updatedAt": "2026-07-24T15:27:08.175Z"
+  },
+  {
+    "_id": "1lqdiigozawcbr2ejqc1iq",
+    "name": "Veg Oothappam (வெஜ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.183Z",
+    "updatedAt": "2026-07-24T15:27:08.183Z"
+  },
+  {
+    "_id": "nvaeu7o2s5maedkcjas2",
+    "name": "Veg Oothappam (வெஜ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.190Z",
+    "updatedAt": "2026-07-24T15:27:08.190Z"
+  },
+  {
+    "_id": "y1kf78kkml1r484vp92nx",
+    "name": "Curd Rice (தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.199Z",
+    "updatedAt": "2026-07-24T15:27:08.199Z"
+  },
+  {
+    "_id": "tu59qrdqt5khqh85rpd7b",
+    "name": "Curd Rice (தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.206Z",
+    "updatedAt": "2026-07-24T15:27:08.206Z"
+  },
+  {
+    "_id": "o3senpmpt297mjjx17h7fy",
+    "name": "Seeraga Samba Curd Rice (சீரக சம்பா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.212Z",
+    "updatedAt": "2026-07-24T15:27:08.212Z"
+  },
+  {
+    "_id": "umbrk0x50eokw8xa0ms5zf",
+    "name": "Seeraga Samba Curd Rice (சீரக சம்பா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.226Z",
+    "updatedAt": "2026-07-24T15:27:08.226Z"
+  },
+  {
+    "_id": "d6n07fqcybk7sykvx0ysr6",
+    "name": "Milk Rice (பால் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.233Z",
+    "updatedAt": "2026-07-24T15:27:08.233Z"
+  },
+  {
+    "_id": "5iphbfu4pcjkymokgg9wc",
+    "name": "Milk Rice (பால் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.241Z",
+    "updatedAt": "2026-07-24T15:27:08.241Z"
+  },
+  {
+    "_id": "mph3jhk0ti8622udo0f9t",
+    "name": "Flaked Rice (Aval) Curd Rice (அவல் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.249Z",
+    "updatedAt": "2026-07-24T15:27:08.249Z"
+  },
+  {
+    "_id": "xrmgzvbti8kdlv1s20e22q",
+    "name": "Flaked Rice (Aval) Curd Rice (அவல் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.256Z",
+    "updatedAt": "2026-07-24T15:27:08.256Z"
+  },
+  {
+    "_id": "5cpo8j9s108gcvr83ti0df",
+    "name": "Kodo Millet (Varagu) Curd Rice (வரகு தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.263Z",
+    "updatedAt": "2026-07-24T15:27:08.263Z"
+  },
+  {
+    "_id": "l7te1n9r3gjjvxdgpqb9f",
+    "name": "Kodo Millet (Varagu) Curd Rice (வரகு தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.270Z",
+    "updatedAt": "2026-07-24T15:27:08.270Z"
+  },
+  {
+    "_id": "vd94ewl1o262x0p36cp38",
+    "name": "Fruit Curd Rice (ப்ரூட் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.277Z",
+    "updatedAt": "2026-07-24T15:27:08.277Z"
+  },
+  {
+    "_id": "bfm9lqhpenu1v39rf7okbt",
+    "name": "Fruit Curd Rice (ப்ரூட் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.284Z",
+    "updatedAt": "2026-07-24T15:27:08.284Z"
+  },
+  {
+    "_id": "y9zzb4zva79aa66fm94m25",
+    "name": "Vermicelli (Semiya) Curd Rice (சேமியா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.292Z",
+    "updatedAt": "2026-07-24T15:27:08.292Z"
+  },
+  {
+    "_id": "v6hyo3jefooc8wnft4atid",
+    "name": "Vermicelli (Semiya) Curd Rice (சேமியா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.299Z",
+    "updatedAt": "2026-07-24T15:27:08.299Z"
+  },
+  {
+    "_id": "vzxxb4hkt1iynl2he30xa",
+    "name": "Curd Pachadi (தயிர் பச்சடி)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.306Z",
+    "updatedAt": "2026-07-24T15:27:08.306Z"
+  },
+  {
+    "_id": "mm6iupz4cw8z2jtn5ztfrq",
+    "name": "Curd Pachadi (தயிர் பச்சடி)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:08.315Z",
+    "updatedAt": "2026-07-24T15:27:08.315Z"
+  },
+  {
+    "_id": "p1uifujheobpgr38pgcqq",
+    "name": "Idiyappam / String Hoppers (இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.323Z",
+    "updatedAt": "2026-07-24T15:27:08.323Z"
+  },
+  {
+    "_id": "884rpo9gtk49vp0vxbynem",
+    "name": "Idiyappam / String Hoppers (இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.331Z",
+    "updatedAt": "2026-07-24T15:27:08.332Z"
+  },
+  {
+    "_id": "cwkwisgdcfhgkf0oj4bnw",
+    "name": "Lemon Idiyappam (லெமன் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.340Z",
+    "updatedAt": "2026-07-24T15:27:08.340Z"
+  },
+  {
+    "_id": "6ntb56vw3odyevw915p66",
+    "name": "Lemon Idiyappam (லெமன் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.348Z",
+    "updatedAt": "2026-07-24T15:27:08.348Z"
+  },
+  {
+    "_id": "1wiqq4xdxgc0pmxegvq1xu9",
+    "name": "Tomato Idiyappam (தக்காளி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.356Z",
+    "updatedAt": "2026-07-24T15:27:08.356Z"
+  },
+  {
+    "_id": "8hj8j2uqo1dbup2ssf9e1c",
+    "name": "Tomato Idiyappam (தக்காளி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.363Z",
+    "updatedAt": "2026-07-24T15:27:08.363Z"
+  },
+  {
+    "_id": "go7prvfbcuwg16ejgd2aqi",
+    "name": "Veg Idiyappam (வெஜ் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:08.371Z",
+    "updatedAt": "2026-07-24T15:27:08.371Z"
+  },
+  {
+    "_id": "0cil3movjuxk85klzb0ribo",
+    "name": "Veg Idiyappam (வெஜ் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:08.378Z",
+    "updatedAt": "2026-07-24T15:27:08.378Z"
+  },
+  {
+    "_id": "7ob4p659iaj6yiettbon6k",
+    "name": "Ragi Idiyappam (ராகி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.385Z",
+    "updatedAt": "2026-07-24T15:27:08.385Z"
+  },
+  {
+    "_id": "40iovahf9hd9cwnr53wy6j",
+    "name": "Ragi Idiyappam (ராகி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.393Z",
+    "updatedAt": "2026-07-24T15:27:08.393Z"
+  },
+  {
+    "_id": "c09w2s0pqi4pj5khburwsa",
+    "name": "Coriander Idiyappam (மல்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.401Z",
+    "updatedAt": "2026-07-24T15:27:08.401Z"
+  },
+  {
+    "_id": "2rxpo4eybdjxxjgfflns0d",
+    "name": "Coriander Idiyappam (மல்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.409Z",
+    "updatedAt": "2026-07-24T15:27:08.409Z"
+  },
+  {
+    "_id": "59gswkpk17djdorpc608i",
+    "name": "Chilli Idiyappam (சில்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.418Z",
+    "updatedAt": "2026-07-24T15:27:08.418Z"
+  },
+  {
+    "_id": "ye5sbnecu7wy9bwn5rc7",
+    "name": "Chilli Idiyappam (சில்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.426Z",
+    "updatedAt": "2026-07-24T15:27:08.426Z"
+  },
+  {
+    "_id": "wxked8my9vj4pc7d61g7",
+    "name": "Coconut Idiyappam (தேங்காய் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.433Z",
+    "updatedAt": "2026-07-24T15:27:08.433Z"
+  },
+  {
+    "_id": "6tnoqzrdjkce4hy24x0gpb",
+    "name": "Coconut Idiyappam (தேங்காய் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.442Z",
+    "updatedAt": "2026-07-24T15:27:08.442Z"
+  },
+  {
+    "_id": "jzpu03etx88up224pu2mql",
+    "name": "Appam (ஆப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.449Z",
+    "updatedAt": "2026-07-24T15:27:08.449Z"
+  },
+  {
+    "_id": "vzwa3qhrpyn4pzl3gg06mu",
+    "name": "Appam (ஆப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.459Z",
+    "updatedAt": "2026-07-24T15:27:08.459Z"
+  },
+  {
+    "_id": "gh892zr3lheogn51zpdksp",
+    "name": "All Types of Puttu (அனைத்து புட்டு வகைகள்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:08.466Z",
+    "updatedAt": "2026-07-24T15:27:08.466Z"
+  },
+  {
+    "_id": "2d5htqwwk2w9my4je6ssaj",
+    "name": "All Types of Puttu (அனைத்து புட்டு வகைகள்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:08.475Z",
+    "updatedAt": "2026-07-24T15:27:08.475Z"
+  },
+  {
+    "_id": "bw020te0xzqr37jnkblige",
+    "name": "Veg Kurma (வெஜ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.483Z",
+    "updatedAt": "2026-07-24T15:27:08.484Z"
+  },
+  {
+    "_id": "1nnk4g08bplhl990uzh4ny",
+    "name": "Veg Kurma (வெஜ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.492Z",
+    "updatedAt": "2026-07-24T15:27:08.492Z"
+  },
+  {
+    "_id": "9us4kc6u7i2msapcmqtt",
+    "name": "Veg Kurma (வெஜ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.503Z",
+    "updatedAt": "2026-07-24T15:27:08.503Z"
+  },
+  {
+    "_id": "d07wm7czb2aaryohyln0f",
+    "name": "Mushroom Gravy (காளான் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.513Z",
+    "updatedAt": "2026-07-24T15:27:08.513Z"
+  },
+  {
+    "_id": "okbcrzybswd5wiizxh8ou",
+    "name": "Mushroom Gravy (காளான் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.520Z",
+    "updatedAt": "2026-07-24T15:27:08.520Z"
+  },
+  {
+    "_id": "mxvnu8ned97rthd87q2y",
+    "name": "Mushroom Gravy (காளான் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.528Z",
+    "updatedAt": "2026-07-24T15:27:08.528Z"
+  },
+  {
+    "_id": "dvk5tatiw2jkmxjbif4oj",
+    "name": "Paneer Butter Masala (பன்னீர் பட்டர் மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.535Z",
+    "updatedAt": "2026-07-24T15:27:08.535Z"
+  },
+  {
+    "_id": "op9q59l3ogtx4xv4l1cu",
+    "name": "Paneer Butter Masala (பன்னீர் பட்டர் மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.545Z",
+    "updatedAt": "2026-07-24T15:27:08.545Z"
+  },
+  {
+    "_id": "ppxsmqhvxkqpgprvtc1lh",
+    "name": "Paneer Butter Masala (பன்னீர் பட்டர் மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.552Z",
+    "updatedAt": "2026-07-24T15:27:08.552Z"
+  },
+  {
+    "_id": "1c50d9fy43m1v7g6lyd3n",
+    "name": "Green Peas Kurma (கீரீன் பீஸ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.560Z",
+    "updatedAt": "2026-07-24T15:27:08.560Z"
+  },
+  {
+    "_id": "hrblhypq0notvi9luhsg",
+    "name": "Green Peas Kurma (கீரீன் பீஸ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.568Z",
+    "updatedAt": "2026-07-24T15:27:08.568Z"
+  },
+  {
+    "_id": "do9xplrs3ecnmh5uwjj6t",
+    "name": "Green Peas Kurma (கீரீன் பீஸ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.578Z",
+    "updatedAt": "2026-07-24T15:27:08.578Z"
+  },
+  {
+    "_id": "mxr0paknmmknhlw9wkqfd",
+    "name": "Veg Liver Gravy (வெஜ் ஈரல் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.586Z",
+    "updatedAt": "2026-07-24T15:27:08.586Z"
+  },
+  {
+    "_id": "i9pqc60yqeicl4b82wtvd",
+    "name": "Veg Liver Gravy (வெஜ் ஈரல் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.594Z",
+    "updatedAt": "2026-07-24T15:27:08.594Z"
+  },
+  {
+    "_id": "34itp0jx8hri5rln9azfuj",
+    "name": "Veg Liver Gravy (வெஜ் ஈரல் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.601Z",
+    "updatedAt": "2026-07-24T15:27:08.601Z"
+  },
+  {
+    "_id": "ed8j1qms0bl26e50mnje",
+    "name": "Baby Corn Gravy (பேபிகார்ன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.608Z",
+    "updatedAt": "2026-07-24T15:27:08.608Z"
+  },
+  {
+    "_id": "2c5ds4rml2ba1swzhrq10q",
+    "name": "Baby Corn Gravy (பேபிகார்ன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.616Z",
+    "updatedAt": "2026-07-24T15:27:08.616Z"
+  },
+  {
+    "_id": "wr2h3kn8o7mjkenoi38prn",
+    "name": "Baby Corn Gravy (பேபிகார்ன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.626Z",
+    "updatedAt": "2026-07-24T15:27:08.626Z"
+  },
+  {
+    "_id": "2ffy3v59lkaessvsvx8kdj",
+    "name": "Cauliflower Manchurian (காளிபிளவர் மஞ்சூரியன்)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.633Z",
+    "updatedAt": "2026-07-24T15:27:08.633Z"
+  },
+  {
+    "_id": "xgh5j8i2g2axl6brp3zf6k",
+    "name": "Cauliflower Manchurian (காளிபிளவர் மஞ்சூரியன்)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.642Z",
+    "updatedAt": "2026-07-24T15:27:08.642Z"
+  },
+  {
+    "_id": "3hidvu7r51hktow4dxlwsk",
+    "name": "Cauliflower Manchurian (காளிபிளவர் மஞ்சூரியன்)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.651Z",
+    "updatedAt": "2026-07-24T15:27:08.651Z"
+  },
+  {
+    "_id": "b0pefedlct61gfz0r6yaa1",
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.661Z",
+    "updatedAt": "2026-07-24T15:27:08.661Z"
+  },
+  {
+    "_id": "uxbihv09rzc9yzsvcey94t",
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.671Z",
+    "updatedAt": "2026-07-24T15:27:08.671Z"
+  },
+  {
+    "_id": "ad8gxniobxrj2qfq51g69",
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.680Z",
+    "updatedAt": "2026-07-24T15:27:08.680Z"
+  },
+  {
+    "_id": "6lvvarxnaeluqfczhlkmr",
+    "name": "Chana Masala (சென்னா மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.687Z",
+    "updatedAt": "2026-07-24T15:27:08.687Z"
+  },
+  {
+    "_id": "v0gy0bjw46o3rr7nse1crh",
+    "name": "Chana Masala (சென்னா மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.698Z",
+    "updatedAt": "2026-07-24T15:27:08.698Z"
+  },
+  {
+    "_id": "1e6qblan66r4j1lyt82sts",
+    "name": "Chana Masala (சென்னா மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.716Z",
+    "updatedAt": "2026-07-24T15:27:08.716Z"
+  },
+  {
+    "_id": "db65wtcn62idivtikrhm28",
+    "name": "Vadacurry (வடகறி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.727Z",
+    "updatedAt": "2026-07-24T15:27:08.727Z"
+  },
+  {
+    "_id": "0zznnin4bo6e85i12t0d8l",
+    "name": "Vadacurry (வடகறி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.735Z",
+    "updatedAt": "2026-07-24T15:27:08.735Z"
+  },
+  {
+    "_id": "zq939uvew6ir2g6u2l11",
+    "name": "Vadacurry (வடகறி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.744Z",
+    "updatedAt": "2026-07-24T15:27:08.744Z"
+  },
+  {
+    "_id": "61kdaakyiu5ftwmf7h8gp",
+    "name": "Sothi Kurma (சொதி குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.752Z",
+    "updatedAt": "2026-07-24T15:27:08.752Z"
+  },
+  {
+    "_id": "vz60mz8l8aqijquh46saoh",
+    "name": "Sothi Kurma (சொதி குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.762Z",
+    "updatedAt": "2026-07-24T15:27:08.762Z"
+  },
+  {
+    "_id": "qods6wh2g1m5w8fmvjao",
+    "name": "Sothi Kurma (சொதி குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:08.779Z",
+    "updatedAt": "2026-07-24T15:27:08.779Z"
+  },
+  {
+    "_id": "4dlotke7vjeenm8tf7va0i",
+    "name": "Mushroom Sukka (காளான் சுக்கா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.787Z",
+    "updatedAt": "2026-07-24T15:27:08.787Z"
+  },
+  {
+    "_id": "584cg1i3m0vsja1pj796a",
+    "name": "Mushroom Sukka (காளான் சுக்கா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.798Z",
+    "updatedAt": "2026-07-24T15:27:08.798Z"
+  },
+  {
+    "_id": "f0cly6puntrxio0hanyxxd",
+    "name": "Mushroom Sukka (காளான் சுக்கா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:08.808Z",
+    "updatedAt": "2026-07-24T15:27:08.808Z"
+  },
+  {
+    "_id": "o04uyt2qpqinvt9f86qgk",
+    "name": "Coconut Milk (தேங்காய் பால்)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.815Z",
+    "updatedAt": "2026-07-24T15:27:08.815Z"
+  },
+  {
+    "_id": "6gqs7m9imyjmkaby7g07rj",
+    "name": "Coconut Milk (தேங்காய் பால்)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.826Z",
+    "updatedAt": "2026-07-24T15:27:08.826Z"
+  },
+  {
+    "_id": "f4vy99lyvqrhsj5tqc0ulj",
+    "name": "Coconut Milk (தேங்காய் பால்)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:08.834Z",
+    "updatedAt": "2026-07-24T15:27:08.834Z"
+  },
+  {
+    "_id": "m0b9gc16eq95ag25zeqrd",
+    "name": "Kadala Curry / Chickpeas Curry (கடலை கறி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.843Z",
+    "updatedAt": "2026-07-24T15:27:08.843Z"
+  },
+  {
+    "_id": "8kzc80k8cajfwjdi78f80t",
+    "name": "Kadala Curry / Chickpeas Curry (கடலை கறி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.851Z",
+    "updatedAt": "2026-07-24T15:27:08.851Z"
+  },
+  {
+    "_id": "a2ml9smh0yk70xix7len0t",
+    "name": "Kadala Curry / Chickpeas Curry (கடலை கறி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.866Z",
+    "updatedAt": "2026-07-24T15:27:08.866Z"
+  },
+  {
+    "_id": "5i8t8rua2zux21wj5y3qq",
+    "name": "Tomato Gravy (தக்காளி கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.883Z",
+    "updatedAt": "2026-07-24T15:27:08.883Z"
+  },
+  {
+    "_id": "vvgtpzrdqt2iloush22ci",
+    "name": "Tomato Gravy (தக்காளி கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.898Z",
+    "updatedAt": "2026-07-24T15:27:08.898Z"
+  },
+  {
+    "_id": "ju3lx3ce5dpe4m0g22498a",
+    "name": "Tomato Gravy (தக்காளி கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:08.911Z",
+    "updatedAt": "2026-07-24T15:27:08.911Z"
+  },
+  {
+    "_id": "iflk31dr9o9vucrnvfv43a",
+    "name": "Veg Chicken Gravy (வெஜ் சிக்கன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.920Z",
+    "updatedAt": "2026-07-24T15:27:08.920Z"
+  },
+  {
+    "_id": "57efs6m1dpnzwlegrv6z9p",
+    "name": "Veg Chicken Gravy (வெஜ் சிக்கன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.930Z",
+    "updatedAt": "2026-07-24T15:27:08.930Z"
+  },
+  {
+    "_id": "to7hmxzqbgg0ki77dsypzo",
+    "name": "Veg Chicken Gravy (வெஜ் சிக்கன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.938Z",
+    "updatedAt": "2026-07-24T15:27:08.938Z"
+  },
+  {
+    "_id": "mv6pd72mq4ucdt6a9lek",
+    "name": "Veg Mutton Gravy (வெஜ் மட்டன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.947Z",
+    "updatedAt": "2026-07-24T15:27:08.947Z"
+  },
+  {
+    "_id": "pyptfqhz4nsze5mzjd2bx",
+    "name": "Veg Mutton Gravy (வெஜ் மட்டன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.958Z",
+    "updatedAt": "2026-07-24T15:27:08.958Z"
+  },
+  {
+    "_id": "7kf2alqaxkyn6cvl3c2r",
+    "name": "Veg Mutton Gravy (வெஜ் மட்டன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:08.968Z",
+    "updatedAt": "2026-07-24T15:27:08.968Z"
+  },
+  {
+    "_id": "9ujyd6xyfrb1djf5p3tju",
+    "name": "Aloo Kurma (ஆலு குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.979Z",
+    "updatedAt": "2026-07-24T15:27:08.979Z"
+  },
+  {
+    "_id": "b953mqzt4pq3l8lrga0ynq",
+    "name": "Aloo Kurma (ஆலு குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.987Z",
+    "updatedAt": "2026-07-24T15:27:08.987Z"
+  },
+  {
+    "_id": "lqg7w7zp8gc6x3ygxip54h",
+    "name": "Aloo Kurma (ஆலு குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:08.998Z",
+    "updatedAt": "2026-07-24T15:27:08.998Z"
+  },
+  {
+    "_id": "61dg8pxqrgy8x1km1kj1",
+    "name": "Veg Fish Curry (வெஜ் மீன் குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:09.007Z",
+    "updatedAt": "2026-07-24T15:27:09.007Z"
+  },
+  {
+    "_id": "p4lw6bmxon28wu4shxrng",
+    "name": "Veg Fish Curry (வெஜ் மீன் குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:09.016Z",
+    "updatedAt": "2026-07-24T15:27:09.016Z"
+  },
+  {
+    "_id": "grd3wuqe63khmgsdq5xyq",
+    "name": "Veg Fish Curry (வெஜ் மீன் குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:09.025Z",
+    "updatedAt": "2026-07-24T15:27:09.025Z"
+  },
+  {
+    "_id": "vq4ooto6xqs633zjv6pohn",
+    "name": "Veg Paya (வெஜ் பாயா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:09.033Z",
+    "updatedAt": "2026-07-24T15:27:09.033Z"
+  },
+  {
+    "_id": "34pgiphgqsfpopr6wpzetp",
+    "name": "Veg Paya (வெஜ் பாயா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:09.043Z",
+    "updatedAt": "2026-07-24T15:27:09.043Z"
+  },
+  {
+    "_id": "tagh7vkeh689cyszd7i3sd",
+    "name": "Veg Paya (வெஜ் பாயா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:09.050Z",
+    "updatedAt": "2026-07-24T15:27:09.050Z"
+  },
+  {
+    "_id": "1zp1q066cooy6kfwlsqjqi",
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:09.060Z",
+    "updatedAt": "2026-07-24T15:27:09.060Z"
+  },
+  {
+    "_id": "it3k88nxjcpizp6ddip32",
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:09.068Z",
+    "updatedAt": "2026-07-24T15:27:09.068Z"
+  },
+  {
+    "_id": "8aicdth4m7hichnb1smlab",
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:09.076Z",
+    "updatedAt": "2026-07-24T15:27:09.076Z"
+  },
+  {
+    "_id": "a286ods3dyjq0w66jf99s",
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:09.084Z",
+    "updatedAt": "2026-07-24T15:27:09.084Z"
+  },
+  {
+    "_id": "sqttvm40fb1t1rkuhfzqo",
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:09.096Z",
+    "updatedAt": "2026-07-24T15:27:09.096Z"
+  },
+  {
+    "_id": "5x2ug3c2226sk26qbx6vig",
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:09.112Z",
+    "updatedAt": "2026-07-24T15:27:09.112Z"
+  },
+  {
+    "_id": "rmlza2jxbh03u8tptg17ch",
+    "name": "Potato Masala (Kizhangu Masal) (உருளைக்கிழங்கு மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:09.121Z",
+    "updatedAt": "2026-07-24T15:27:09.121Z"
+  },
+  {
+    "_id": "d65q7m1rt9t9083jv4265m",
+    "name": "Potato Masala (Kizhangu Masal) (உருளைக்கிழங்கு மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:09.137Z",
+    "updatedAt": "2026-07-24T15:27:09.137Z"
+  },
+  {
+    "_id": "io8fjkmuqsccwy9dcrr5v",
+    "name": "Potato Masala (Kizhangu Masal) (உருளைக்கிழங்கு மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:09.148Z",
+    "updatedAt": "2026-07-24T15:27:09.148Z"
+  },
+  {
+    "_id": "8e3byis674e7vsohzcc6po",
+    "name": "Veg Mutton Curry (வெஜ் மட்டன் கறி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 55,
+    "createdAt": "2026-07-24T15:27:09.160Z",
+    "updatedAt": "2026-07-24T15:27:09.160Z"
+  },
+  {
+    "_id": "i4dihxv6d4cgckqn8sma",
+    "name": "Veg Mutton Curry (வெஜ் மட்டன் கறி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 55,
+    "createdAt": "2026-07-24T15:27:09.168Z",
+    "updatedAt": "2026-07-24T15:27:09.168Z"
+  },
+  {
+    "_id": "w5fj3ixuapj5khx70plww6",
+    "name": "Veg Mutton Curry (வெஜ் மட்டன் கறி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 55,
+    "createdAt": "2026-07-24T15:27:09.177Z",
+    "updatedAt": "2026-07-24T15:27:09.177Z"
+  },
+  {
+    "_id": "w4cjhxdf2pobc2zmdrxinf",
+    "name": "Idi Sambar / Freshly Ground Sambar (இடி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.190Z",
+    "updatedAt": "2026-07-24T15:27:09.190Z"
+  },
+  {
+    "_id": "bh0xpljb2lnrxnu5sjt3e",
+    "name": "Idi Sambar / Freshly Ground Sambar (இடி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.200Z",
+    "updatedAt": "2026-07-24T15:27:09.200Z"
+  },
+  {
+    "_id": "urb7ndbzcfoyzveyxl3828",
+    "name": "Idi Sambar / Freshly Ground Sambar (இடி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.213Z",
+    "updatedAt": "2026-07-24T15:27:09.213Z"
+  },
+  {
+    "_id": "z5p1h008xh3kyr4tm6or",
+    "name": "Onion Sambar (வெங்காய சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.227Z",
+    "updatedAt": "2026-07-24T15:27:09.227Z"
+  },
+  {
+    "_id": "8cokvvhdsmskf0fj044t69",
+    "name": "Onion Sambar (வெங்காய சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.241Z",
+    "updatedAt": "2026-07-24T15:27:09.241Z"
+  },
+  {
+    "_id": "a75juule1nn6tuny8528c",
+    "name": "Onion Sambar (வெங்காய சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.251Z",
+    "updatedAt": "2026-07-24T15:27:09.251Z"
+  },
+  {
+    "_id": "wawirsk6h6mqr2vn7xre2",
+    "name": "Moong Dal (Paasi Paruppu) Sambar (பாசி பருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:09.262Z",
+    "updatedAt": "2026-07-24T15:27:09.263Z"
+  },
+  {
+    "_id": "mkaljtnv32bh1gm5rz5j",
+    "name": "Moong Dal (Paasi Paruppu) Sambar (பாசி பருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:09.273Z",
+    "updatedAt": "2026-07-24T15:27:09.273Z"
+  },
+  {
+    "_id": "phuxwxrw6hhhabcu4owaa7",
+    "name": "Moong Dal (Paasi Paruppu) Sambar (பாசி பருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:09.283Z",
+    "updatedAt": "2026-07-24T15:27:09.283Z"
+  },
+  {
+    "_id": "k9qifp4twghoap8tw77e7o",
+    "name": "Radish Sambar (முள்ளங்கி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.297Z",
+    "updatedAt": "2026-07-24T15:27:09.297Z"
+  },
+  {
+    "_id": "630ccmrw6vljcljukdb8k",
+    "name": "Radish Sambar (முள்ளங்கி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.311Z",
+    "updatedAt": "2026-07-24T15:27:09.311Z"
+  },
+  {
+    "_id": "0tjfpjxjf3ijeycy45iobwi",
+    "name": "Radish Sambar (முள்ளங்கி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.321Z",
+    "updatedAt": "2026-07-24T15:27:09.321Z"
+  },
+  {
+    "_id": "sdjly8a3exa20gxgu1xk5e",
+    "name": "Ladies Finger (Vendakkai) Sambar (வெண்டைக்காய் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.331Z",
+    "updatedAt": "2026-07-24T15:27:09.331Z"
+  },
+  {
+    "_id": "jv0b7fyncpnnnflzy3e1n9",
+    "name": "Ladies Finger (Vendakkai) Sambar (வெண்டைக்காய் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.343Z",
+    "updatedAt": "2026-07-24T15:27:09.343Z"
+  },
+  {
+    "_id": "v2y06q7reta97whzqpuxuv",
+    "name": "Ladies Finger (Vendakkai) Sambar (வெண்டைக்காய் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.353Z",
+    "updatedAt": "2026-07-24T15:27:09.353Z"
+  },
+  {
+    "_id": "pnht4qzbvb337tqv6bzxp",
+    "name": "Sweet Sambar (ஸ்வீட் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.365Z",
+    "updatedAt": "2026-07-24T15:27:09.365Z"
+  },
+  {
+    "_id": "j8py049um1j8ws8trldcsh",
+    "name": "Sweet Sambar (ஸ்வீட் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.380Z",
+    "updatedAt": "2026-07-24T15:27:09.380Z"
+  },
+  {
+    "_id": "nwjtwyduc9ak8y0jetkny",
+    "name": "Sweet Sambar (ஸ்வீட் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.394Z",
+    "updatedAt": "2026-07-24T15:27:09.394Z"
+  },
+  {
+    "_id": "3qepbdfcijqvrm9y8oo7lh",
+    "name": "Chinese Potato (Sirukizhangu) Sambar (சிறுகிழங்கு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.410Z",
+    "updatedAt": "2026-07-24T15:27:09.410Z"
+  },
+  {
+    "_id": "3szdt1yfc8w4iajsrzyfr",
+    "name": "Chinese Potato (Sirukizhangu) Sambar (சிறுகிழங்கு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.428Z",
+    "updatedAt": "2026-07-24T15:27:09.428Z"
+  },
+  {
+    "_id": "wamk7v2x02qpes91zkvws",
+    "name": "Chinese Potato (Sirukizhangu) Sambar (சிறுகிழங்கு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.444Z",
+    "updatedAt": "2026-07-24T15:27:09.444Z"
+  },
+  {
+    "_id": "h7c9xx06ehnl4vjv3pxt9",
+    "name": "Drumstick (Murungai) Sambar (முருங்கை சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.474Z",
+    "updatedAt": "2026-07-24T15:27:09.474Z"
+  },
+  {
+    "_id": "qs8bpic6y17dh6sphid4b9",
+    "name": "Drumstick (Murungai) Sambar (முருங்கை சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.485Z",
+    "updatedAt": "2026-07-24T15:27:09.485Z"
+  },
+  {
+    "_id": "v2ec8q9i5fsyx2iayfwi",
+    "name": "Drumstick (Murungai) Sambar (முருங்கை சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.505Z",
+    "updatedAt": "2026-07-24T15:27:09.505Z"
+  },
+  {
+    "_id": "1tr5fuf1iyvph0re5wj6oj",
+    "name": "Sambar (சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:09.519Z",
+    "updatedAt": "2026-07-24T15:27:09.519Z"
+  },
+  {
+    "_id": "5anrm5wge2tnz5eqjjr0t",
+    "name": "Sambar (சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:09.530Z",
+    "updatedAt": "2026-07-24T15:27:09.530Z"
+  },
+  {
+    "_id": "o6fm5z4xvdgmum90ghj7s",
+    "name": "Sambar (சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:09.556Z",
+    "updatedAt": "2026-07-24T15:27:09.556Z"
+  },
+  {
+    "_id": "pypss3zffu9jonomrd8go",
+    "name": "Moong Dal Sambar / Siruparuppu Sambar (சிறுபருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:09.575Z",
+    "updatedAt": "2026-07-24T15:27:09.575Z"
+  },
+  {
+    "_id": "huvwtvhijrefzn33a1zmue",
+    "name": "Moong Dal Sambar / Siruparuppu Sambar (சிறுபருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:09.591Z",
+    "updatedAt": "2026-07-24T15:27:09.591Z"
+  },
+  {
+    "_id": "havnkk8wgsdwko43ymfo3q",
+    "name": "Moong Dal Sambar / Siruparuppu Sambar (சிறுபருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 18,
+    "createdAt": "2026-07-24T15:27:09.603Z",
+    "updatedAt": "2026-07-24T15:27:09.603Z"
+  },
+  {
+    "_id": "ugw7tczmvhr3d1bjywdgs3",
+    "name": "Badam Milk (பாதாம்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.660Z",
+    "updatedAt": "2026-07-24T15:27:09.660Z"
+  },
+  {
+    "_id": "c2a9q7bhxhhfbn6sggnz3j",
+    "name": "Badam Milk (பாதாம்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.692Z",
+    "updatedAt": "2026-07-24T15:27:09.692Z"
+  },
+  {
+    "_id": "px7yf037rlfwulhagpwn8",
+    "name": "Palm Candy Milk (பனங்கற்கண்டு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.709Z",
+    "updatedAt": "2026-07-24T15:27:09.709Z"
+  },
+  {
+    "_id": "bc2azyredpzlv5wtmbdk7",
+    "name": "Palm Candy Milk (பனங்கற்கண்டு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.749Z",
+    "updatedAt": "2026-07-24T15:27:09.750Z"
+  },
+  {
+    "_id": "mwynvt7r65jffqjdj5lqg",
+    "name": "Pepper Milk (மிளகு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.769Z",
+    "updatedAt": "2026-07-24T15:27:09.769Z"
+  },
+  {
+    "_id": "hkmh2cndxa6px7h10rhtr",
+    "name": "Pepper Milk (மிளகு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.825Z",
+    "updatedAt": "2026-07-24T15:27:09.825Z"
+  },
+  {
+    "_id": "8sqrdz4qx6e7w6sr7umf17",
+    "name": "Honey Milk (தேன் பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.836Z",
+    "updatedAt": "2026-07-24T15:27:09.836Z"
+  },
+  {
+    "_id": "y8zuanyyce9bwojjght5jo",
+    "name": "Honey Milk (தேன் பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.859Z",
+    "updatedAt": "2026-07-24T15:27:09.859Z"
+  },
+  {
+    "_id": "k3zt44z1hzf72o0u4ytmik",
+    "name": "Palm Jaggery (Karupatti) Milk (கருப்பட்டி பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.879Z",
+    "updatedAt": "2026-07-24T15:27:09.879Z"
+  },
+  {
+    "_id": "rw52vljiqq419lism1pp",
+    "name": "Palm Jaggery (Karupatti) Milk (கருப்பட்டி பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:09.900Z",
+    "updatedAt": "2026-07-24T15:27:09.900Z"
+  },
+  {
+    "_id": "rgp8tz89nqldzau1vl09g",
+    "name": "Palm Jaggery Coffee (கருப்பட்டி காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.916Z",
+    "updatedAt": "2026-07-24T15:27:09.916Z"
+  },
+  {
+    "_id": "l97iy50vw2kbdzh5u82ph",
+    "name": "Palm Jaggery Coffee (கருப்பட்டி காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:09.961Z",
+    "updatedAt": "2026-07-24T15:27:09.961Z"
+  },
+  {
+    "_id": "ey7ig7u7dsh4fzkvzl6suj",
+    "name": "Coffee / Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.002Z",
+    "updatedAt": "2026-07-24T15:27:10.002Z"
+  },
+  {
+    "_id": "ywpc9qtv3n70kjygyrdj3",
+    "name": "Coffee / Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.014Z",
+    "updatedAt": "2026-07-24T15:27:10.014Z"
+  },
+  {
+    "_id": "6xco2ue13degi1xmy1mn3j",
+    "name": "Ginger Tea (இஞ்சி டீ)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.030Z",
+    "updatedAt": "2026-07-24T15:27:10.030Z"
+  },
+  {
+    "_id": "sgpo5vw9dwo791r3bety26",
+    "name": "Ginger Tea (இஞ்சி டீ)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.046Z",
+    "updatedAt": "2026-07-24T15:27:10.047Z"
+  },
+  {
+    "_id": "ela95b0623eg95pknyg7cr",
+    "name": "Honey Milk (தேன்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.071Z",
+    "updatedAt": "2026-07-24T15:27:10.071Z"
+  },
+  {
+    "_id": "77b72mp6pnemcbenzrmvtq",
+    "name": "Honey Milk (தேன்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.093Z",
+    "updatedAt": "2026-07-24T15:27:10.093Z"
+  },
+  {
+    "_id": "mt0vq6j90easnwh5j65myi",
+    "name": "Filter Coffee (பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.109Z",
+    "updatedAt": "2026-07-24T15:27:10.109Z"
+  },
+  {
+    "_id": "h994iok0ozeohsz6m570kg",
+    "name": "Filter Coffee (பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.139Z",
+    "updatedAt": "2026-07-24T15:27:10.139Z"
+  },
+  {
+    "_id": "cewpda0xtlaufar9k1vyyr",
+    "name": "Coffee (காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.158Z",
+    "updatedAt": "2026-07-24T15:27:10.158Z"
+  },
+  {
+    "_id": "eb2e9lsmssfl6z7at3vpb",
+    "name": "Coffee (காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.179Z",
+    "updatedAt": "2026-07-24T15:27:10.179Z"
+  },
+  {
+    "_id": "l3v4leqsicfh6ddscbfo9e",
+    "name": "Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.199Z",
+    "updatedAt": "2026-07-24T15:27:10.199Z"
+  },
+  {
+    "_id": "aj0ocpddhuwep9fpfpb6pc",
+    "name": "Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.231Z",
+    "updatedAt": "2026-07-24T15:27:10.231Z"
+  },
+  {
+    "_id": "8jvb8umq9jfbuz44v1t8t",
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.262Z",
+    "updatedAt": "2026-07-24T15:27:10.262Z"
+  },
+  {
+    "_id": "dla7frysqohk7gfn8j9seq",
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.283Z",
+    "updatedAt": "2026-07-24T15:27:10.283Z"
+  },
+  {
+    "_id": "wac0toypaspsvzf3rm6gkj",
+    "name": "Samosa (சமோசா)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:10.303Z",
+    "updatedAt": "2026-07-24T15:27:10.303Z"
+  },
+  {
+    "_id": "wt866mv8jjkgduxodmnkre",
+    "name": "Samosa (சமோசா)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:10.315Z",
+    "updatedAt": "2026-07-24T15:27:10.315Z"
+  },
+  {
+    "_id": "o4e0siiqiomwj9yj5x1r38",
+    "name": "Boli (போளி)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.328Z",
+    "updatedAt": "2026-07-24T15:27:10.328Z"
+  },
+  {
+    "_id": "ule1nechyje4gji0qa389",
+    "name": "Boli (போளி)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.341Z",
+    "updatedAt": "2026-07-24T15:27:10.341Z"
+  },
+  {
+    "_id": "jp8bcbcshjop90clhxpus",
+    "name": "Somas (சோமாஸ்)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.363Z",
+    "updatedAt": "2026-07-24T15:27:10.363Z"
+  },
+  {
+    "_id": "19crxtzkhmnakp42b6l25i",
+    "name": "Somas (சோமாஸ்)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.384Z",
+    "updatedAt": "2026-07-24T15:27:10.384Z"
+  },
+  {
+    "_id": "cd3ftomkclk95ybdiim9ya",
+    "name": "Cutlet (கட்லட்)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.402Z",
+    "updatedAt": "2026-07-24T15:27:10.402Z"
+  },
+  {
+    "_id": "ycg14hf0fvmo327mr3xbkq",
+    "name": "Cutlet (கட்லட்)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.425Z",
+    "updatedAt": "2026-07-24T15:27:10.425Z"
+  },
+  {
+    "_id": "r90sb7nq388kdkkoem5p9q",
+    "name": "Kathamba Avial / Mixed Vegetable Avial (கதம்ப அவியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:10.444Z",
+    "updatedAt": "2026-07-24T15:27:10.444Z"
+  },
+  {
+    "_id": "z0volfzojttuk99m2jaib",
+    "name": "Cabbage Poriyal (கோஸ் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.471Z",
+    "updatedAt": "2026-07-24T15:27:10.472Z"
+  },
+  {
+    "_id": "m966mvjrbdlvvi0nyxyhv",
+    "name": "Veg Chilli (வெஜ் சில்லி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:10.517Z",
+    "updatedAt": "2026-07-24T15:27:10.517Z"
+  },
+  {
+    "_id": "rgz2k7lz7pmqmopqvxj4",
+    "name": "Ladies Finger Tomato Pachadi (வெண்டைக்காய் தக்காளி பச்சடி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.532Z",
+    "updatedAt": "2026-07-24T15:27:10.532Z"
+  },
+  {
+    "_id": "0jyq23zeoqs8t7pgso9gnw",
+    "name": "Mushroom Chilli (காளான் சில்லி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:10.545Z",
+    "updatedAt": "2026-07-24T15:27:10.545Z"
+  },
+  {
+    "_id": "q75x54n3d9zqk2pgd9qf",
+    "name": "Tomato Pachadi (தக்காளி பச்சடி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.569Z",
+    "updatedAt": "2026-07-24T15:27:10.569Z"
+  },
+  {
+    "_id": "31732vvlarq79lurmgrmam",
+    "name": "Potato Peas Kootu (உருளை பட்டாணி கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.595Z",
+    "updatedAt": "2026-07-24T15:27:10.595Z"
+  },
+  {
+    "_id": "xjghbyjra9cqau5hyxzqph",
+    "name": "Spicy Potato Kootu (உருளை கார கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.620Z",
+    "updatedAt": "2026-07-24T15:27:10.620Z"
+  },
+  {
+    "_id": "5f321u5ey8i2u3udu8t2",
+    "name": "Potato Poriyal (உருளை பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.646Z",
+    "updatedAt": "2026-07-24T15:27:10.647Z"
+  },
+  {
+    "_id": "9l5lpwh8q11ufbnjfittd",
+    "name": "Spicy Potato Poriyal (உருளை கார பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 22,
+    "createdAt": "2026-07-24T15:27:10.666Z",
+    "updatedAt": "2026-07-24T15:27:10.666Z"
+  },
+  {
+    "_id": "su4r64sim9enjh946fozm",
+    "name": "Raw Banana (Vaalaikkai) Poriyal (வாழைக்காய் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.683Z",
+    "updatedAt": "2026-07-24T15:27:10.683Z"
+  },
+  {
+    "_id": "l97xdsl9jxjbq2wp9wev7q",
+    "name": "Banana Flower Poriyal (வாழைப்பூ பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.701Z",
+    "updatedAt": "2026-07-24T15:27:10.701Z"
+  },
+  {
+    "_id": "o70sh8zru7qcziew3expe",
+    "name": "Ennai Kathirikkai / Oiled Brinjal Curry (எண்ணெய் கத்திரிக்காய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:10.715Z",
+    "updatedAt": "2026-07-24T15:27:10.715Z"
+  },
+  {
+    "_id": "1z96kpqutbfvg5es2f4u6",
+    "name": "Oiled Broad Beans Curry (எண்ணெய் அவரைக்காய் / அவரை எண்ணைக்கறி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:10.726Z",
+    "updatedAt": "2026-07-24T15:27:10.726Z"
+  },
+  {
+    "_id": "6pvgjwbrli6tvh5hbs552",
+    "name": "Kadalaikkari Kootu (கடலைக்கறி கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.741Z",
+    "updatedAt": "2026-07-24T15:27:10.741Z"
+  },
+  {
+    "_id": "ll2a5rxhgrndg1kxljr09",
+    "name": "Carrot Poriyal (கேரட் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.752Z",
+    "updatedAt": "2026-07-24T15:27:10.752Z"
+  },
+  {
+    "_id": "72t0ncd1a4sanl8j82hscr",
+    "name": "Beans, Carrot Poriyal (பீன்ஸ், கேரட் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:10.773Z",
+    "updatedAt": "2026-07-24T15:27:10.773Z"
+  },
+  {
+    "_id": "799xde5k09x03y2gnolrtw8",
+    "name": "Beans, Carrot Usili Poriyal (பீன்ஸ்,கேரட் உசிலி பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.812Z",
+    "updatedAt": "2026-07-24T15:27:10.812Z"
+  },
+  {
+    "_id": "t95asjhpdcs0zj1whv7jcs",
+    "name": "Stuffed Brinjal / Muttu Kathirikkai (மூட்டுக்கத்தரிக்காய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:10.828Z",
+    "updatedAt": "2026-07-24T15:27:10.828Z"
+  },
+  {
+    "_id": "d7lube290mtku2j5sb7u",
+    "name": "Chayote (Chow Chow) Milk Kootu (சவ்சவ் பால்கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.846Z",
+    "updatedAt": "2026-07-24T15:27:10.846Z"
+  },
+  {
+    "_id": "340nbc2axnekgztauvcpxf",
+    "name": "Veg Liver Curry (வெஜ் ஈரல் கறி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:10.874Z",
+    "updatedAt": "2026-07-24T15:27:10.874Z"
+  },
+  {
+    "_id": "l63zt99xt86mce84swaqg",
+    "name": "Raw Banana Chops (வாழைக்காய் சாப்ஸ்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.894Z",
+    "updatedAt": "2026-07-24T15:27:10.894Z"
+  },
+  {
+    "_id": "rxlvtp7vcmo8ucm3ym1smb",
+    "name": "Elephant Foot Yam (Senai) Chops (சேனை சாப்ஸ்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:10.917Z",
+    "updatedAt": "2026-07-24T15:27:10.917Z"
+  },
+  {
+    "_id": "l2lnjz9n97ghhdvu1zglb",
+    "name": "Taro Root (Seemang Kizhangu) Chops (சேமங் கிழங்கு சாப்ஸ்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:10.928Z",
+    "updatedAt": "2026-07-24T15:27:10.928Z"
+  },
+  {
+    "_id": "i1mhg7hyhz1cc3ngv05wh",
+    "name": "Butter Beans Milk Kootu (பட்டர் பீன்ஸ் பால் கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.939Z",
+    "updatedAt": "2026-07-24T15:27:10.939Z"
+  },
+  {
+    "_id": "609tnr736s8gndy7i2txav",
+    "name": "Brinjal Tamarind Curry / Kathirikkai Pulikkari (கத்தரிக்காய் புளிக்கறி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:10.969Z",
+    "updatedAt": "2026-07-24T15:27:10.969Z"
+  },
+  {
+    "_id": "pl6j3kjb2aqifg7rb0vm9",
+    "name": "Malli Thuvayal / Coriander Chutney Paste (மல்லித்துவையல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:10.991Z",
+    "updatedAt": "2026-07-24T15:27:10.991Z"
+  },
+  {
+    "_id": "2rxuwn8szbu7pik67qb8qs",
+    "name": "Coconut Thuvayal (தேங்காய் துவையல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:11.014Z",
+    "updatedAt": "2026-07-24T15:27:11.014Z"
+  },
+  {
+    "_id": "o5hfnta4fcb641arwqqvl3",
+    "name": "Malabar Avial (மலபார் அவியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:11.111Z",
+    "updatedAt": "2026-07-24T15:27:11.111Z"
+  },
+  {
+    "_id": "yz0c0ur07y0ljso2chgink",
+    "name": "Yam Sukka / Senai Sukka (சேனைச்சுக்கா)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:11.143Z",
+    "updatedAt": "2026-07-24T15:27:11.143Z"
+  },
+  {
+    "_id": "ih05yerr4tshpbvlkrk41",
+    "name": "Veg Fish Roast (வெஜ் மீன் ரோஸ்ட்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:11.194Z",
+    "updatedAt": "2026-07-24T15:27:11.194Z"
+  },
+  {
+    "_id": "1bv7ynf4k3mqy8pdzui8ua",
+    "name": "Cauliflower Roast (காலிஃபிளவர் ரோஸ்ட்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:11.304Z",
+    "updatedAt": "2026-07-24T15:27:11.304Z"
+  },
+  {
+    "_id": "mhnfpzujzbcutiz0uivzv",
+    "name": "Mango Pickles (மாங்காய் ஊறுகாய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:11.416Z",
+    "updatedAt": "2026-07-24T15:27:11.416Z"
+  },
+  {
+    "_id": "51fnw0m4qqcq7bgizapw29",
+    "name": "Tomato Pickles (தக்காளி ஊறுகாய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:11.437Z",
+    "updatedAt": "2026-07-24T15:27:11.437Z"
+  },
+  {
+    "_id": "7st9lx9bewaou80k44f5ug",
+    "name": "Chilli Tamarind Pickle / Pulimilagai Oorugai (புளிமிளகாய் ஊறுகாய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:11.504Z",
+    "updatedAt": "2026-07-24T15:27:11.504Z"
+  },
+  {
+    "_id": "084864rgy5adxol55awway",
+    "name": "Avial (அவியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:11.525Z",
+    "updatedAt": "2026-07-24T15:27:11.525Z"
+  },
+  {
+    "_id": "nb2r5sq1fkfuygbcfb4i9",
+    "name": "Carrot Beans Poriyal (கேரட் பீன்ஸ் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:11.543Z",
+    "updatedAt": "2026-07-24T15:27:11.543Z"
+  },
+  {
+    "_id": "f2vdqu9gn3ipw0a5d9io",
+    "name": "Potato Peas Spicy Kootu (உருளை பட்டாணி கார கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:11.583Z",
+    "updatedAt": "2026-07-24T15:27:11.583Z"
+  },
+  {
+    "_id": "gbauzuspywpsdr7z2rgdzi",
+    "name": "Snake Gourd Roast (புடலங்காய் ரோஸ்ட்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:11.614Z",
+    "updatedAt": "2026-07-24T15:27:11.614Z"
+  },
+  {
+    "_id": "37oq8ih011p53jivvh7qu4",
+    "name": "Lentils (பருப்பு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:11.696Z",
+    "updatedAt": "2026-07-24T15:27:11.696Z"
+  },
+  {
+    "_id": "2yc9gzt52afrzaklkxg8z",
+    "name": "Lentils + Ghee (பருப்பு + நெய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:11.718Z",
+    "updatedAt": "2026-07-24T15:27:11.718Z"
+  },
+  {
+    "_id": "86quub1s0ion8rxlxdy5z9",
+    "name": "Steamed Rice / Plain Rice (சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:11.770Z",
+    "updatedAt": "2026-07-24T15:27:11.770Z"
+  },
+  {
+    "_id": "vebd2brd5b6byrowycnxa",
+    "name": "Coriander Rice (மல்லி சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:11.859Z",
+    "updatedAt": "2026-07-24T15:27:11.859Z"
+  },
+  {
+    "_id": "zufk2k9t6483dge35ws37o",
+    "name": "Mint Rice (புதினா சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:11.919Z",
+    "updatedAt": "2026-07-24T15:27:11.919Z"
+  },
+  {
+    "_id": "dr1xxvytu69t1a0nne1w1",
+    "name": "Sugar Candy (Karkandu) Rice (கற்கண்டு சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:11.998Z",
+    "updatedAt": "2026-07-24T15:27:11.998Z"
+  },
+  {
+    "_id": "7xjmwpg48vl91vvhxv6duk",
+    "name": "Tomato Rice (தக்காளி சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:12.084Z",
+    "updatedAt": "2026-07-24T15:27:12.084Z"
+  },
+  {
+    "_id": "is3595mf6bftii6pjv23is",
+    "name": "Sambar Rice (சாம்பார் சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:12.144Z",
+    "updatedAt": "2026-07-24T15:27:12.144Z"
+  },
+  {
+    "_id": "zgyjp6rwtms38y7lfrd8io",
+    "name": "Pepper Rice (மிளகு சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:12.169Z",
+    "updatedAt": "2026-07-24T15:27:12.169Z"
+  },
+  {
+    "_id": "ocafjw2j6asrqivo5it3m9",
+    "name": "Coconut Rice (தேங்காய் சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:12.194Z",
+    "updatedAt": "2026-07-24T15:27:12.194Z"
+  },
+  {
+    "_id": "h73gyqxhdeve4ttoduegs",
+    "name": "Mango Rice (மாங்காய் சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:12.211Z",
+    "updatedAt": "2026-07-24T15:27:12.211Z"
+  },
+  {
+    "_id": "9gtzzh9ogwiwg6ag788j9o",
+    "name": "Lemon Rice (எலுமிச்சை சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:12.244Z",
+    "updatedAt": "2026-07-24T15:27:12.244Z"
+  },
+  {
+    "_id": "2p5kk1a4r8zpry9fttih",
+    "name": "Puliyodharai / Tamarind Rice (புளியோதரை)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:12.316Z",
+    "updatedAt": "2026-07-24T15:27:12.316Z"
+  },
+  {
+    "_id": "nnc09uu1r36ralj0fdo3",
+    "name": "Dry Fish Flavored Veg Rice / Karuvattu Saatham (கருவாட்டு சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 50,
+    "createdAt": "2026-07-24T15:27:12.350Z",
+    "updatedAt": "2026-07-24T15:27:12.350Z"
+  },
+  {
+    "_id": "odkll5p4egdn6bxq2vhqb",
+    "name": "Ghee Lentils / Ney Paruppu (நெய் பருப்பு)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:12.394Z",
+    "updatedAt": "2026-07-24T15:27:12.394Z"
+  },
+  {
+    "_id": "vyo8epar3ihx7h75ef966",
+    "name": "Coriander Rice / Malli Rice (மல்லி ரைஸ்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:12.428Z",
+    "updatedAt": "2026-07-24T15:27:12.428Z"
+  },
+  {
+    "_id": "f7u9gzi0u4i26l7l6c6gi7",
+    "name": "Kara Kuzhambu (காரக் குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:12.453Z",
+    "updatedAt": "2026-07-24T15:27:12.453Z"
+  },
+  {
+    "_id": "511poxtvc04ml4gh56h97g",
+    "name": "Vatha Kuzhambu (வத்தக் குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:12.506Z",
+    "updatedAt": "2026-07-24T15:27:12.506Z"
+  },
+  {
+    "_id": "6ar0l1twphp7qf4py0yes4",
+    "name": "Onion Tamarind Curry / Vengaya Pulikhuzhambu (வெங்காய புளிக்குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:12.581Z",
+    "updatedAt": "2026-07-24T15:27:12.581Z"
+  },
+  {
+    "_id": "2v150k63sf9e4tq7x0272v",
+    "name": "Aloo Sheela Kuzhambu (ஆலு சீலா குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:12.654Z",
+    "updatedAt": "2026-07-24T15:27:12.654Z"
+  },
+  {
+    "_id": "g7608g1eco56iwdsynaq5r",
+    "name": "Banana Flower Kuzhambu (வாழைப்பூ குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:12.687Z",
+    "updatedAt": "2026-07-24T15:27:12.693Z"
+  },
+  {
+    "_id": "dexgihaslndhfjr445pm6",
+    "name": "More Kuzhambu / Buttermilk Curry (மோர்க்குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:12.734Z",
+    "updatedAt": "2026-07-24T15:27:12.734Z"
+  },
+  {
+    "_id": "sv6s6zash2asywzydvdttj",
+    "name": "Fenugreek Curry / Vendhaya Kuzhambu (வெந்தயக்குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:12.763Z",
+    "updatedAt": "2026-07-24T15:27:12.763Z"
+  },
+  {
+    "_id": "916edh2m5y6i2o3b9wnz9",
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:12.780Z",
+    "updatedAt": "2026-07-24T15:27:12.780Z"
+  },
+  {
+    "_id": "4f8lc6r3acqzjrkqx704jf",
+    "name": "Tomato Rasam (தக்காளி ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:12.803Z",
+    "updatedAt": "2026-07-24T15:27:12.803Z"
+  },
+  {
+    "_id": "60k73zmjtgho0ou1ercho",
+    "name": "Pepper Rasam (மிளகு ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:12.834Z",
+    "updatedAt": "2026-07-24T15:27:12.834Z"
+  },
+  {
+    "_id": "o9o4wj9ag7ahvlwh4cs88g",
+    "name": "Lentil Rasam / Paruppu Rasam (பருப்பு ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:12.863Z",
+    "updatedAt": "2026-07-24T15:27:12.863Z"
+  },
+  {
+    "_id": "6gkl5lltkhmjz095ylmuo",
+    "name": "Garlic Rasam (பூண்டு ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:12.918Z",
+    "updatedAt": "2026-07-24T15:27:12.918Z"
+  },
+  {
+    "_id": "n4kkss1xwdxz83e70ecgl",
+    "name": "Pineapple Rasam (பைனாப்பிள் ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:12.949Z",
+    "updatedAt": "2026-07-24T15:27:12.949Z"
+  },
+  {
+    "_id": "1hcknn1i4eexc83tj8wd7",
+    "name": "Thick Buttermilk / Katti Mor (கட்டி மோர்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:12.982Z",
+    "updatedAt": "2026-07-24T15:27:12.982Z"
+  },
+  {
+    "_id": "vo1bfg31dymp0hs0xacpi",
+    "name": "Curd (தயிர்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:13.029Z",
+    "updatedAt": "2026-07-24T15:27:13.029Z"
+  },
+  {
+    "_id": "tin3ztdoufd4fvslso77as",
+    "name": "Buttermilk (மோர்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:13.064Z",
+    "updatedAt": "2026-07-24T15:27:13.064Z"
+  },
+  {
+    "_id": "rr4e1xj1ucnrj36pzg1hx9",
+    "name": "Appalam (அப்பளம்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 8,
+    "createdAt": "2026-07-24T15:27:13.102Z",
+    "updatedAt": "2026-07-24T15:27:13.102Z"
+  },
+  {
+    "_id": "8uaw464hbjtogwse3dy9d",
+    "name": "Onion Vadagam (வெங்காய வடகம்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:13.182Z",
+    "updatedAt": "2026-07-24T15:27:13.182Z"
+  },
+  {
+    "_id": "r73c83k04spj7s9ds6tke",
+    "name": "Buttermilk Sun-dried Chillies / Mor Mithuku Vathal (மோர் மிதுக்கு வத்தல்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:13.210Z",
+    "updatedAt": "2026-07-24T15:27:13.210Z"
+  },
+  {
+    "_id": "u456g5mwthspsea8vpa4ce",
+    "name": "Sun-dried Crisps / Vathal (வத்தல்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 12,
+    "createdAt": "2026-07-24T15:27:13.230Z",
+    "updatedAt": "2026-07-24T15:27:13.230Z"
+  },
+  {
+    "_id": "fvd06sl07eq2cus046jv8w",
+    "name": "Mini Color Appalam (மினி கலர் அப்பளம்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 10,
+    "createdAt": "2026-07-24T15:27:13.248Z",
+    "updatedAt": "2026-07-24T15:27:13.248Z"
+  },
+  {
+    "_id": "fchs0845vrodj3j886qhvm",
+    "name": "Milk Payasam (பால் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.273Z",
+    "updatedAt": "2026-07-24T15:27:13.273Z"
+  },
+  {
+    "_id": "t7885uuembmyyce47pbhi",
+    "name": "Milk Payasam (பால் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.292Z",
+    "updatedAt": "2026-07-24T15:27:13.292Z"
+  },
+  {
+    "_id": "1aeybqsdosta904f7jgvc",
+    "name": "Rava Payasam (ரவா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.307Z",
+    "updatedAt": "2026-07-24T15:27:13.308Z"
+  },
+  {
+    "_id": "uemrgf0hhqhywusd9sr9f",
+    "name": "Rava Payasam (ரவா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.337Z",
+    "updatedAt": "2026-07-24T15:27:13.337Z"
+  },
+  {
+    "_id": "8fneh454errc9o549km5zm",
+    "name": "Tender Coconut Payasam (இளநீர் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.506Z",
+    "updatedAt": "2026-07-24T15:27:13.506Z"
+  },
+  {
+    "_id": "5ef41p80sqwu8f3wksac9j",
+    "name": "Tender Coconut Payasam (இளநீர் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.546Z",
+    "updatedAt": "2026-07-24T15:27:13.546Z"
+  },
+  {
+    "_id": "340eb5py2v37v5swbmvi7",
+    "name": "Lentil Payasam / Paruppu Payasam (பருப்பு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.557Z",
+    "updatedAt": "2026-07-24T15:27:13.557Z"
+  },
+  {
+    "_id": "42eluprk5qz5fsom1mmhgn",
+    "name": "Lentil Payasam / Paruppu Payasam (பருப்பு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.569Z",
+    "updatedAt": "2026-07-24T15:27:13.569Z"
+  },
+  {
+    "_id": "7671ti068g5drcicreti0c",
+    "name": "Rice Payasam (அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.582Z",
+    "updatedAt": "2026-07-24T15:27:13.582Z"
+  },
+  {
+    "_id": "0yf46eyyvlidsdxtj8obpv",
+    "name": "Rice Payasam (அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.594Z",
+    "updatedAt": "2026-07-24T15:27:13.594Z"
+  },
+  {
+    "_id": "j0h1kjiu7uk42mrefaj7p3",
+    "name": "Ice Apple (Nungu) Payasam (நொங்கு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.607Z",
+    "updatedAt": "2026-07-24T15:27:13.607Z"
+  },
+  {
+    "_id": "f9ha6m8lquiw9wiaxqfabd",
+    "name": "Ice Apple (Nungu) Payasam (நொங்கு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.618Z",
+    "updatedAt": "2026-07-24T15:27:13.618Z"
+  },
+  {
+    "_id": "fw5pxndb46d7scfgeg22",
+    "name": "Ada Pradhaman Payasam (அடை பிரதம பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.632Z",
+    "updatedAt": "2026-07-24T15:27:13.632Z"
+  },
+  {
+    "_id": "851hd2kvshesf8hffggjop",
+    "name": "Ada Pradhaman Payasam (அடை பிரதம பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.644Z",
+    "updatedAt": "2026-07-24T15:27:13.644Z"
+  },
+  {
+    "_id": "i0xo22knbenkxdblh3w4h",
+    "name": "Pineapple Payasam (பைனாப்பிள் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:13.662Z",
+    "updatedAt": "2026-07-24T15:27:13.662Z"
+  },
+  {
+    "_id": "9t54ntsatc7njylrwsx",
+    "name": "Pineapple Payasam (பைனாப்பிள் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:13.675Z",
+    "updatedAt": "2026-07-24T15:27:13.675Z"
+  },
+  {
+    "_id": "ctrrfusobbnk3k0u2lud",
+    "name": "Kavuni Rice Payasam (கவுனி அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:13.691Z",
+    "updatedAt": "2026-07-24T15:27:13.691Z"
+  },
+  {
+    "_id": "zdkn0ux4pga7vl80bp9z0e",
+    "name": "Kavuni Rice Payasam (கவுனி அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 45,
+    "createdAt": "2026-07-24T15:27:13.702Z",
+    "updatedAt": "2026-07-24T15:27:13.702Z"
+  },
+  {
+    "_id": "hguir5plaorh38mymm80hn",
+    "name": "Flaked Rice (Aval) Payasam (அவல் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.716Z",
+    "updatedAt": "2026-07-24T15:27:13.716Z"
+  },
+  {
+    "_id": "8wloogrs078tmienyyoec9",
+    "name": "Flaked Rice (Aval) Payasam (அவல் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30,
+    "createdAt": "2026-07-24T15:27:13.729Z",
+    "updatedAt": "2026-07-24T15:27:13.729Z"
+  },
+  {
+    "_id": "sfz0lmvuputg3eelx7he",
+    "name": "Jackfruit (Pala) Payasam (பலா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.748Z",
+    "updatedAt": "2026-07-24T15:27:13.748Z"
+  },
+  {
+    "_id": "i7vo5vgb6a8oxdyzmt79ci",
+    "name": "Jackfruit (Pala) Payasam (பலா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40,
+    "createdAt": "2026-07-24T15:27:13.759Z",
+    "updatedAt": "2026-07-24T15:27:13.759Z"
+  },
+  {
+    "_id": "y4tdchnhzj99xr5cd7bcds",
+    "name": "Ice Cream (ஐஸ் கிரீம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:13.770Z",
+    "updatedAt": "2026-07-24T15:27:13.770Z"
+  },
+  {
+    "_id": "hat2c4qgzvpjvs5tfcgfu",
+    "name": "Ice Cream (ஐஸ் கிரீம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:13.780Z",
+    "updatedAt": "2026-07-24T15:27:13.780Z"
+  },
+  {
+    "_id": "flsnwuwboiw751ca5rh8k",
+    "name": "Mutton Cola / Kola Urundai (கோலா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:13.791Z",
+    "updatedAt": "2026-07-24T15:27:13.791Z"
+  },
+  {
+    "_id": "2707r0tnaawfh3bze5r9tk",
+    "name": "Mutton Cola / Kola Urundai (கோலா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:13.803Z",
+    "updatedAt": "2026-07-24T15:27:13.803Z"
+  },
+  {
+    "_id": "uub8bjasqbo86abogk1e7p",
+    "name": "Chicken 65 (சிக்கன் 65)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:13.816Z",
+    "updatedAt": "2026-07-24T15:27:13.816Z"
+  },
+  {
+    "_id": "jkkzzqcr4kn738tsv6p94f",
+    "name": "Chicken 65 (சிக்கன் 65)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:13.832Z",
+    "updatedAt": "2026-07-24T15:27:13.833Z"
+  },
+  {
+    "_id": "yzzpf0lg8klq9s7jvgpk9",
+    "name": "Fish Fry (மீன் ப்ரை)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:13.849Z",
+    "updatedAt": "2026-07-24T15:27:13.849Z"
+  },
+  {
+    "_id": "xfm81tv88ah5orbdjfpsmc",
+    "name": "Fish Fry (மீன் ப்ரை)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:13.869Z",
+    "updatedAt": "2026-07-24T15:27:13.869Z"
+  },
+  {
+    "_id": "ievx0ki1r6zg3errx1zdm",
+    "name": "Prawn Roast (இறால் ரோஸ்ட்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:13.904Z",
+    "updatedAt": "2026-07-24T15:27:13.904Z"
+  },
+  {
+    "_id": "bma9ur9xummv4mjqpfdri",
+    "name": "Prawn Roast (இறால் ரோஸ்ட்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:13.940Z",
+    "updatedAt": "2026-07-24T15:27:13.940Z"
+  },
+  {
+    "_id": "ssl6nvgv56eohb6v91097",
+    "name": "Kuzhi Omelette (குழி ஆம்லேட்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:13.972Z",
+    "updatedAt": "2026-07-24T15:27:13.972Z"
+  },
+  {
+    "_id": "b2tyrn0znnacg5xldk6qyd",
+    "name": "Kuzhi Omelette (குழி ஆம்லேட்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 25,
+    "createdAt": "2026-07-24T15:27:14.018Z",
+    "updatedAt": "2026-07-24T15:27:14.018Z"
+  },
+  {
+    "_id": "l5nyg4wmpa1yjlgvy157t",
+    "name": "Egg Gravy (முட்டை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:14.034Z",
+    "updatedAt": "2026-07-24T15:27:14.034Z"
+  },
+  {
+    "_id": "776kzistjsxjhv4vkdagbl",
+    "name": "Egg Gravy (முட்டை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 35,
+    "createdAt": "2026-07-24T15:27:14.050Z",
+    "updatedAt": "2026-07-24T15:27:14.050Z"
+  },
+  {
+    "_id": "lmhrdcxj2dlvtjhitn0p",
+    "name": "Quail 65 / Kaadai 65 (காடை 65)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.069Z",
+    "updatedAt": "2026-07-24T15:27:14.069Z"
+  },
+  {
+    "_id": "8k0hvqa1qcy5ji2bfirehg",
+    "name": "Quail 65 / Kaadai 65 (காடை 65)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.091Z",
+    "updatedAt": "2026-07-24T15:27:14.091Z"
+  },
+  {
+    "_id": "vnblrxb1nzipg11ob303f",
+    "name": "Crab 65 / Nandu 65 (நண்டு 65)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:14.108Z",
+    "updatedAt": "2026-07-24T15:27:14.108Z"
+  },
+  {
+    "_id": "d06dr72zls6oqxjct6rsdc",
+    "name": "Crab 65 / Nandu 65 (நண்டு 65)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:14.124Z",
+    "updatedAt": "2026-07-24T15:27:14.124Z"
+  },
+  {
+    "_id": "qdumohmclhnx77sftff8s",
+    "name": "Onion Fried Egg (ஆனியன் ப்ரை முட்டை)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:14.147Z",
+    "updatedAt": "2026-07-24T15:27:14.147Z"
+  },
+  {
+    "_id": "ojk6viavrf57j7qzjfrv2",
+    "name": "Onion Fried Egg (ஆனியன் ப்ரை முட்டை)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 20,
+    "createdAt": "2026-07-24T15:27:14.181Z",
+    "updatedAt": "2026-07-24T15:27:14.181Z"
+  },
+  {
+    "_id": "mavo7ig21xj819tqnurypc",
+    "name": "Chicken Gravy (சிக்கன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:14.206Z",
+    "updatedAt": "2026-07-24T15:27:14.206Z"
+  },
+  {
+    "_id": "926fkd8jvp7ng2lkur2s1n",
+    "name": "Chicken Gravy (சிக்கன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:14.276Z",
+    "updatedAt": "2026-07-24T15:27:14.276Z"
+  },
+  {
+    "_id": "61ylre6q35mmbz3t3uvleb",
+    "name": "Mutton Gravy (மட்டன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:14.292Z",
+    "updatedAt": "2026-07-24T15:27:14.292Z"
+  },
+  {
+    "_id": "52rsodl5xnudjqzbt3mo9i",
+    "name": "Mutton Gravy (மட்டன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:14.306Z",
+    "updatedAt": "2026-07-24T15:27:14.306Z"
+  },
+  {
+    "_id": "clrppm8ch8ilgz0svwhih",
+    "name": "Pepper Chicken Fry / Varuval (பெப்பர் சிக்கன் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.326Z",
+    "updatedAt": "2026-07-24T15:27:14.326Z"
+  },
+  {
+    "_id": "kw0pbcdnu7a6178iov1fje",
+    "name": "Pepper Chicken Fry / Varuval (பெப்பர் சிக்கன் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.352Z",
+    "updatedAt": "2026-07-24T15:27:14.352Z"
+  },
+  {
+    "_id": "g3kibzghp1wdpn20gopxd",
+    "name": "Mutton Sukka (மட்டன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:14.379Z",
+    "updatedAt": "2026-07-24T15:27:14.379Z"
+  },
+  {
+    "_id": "urwwfcjx3uuzh47anue67",
+    "name": "Mutton Sukka (மட்டன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:14.408Z",
+    "updatedAt": "2026-07-24T15:27:14.408Z"
+  },
+  {
+    "_id": "3tftx7wlwtdy5ionxlwe4",
+    "name": "Chicken Sukka (சிக்கன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:14.428Z",
+    "updatedAt": "2026-07-24T15:27:14.428Z"
+  },
+  {
+    "_id": "25miuisr93on4zw31zwppa",
+    "name": "Chicken Sukka (சிக்கன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:14.448Z",
+    "updatedAt": "2026-07-24T15:27:14.448Z"
+  },
+  {
+    "_id": "1hj4z37lx0jp3k9dvpdxv",
+    "name": "Fish Curry (மீன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:14.481Z",
+    "updatedAt": "2026-07-24T15:27:14.481Z"
+  },
+  {
+    "_id": "kndg8renwxo4s3mogo8ie",
+    "name": "Fish Curry (மீன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:14.499Z",
+    "updatedAt": "2026-07-24T15:27:14.499Z"
+  },
+  {
+    "_id": "rk91edpbggv7lkxpxj7d",
+    "name": "Mutton Chest Meat Fry / Nenjukari Varuval (மட்டன் நெஞ்சுக்கறி வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:14.517Z",
+    "updatedAt": "2026-07-24T15:27:14.517Z"
+  },
+  {
+    "_id": "00c7bd663jktkgzpcan524",
+    "name": "Mutton Chest Meat Fry / Nenjukari Varuval (மட்டன் நெஞ்சுக்கறி வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:14.535Z",
+    "updatedAt": "2026-07-24T15:27:14.535Z"
+  },
+  {
+    "_id": "odm3a3b9yd3qv2rhfmkk4",
+    "name": "Mutton Curry (மட்டன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:14.557Z",
+    "updatedAt": "2026-07-24T15:27:14.557Z"
+  },
+  {
+    "_id": "t4xbje3h4x9ijgyxgdu1ye",
+    "name": "Mutton Curry (மட்டன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:14.575Z",
+    "updatedAt": "2026-07-24T15:27:14.575Z"
+  },
+  {
+    "_id": "i624f0xhtxysuepktcjma",
+    "name": "Chicken Curry (சிக்கன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.588Z",
+    "updatedAt": "2026-07-24T15:27:14.588Z"
+  },
+  {
+    "_id": "9x59ot2azqc85w1hvtijal",
+    "name": "Chicken Curry (சிக்கன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.603Z",
+    "updatedAt": "2026-07-24T15:27:14.603Z"
+  },
+  {
+    "_id": "5d7wwluxizk8z2624peza",
+    "name": "Chicken Semi Gravy (சிக்கன் செமி கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.618Z",
+    "updatedAt": "2026-07-24T15:27:14.618Z"
+  },
+  {
+    "_id": "h7zll6728haj0erehyhzr",
+    "name": "Chicken Semi Gravy (சிக்கன் செமி கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.638Z",
+    "updatedAt": "2026-07-24T15:27:14.638Z"
+  },
+  {
+    "_id": "sq6z3vwfk9b3sp6xvndzjy",
+    "name": "Chettinad Chicken (செட்டிநாடு சிக்கன்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:14.667Z",
+    "updatedAt": "2026-07-24T15:27:14.667Z"
+  },
+  {
+    "_id": "57okbvmwjn87swr7yuqc9j",
+    "name": "Chettinad Chicken (செட்டிநாடு சிக்கன்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:14.706Z",
+    "updatedAt": "2026-07-24T15:27:14.706Z"
+  },
+  {
+    "_id": "8kinem7rh0kh0p2vvqwyrb",
+    "name": "Bone Curry / Elumbu Kuzhambu (எலும்பு குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:14.762Z",
+    "updatedAt": "2026-07-24T15:27:14.762Z"
+  },
+  {
+    "_id": "oiyamcuhjcrpo34vu71n",
+    "name": "Bone Curry / Elumbu Kuzhambu (எலும்பு குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:14.799Z",
+    "updatedAt": "2026-07-24T15:27:14.799Z"
+  },
+  {
+    "_id": "pk55686o4qivj9adso9e",
+    "name": "Quail Gravy / Kaadai Gravy (காடை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.822Z",
+    "updatedAt": "2026-07-24T15:27:14.823Z"
+  },
+  {
+    "_id": "wma2n6edk4dm9n86qnzqjs",
+    "name": "Quail Gravy / Kaadai Gravy (காடை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65,
+    "createdAt": "2026-07-24T15:27:14.848Z",
+    "updatedAt": "2026-07-24T15:27:14.848Z"
+  },
+  {
+    "_id": "gv7l6s9l2s7u4dsiu6hvhe",
+    "name": "Mutton Trotters Soup / Aattukaal Paya (ஆட்டுக்கால் பாயா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:14.922Z",
+    "updatedAt": "2026-07-24T15:27:14.922Z"
+  },
+  {
+    "_id": "c70wxgb4igo7t9qa7q6ipp",
+    "name": "Mutton Trotters Soup / Aattukaal Paya (ஆட்டுக்கால் பாயா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:14.995Z",
+    "updatedAt": "2026-07-24T15:27:14.995Z"
+  },
+  {
+    "_id": "qpbw6cnyy1k43yr7bq885z",
+    "name": "Boti Fry / Kudal Varuval (குடல் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:15.132Z",
+    "updatedAt": "2026-07-24T15:27:15.132Z"
+  },
+  {
+    "_id": "9li60gj1ysi1cuxvrfv2yd",
+    "name": "Boti Fry / Kudal Varuval (குடல் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:15.200Z",
+    "updatedAt": "2026-07-24T15:27:15.200Z"
+  },
+  {
+    "_id": "5ej6u74hboxe0lbfpjkbvv",
+    "name": "Boti Blood Fry / Kudal Ratthakari (குடல் இரத்தக்கறி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:15.247Z",
+    "updatedAt": "2026-07-24T15:27:15.247Z"
+  },
+  {
+    "_id": "e8dzljwhkeo7unezvrate",
+    "name": "Boti Blood Fry / Kudal Ratthakari (குடல் இரத்தக்கறி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60,
+    "createdAt": "2026-07-24T15:27:15.282Z",
+    "updatedAt": "2026-07-24T15:27:15.282Z"
+  },
+  {
+    "_id": "7afyhvs0omyim0dh1nlebs",
+    "name": "Crab Fry / Nandu Varuval (நண்டு வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:15.298Z",
+    "updatedAt": "2026-07-24T15:27:15.298Z"
+  },
+  {
+    "_id": "g23xska868j8n5fdk1n7kp",
+    "name": "Crab Fry / Nandu Varuval (நண்டு வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75,
+    "createdAt": "2026-07-24T15:27:15.364Z",
+    "updatedAt": "2026-07-24T15:27:15.364Z"
+  },
+  {
+    "_id": "qo9x92ju00obd93dmsna9",
+    "name": "Prawn Thokku (இறால் தொக்கு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:15.386Z",
+    "updatedAt": "2026-07-24T15:27:15.386Z"
+  },
+  {
+    "_id": "h8vb27m7q7hyecl3s1f1f",
+    "name": "Prawn Thokku (இறால் தொக்கு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:15.412Z",
+    "updatedAt": "2026-07-24T15:27:15.412Z"
+  },
+  {
+    "_id": "070ykzp90hnt5tgc4xha9rx",
+    "name": "Minced Meat Pepper Fry / Kothukari Pepper Varuval (கொத்துக்கறி பெப்பர் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:15.436Z",
+    "updatedAt": "2026-07-24T15:27:15.436Z"
+  },
+  {
+    "_id": "ktetzf3jgvdzxil1cl1dv",
+    "name": "Minced Meat Pepper Fry / Kothukari Pepper Varuval (கொத்துக்கறி பெப்பர் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80,
+    "createdAt": "2026-07-24T15:27:15.500Z",
+    "updatedAt": "2026-07-24T15:27:15.500Z"
+  },
+  {
+    "_id": "cc27tm3adfvgkhs5w3ngns",
+    "name": "Chicken Dum Biryani (சிக்கன் தம் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 120,
+    "createdAt": "2026-07-24T15:27:15.530Z",
+    "updatedAt": "2026-07-24T15:27:15.530Z"
+  },
+  {
+    "_id": "y5yg84ueykplmn0l027u8",
+    "name": "Chicken Dum Biryani (சிக்கன் தம் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 120,
+    "createdAt": "2026-07-24T15:27:15.560Z",
+    "updatedAt": "2026-07-24T15:27:15.560Z"
+  },
+  {
+    "_id": "xxd8ff81a59n0y01td4xl",
+    "name": "Mutton Biryani (மட்டன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 140,
+    "createdAt": "2026-07-24T15:27:15.580Z",
+    "updatedAt": "2026-07-24T15:27:15.580Z"
+  },
+  {
+    "_id": "eibsjjuu36l07mjwgpkvnw",
+    "name": "Mutton Biryani (மட்டன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 140,
+    "createdAt": "2026-07-24T15:27:15.622Z",
+    "updatedAt": "2026-07-24T15:27:15.622Z"
+  },
+  {
+    "_id": "f8wbjq2pwet2b825cwjr5t",
+    "name": "Prawn Biryani (இறால் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 130,
+    "createdAt": "2026-07-24T15:27:15.635Z",
+    "updatedAt": "2026-07-24T15:27:15.635Z"
+  },
+  {
+    "_id": "ayjsypj8teac7tkb3db5g",
+    "name": "Prawn Biryani (இறால் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 130,
+    "createdAt": "2026-07-24T15:27:15.652Z",
+    "updatedAt": "2026-07-24T15:27:15.652Z"
+  },
+  {
+    "_id": "0ii4nzsf5pqcagex1fpjep7",
+    "name": "Fish Biryani (மீன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 120,
+    "createdAt": "2026-07-24T15:27:15.668Z",
+    "updatedAt": "2026-07-24T15:27:15.668Z"
+  },
+  {
+    "_id": "6bjpahijfqhyzgiiddcyfs",
+    "name": "Fish Biryani (மீன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 120,
+    "createdAt": "2026-07-24T15:27:15.698Z",
+    "updatedAt": "2026-07-24T15:27:15.698Z"
+  },
+  {
+    "_id": "4x3uh3g9mhwu3tgggssvz",
+    "name": "Plain Biryani / Kuska / Varattu Biryani (வரட்டு பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:15.743Z",
+    "updatedAt": "2026-07-24T15:27:15.743Z"
+  },
+  {
+    "_id": "nnjtlwb4nclqnk08qqds",
+    "name": "Plain Biryani / Kuska / Varattu Biryani (வரட்டு பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70,
+    "createdAt": "2026-07-24T15:27:15.757Z",
+    "updatedAt": "2026-07-24T15:27:15.757Z"
+  },
+  {
+    "_id": "fccfnj9bqftfflpgln9rxi",
+    "name": "Quail Biryani / Kaadai Biryani (காடை பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 100,
+    "createdAt": "2026-07-24T15:27:15.812Z",
+    "updatedAt": "2026-07-24T15:27:15.812Z"
+  },
+  {
+    "_id": "zeopfwat1a64gsertyum7",
+    "name": "Quail Biryani / Kaadai Biryani (காடை பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 100,
+    "createdAt": "2026-07-24T15:27:15.836Z",
+    "updatedAt": "2026-07-24T15:27:15.836Z"
+  },
+  {
+    "_id": "0rfi9go76bega2piu5zj6eq",
+    "name": "Onion Raitha (ஆனியன் ரைத்தா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:15.897Z",
+    "updatedAt": "2026-07-24T15:27:15.897Z"
+  },
+  {
+    "_id": "wtlyqeamvx5almwywep9u",
+    "name": "Onion Raitha (ஆனியன் ரைத்தா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:15.949Z",
+    "updatedAt": "2026-07-24T15:27:15.949Z"
+  },
+  {
+    "_id": "e5mrvjcvy3mqty2r1q54zs",
+    "name": "Cucumber Pachadi (வெள்ளரிக்காய் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:15.999Z",
+    "updatedAt": "2026-07-24T15:27:15.999Z"
+  },
+  {
+    "_id": "hvr3x5wqxks49yh7qi3s",
+    "name": "Cucumber Pachadi (வெள்ளரிக்காய் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:16.018Z",
+    "updatedAt": "2026-07-24T15:27:16.018Z"
+  },
+  {
+    "_id": "38zn57zb09fdxzdi3jfw27",
+    "name": "Ash Gourd Curd Pachadi (தடியங்காய் தயிர் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:16.035Z",
+    "updatedAt": "2026-07-24T15:27:16.035Z"
+  },
+  {
+    "_id": "3dy855r7u5e9ce6rf0cl6s",
+    "name": "Ash Gourd Curd Pachadi (தடியங்காய் தயிர் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 15,
+    "createdAt": "2026-07-24T15:27:16.048Z",
+    "updatedAt": "2026-07-24T15:27:16.048Z"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "lq0jnr8ybgr87fivqdzt",
+    "invoiceNumber": "INV-2026-101",
+    "customerName": "Jane Smith",
+    "amount": 500,
+    "method": "UPI",
+    "date": "2026-06-21",
+    "reference": "UPI992019A8201",
+    "notes": "Initial token advance payment",
+    "createdAt": "2026-07-24T15:27:24.319Z",
+    "updatedAt": "2026-07-24T15:27:24.319Z"
+  }
+]

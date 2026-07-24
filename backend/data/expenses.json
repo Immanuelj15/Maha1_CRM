@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "dsi0z9afksecuwc0bkfvxi",
+    "amount": 350,
+    "category": "Transportation",
+    "date": "2026-06-10",
+    "status": "Paid",
+    "description": "Fuel and truck rental for Corporate Event",
+    "createdAt": "2026-07-24T15:27:24.056Z",
+    "updatedAt": "2026-07-24T15:27:24.056Z"
+  },
+  {
+    "_id": "mo0t4edcjd9e1p9zoehkq",
+    "amount": 180,
+    "category": "Grocery",
+    "date": "2026-06-14",
+    "status": "Paid",
+    "description": "Fresh vegetables and local dairy purchase",
+    "createdAt": "2026-07-24T15:27:24.110Z",
+    "updatedAt": "2026-07-24T15:27:24.110Z"
+  },
+  {
+    "_id": "99ga55s1b1jatl9c61tpvw",
+    "amount": 90,
+    "category": "Labour",
+    "date": "2026-06-21",
+    "status": "Paid",
+    "description": "Lucius Verus server wage payment",
+    "createdAt": "2026-07-24T15:27:24.145Z",
+    "updatedAt": "2026-07-24T15:27:24.145Z"
+  }
+]

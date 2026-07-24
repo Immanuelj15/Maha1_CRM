@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "z4eu1rk9d3bnuwa32jeum",
+    "username": "Chef CaterMaster",
+    "email": "admin@catermaster.com",
+    "password": "$2b$10$WAI1EdzbKn0fCe85S3qH0.165XDKC84fpbmeXIDrfMeDGar6a1vXW",
+    "role": "admin",
+    "businessName": "Gourmet Catering Co.",
+    "createdAt": "2026-07-24T15:27:04.544Z",
+    "updatedAt": "2026-07-24T15:27:04.547Z"
+  }
+]

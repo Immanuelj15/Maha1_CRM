@@ -1,0 +1,4058 @@
+[
+  {
+    "name": "Wheat Halwa (கோதுமை அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Wheat Halwa (கோதுமை அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Wheat Halwa (கோதுமை அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Asoka Halwa (அசோகா அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Asoka Halwa (அசோகா அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Asoka Halwa (அசோகா அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Bread Halwa (பிரட் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Bread Halwa (பிரட் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Bread Halwa (பிரட் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Gulkand Halwa (குல்கந்து அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Gulkand Halwa (குல்கந்து அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Gulkand Halwa (குல்கந்து அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Milk Halwa (பால் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Milk Halwa (பால் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Milk Halwa (பால் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Badam Halwa (பாதாம் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 60
+  },
+  {
+    "name": "Badam Halwa (பாதாம் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Badam Halwa (பாதாம் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Ash Gourd Halwa (தடியங்காய் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Ash Gourd Halwa (தடியங்காய் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Ash Gourd Halwa (தடியங்காய் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Vegetable Halwa (வெஜிடபிள்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Vegetable Halwa (வெஜிடபிள்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Vegetable Halwa (வெஜிடபிள்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Fruit Halwa (ப்ரூட்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Fruit Halwa (ப்ரூட்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Fruit Halwa (ப்ரூட்ஸ் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Tender Coconut Halwa (இளநீர் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Tender Coconut Halwa (இளநீர் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Tender Coconut Halwa (இளநீர் அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Potato Halwa (உருளைக்கிழங்கு அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Halwa (உருளைக்கிழங்கு அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Halwa (உருளைக்கிழங்கு அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Kasi Halwa (காசி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Kasi Halwa (காசி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Kasi Halwa (காசி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Pumpkin Halwa (பூசணி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Pumpkin Halwa (பூசணி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Pumpkin Halwa (பூசணி அல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Rava Kesari (ரவா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Rava Kesari (ரவா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Rava Kesari (ரவா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Vermicelli (Semiya) Kesari (சேமியா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Vermicelli (Semiya) Kesari (சேமியா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Vermicelli (Semiya) Kesari (சேமியா கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Fruit Kesari (ப்ரூட் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Fruit Kesari (ப்ரூட் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Fruit Kesari (ப்ரூட் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Milk Kesari (பால் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Milk Kesari (பால் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Milk Kesari (பால் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Rasamalai (ரசமலாய்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Rasamalai (ரசமலாய்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Rasamalai (ரசமலாய்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Bengali Sweets (பெங்காளி ஸ்வீட்'ஸ்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Bengali Sweets (பெங்காளி ஸ்வீட்'ஸ்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Bengali Sweets (பெங்காளி ஸ்வீட்'ஸ்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Beetroot Jam (பீட்ரூட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Beetroot Jam (பீட்ரூட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Beetroot Jam (பீட்ரூட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Pineapple Jam (பைனாப்பிள் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Pineapple Jam (பைனாப்பிள் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Pineapple Jam (பைனாப்பிள் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Carrot Jam (கேரட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Carrot Jam (கேரட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Carrot Jam (கேரட் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Coconut Milk Halwa (தேங்காய்ப்பால் ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Coconut Milk Halwa (தேங்காய்ப்பால் ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Coconut Milk Halwa (தேங்காய்ப்பால் ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Kavuni Rice (Black Rice) Halwa (கவுணி அரிசி ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Kavuni Rice (Black Rice) Halwa (கவுணி அரிசி ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Kavuni Rice (Black Rice) Halwa (கவுணி அரிசி ஹல்வா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Laddu (லட்டு)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Laddu (லட்டு)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Laddu (லட்டு)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Jalebi (ஜிலேபி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Jalebi (ஜிலேபி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Jalebi (ஜிலேபி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Gulab Jamun (குளோப் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Gulab Jamun (குளோப் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Gulab Jamun (குளோப் ஜாம்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Dry Gulab Jamun (டிரை குளோப் ஜாமுன்)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Dry Gulab Jamun (டிரை குளோப் ஜாமுன்)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Dry Gulab Jamun (டிரை குளோப் ஜாமுன்)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Badusha (பாதுர்சா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Badusha (பாதுர்சா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Badusha (பாதுர்சா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Coconut Burfi (தேங்காய் பர்பி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Coconut Burfi (தேங்காய் பர்பி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Coconut Burfi (தேங்காய் பர்பி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Mysore Pak (மைசூர் பாகு)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Mysore Pak (மைசூர் பாகு)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Mysore Pak (மைசூர் பாகு)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Makkan Peda (மக்கன் பேடா)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Makkan Peda (மக்கன் பேடா)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Makkan Peda (மக்கன் பேடா)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Pineapple Kesari (பைன்ஆப்பிள் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Pineapple Kesari (பைன்ஆப்பிள் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Pineapple Kesari (பைன்ஆப்பிள் கேசரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Mini Jangiri (மினி ஜாங்கிரி)",
+    "category": "Sweets Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Mini Jangiri (மினி ஜாங்கிரி)",
+    "category": "Sweets Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Mini Jangiri (மினி ஜாங்கிரி)",
+    "category": "Sweets Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Medu Vada / Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Medu Vada / Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Onion Vada (வெங்காய வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Onion Vada (வெங்காய வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Ragi (Keppai) Vada (கேப்பை வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Ragi (Keppai) Vada (கேப்பை வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Banana Flower (Vaazhaipoo) Vada (வாழைப்பூ வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Banana Flower (Vaazhaipoo) Vada (வாழைப்பூ வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Mysore Bonda (மைசூர் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Mysore Bonda (மைசூர் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Masal Bonda (மசால் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Masal Bonda (மசால் போண்டா)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Keerai (Spinach) Vada (கீர வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Keerai (Spinach) Vada (கீர வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Aama Vada / Paruppu Vada (ஆம வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Aama Vada / Paruppu Vada (ஆம வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Thayir (Curd) Vada (தயிர் வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Thayir (Curd) Vada (தயிர் வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Sambar Vada (சாம்பார் வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Sambar Vada (சாம்பார் வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Cabbage (Kose) Vada (கோஸ் வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Cabbage (Kose) Vada (கோஸ் வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Garlic Spicy Vada / Poondu Kara Vada (பூண்டு கார வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Garlic Spicy Vada / Poondu Kara Vada (பூண்டு கார வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Uzhunthu Vada (உளுந்த வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Mini Paruppu Vada (மினி பருப்பு வடை)",
+    "category": "Vada Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Mini Paruppu Vada (மினி பருப்பு வடை)",
+    "category": "Vada Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Veg Roll (வெஜ் ரோல்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Paneer Pakoda (பன்னீர் பக்கோடா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Veg Lollipop (வெஜ் லாலிபாப்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Cheese Samosa (வெஜ் சீஸ் சமோசா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Baby Corn Roast (பேபி கார்ன் ரோஸ்ட்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Cutlet (கட்லட்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Spring Roll (ஸ்பிரிங் ரோல்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Mini Cheese Samosa (மினி சீஸ் சமோசா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "French Fries (ஃப்ரெஞ்ச் ப்ரைஸ்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Paneer Tikka (பன்னீர் டிக்கா)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Veg Chicken 65 (வெஜ் சிக்கன் 65)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Veg Fish Fry (வெஜ் மீன் ஃப்ரை)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Veg Noodles (வெஜ் நூடுல்ஸ்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Tomato Sauce (தக்காளி சாஸ்)",
+    "category": "Chats Varieties",
+    "course": "dinner",
+    "unitCost": 5
+  },
+  {
+    "name": "Coconut Chutney (தேங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Coconut Chutney (தேங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Tomato Chutney (தக்காளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Tomato Chutney (தக்காளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Coriander (Malli) Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Coriander (Malli) Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Capsicum Chutney (குடை மிளகாய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Capsicum Chutney (குடை மிளகாய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Ginger Chutney (இஞ்சி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Ginger Chutney (இஞ்சி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Carrot Chutney (கேரட் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Carrot Chutney (கேரட் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Kathamba Chutney / Mixed Chutney (கதம்ப சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Kathamba Chutney / Mixed Chutney (கதம்ப சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Radish Chutney (முள்ளங்கி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Radish Chutney (முள்ளங்கி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Mint (Puthina) Chutney (புதினா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Mint (Puthina) Chutney (புதினா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Tomato Thokku (தக்காளி தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Tomato Thokku (தக்காளி தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Onion Chutney (வெங்காய சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Onion Chutney (வெங்காய சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Garlic Chutney (பூண்டு சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Garlic Chutney (பூண்டு சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Onion Thokku (வெங்காய தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Onion Thokku (வெங்காய தொக்கு)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Curry Leaf Chutney (கருவேப்பிலை சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Curry Leaf Chutney (கருவேப்பிலை சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Tamarind Chutney (புளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Tamarind Chutney (புளி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Snake Gourd Chutney (புடலங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Snake Gourd Chutney (புடலங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Guava Chutney (கொய்யா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Guava Chutney (கொய்யா சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Banana Flower Chutney (வாழைப்பூ சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Banana Flower Chutney (வாழைப்பூ சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Mango Chutney (மாங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Mango Chutney (மாங்காய் சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Spicy Chutney / Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Spicy Chutney / Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Coriander Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Coriander Chutney (மல்லி சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Kara Chutney (கார சட்னி)",
+    "category": "Chutney Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Poori (பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Poori (பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Maida Poori (மைதா பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Maida Poori (மைதா பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Mint Poori (புதினா பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Mint Poori (புதினா பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Coriander Poori (மல்லி பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Coriander Poori (மல்லி பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Chola Poori (சோளா பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Chola Poori (சோளா பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Mini Mix Veg Poori (மினி மிக்ஸ் வெஜ் பூரி)",
+    "category": "Poori Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Mini Mix Veg Poori (மினி மிக்ஸ் வெஜ் பூரி)",
+    "category": "Poori Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Ghee Pongal (நெய் பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Rava Pongal (ரவா பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Kodo Millet (Varagu) Pongal (வரகு பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Little Millet (Kuthiraivali) Pongal (குதிரைவாலி பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Foxtail Millet (Thinai) Pongal (திணை பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Coriander Pongal (மல்லி பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Kavuni Rice Pongal (கவுனி பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Samba Wheat Pongal (சம்பா பொங்கல்)",
+    "category": "Pongal Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Mutton Biryani (வெஜ் மட்டன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Veg Mutton Biryani (வெஜ் மட்டன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Veg Liver (Eeral) Biryani (வெஜ் ஈரல் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Veg Liver (Eeral) Biryani (வெஜ் ஈரல் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Veg Biryani (வெஜ் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Veg Biryani (வெஜ் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Mushroom Biryani (காளான் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Mushroom Biryani (காளான் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Jackfruit (Palaakkai) Biryani (பலாக்காய் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Jackfruit (Palaakkai) Biryani (பலாக்காய் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Veg Chicken Biryani (வெஜ் சிக்கன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Veg Chicken Biryani (வெஜ் சிக்கன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Bun Biryani (பன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Bun Biryani (பன் பிரியாணி)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "All Types of Biryani (அனைத்து வித பிரியாணி'ஸ்)",
+    "category": "Biryani Varieties",
+    "course": "lunch",
+    "unitCost": 90
+  },
+  {
+    "name": "All Types of Biryani (அனைத்து வித பிரியாணி'ஸ்)",
+    "category": "Biryani Varieties",
+    "course": "dinner",
+    "unitCost": 90
+  },
+  {
+    "name": "Paneer Pulao (பன்னீர் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Paneer Pulao (பன்னீர் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Veg Liver Pulao (வெஜ் ஈரல் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Veg Liver Pulao (வெஜ் ஈரல் புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Veg Fried Rice (வெஜ் ப்ரைடு ரைஸ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 65
+  },
+  {
+    "name": "Veg Fried Rice (வெஜ் ப்ரைடு ரைஸ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 65
+  },
+  {
+    "name": "And all other types of Pulao (மற்றும் அனைத்து வித புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "And all other types of Pulao (மற்றும் அனைத்து வித புலாவ்)",
+    "category": "Pulao Varieties",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Chilli Parotta (சில்லி பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Kothu Parotta (கொத்து பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Kaima Parotta (கைமா பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Bun Parotta (பன் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Coin Parotta (காயின் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Nool Parotta (நூல் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Veg Stuff Parotta (வெஜ் ஸ்டஃப் பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Wheat Parotta (கோதுமை பரோட்டா)",
+    "category": "Parotta Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Chapathi (சப்பாத்தி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Aloo (Potato) Chapathi (ஆலு சப்பாத்தி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Veg Chapathi (வெஜ் சப்பாத்தி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Rumali Roti (ரொமாலி ரொட்டி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Naan (நான்)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Phulka Roti (புல்கா ரொட்டி)",
+    "category": "Chapathi Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Dosa (தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Dosa (தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Ghee Roast (நெய் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Ghee Roast (நெய் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Podi Roast (பொடி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Podi Roast (பொடி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Masal Roast (மசால் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Masal Roast (மசால் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Kari Roast (வெஜ் கறி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Kari Roast (வெஜ் கறி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Rava Roast (ரவா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Rava Roast (ரவா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Garlic Roast (பூண்டு ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Garlic Roast (பூண்டு ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Ginger Roast (இஞ்சி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Ginger Roast (இஞ்சி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Coriander Roast (மல்லி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Coriander Roast (மல்லி ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Mint Roast (புதினா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Mint Roast (புதினா ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Cone Roast (கோன் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Cone Roast (கோன் ரோஸ்ட்)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Adai Dosa (அடை தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Adai Dosa (அடை தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Pearl Millet (Kambu) Dosa (கம்பு தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Pearl Millet (Kambu) Dosa (கம்பு தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Red Chilli Dosa (ரெட் சिल्ली தோசை)",
+    "category": "Dosa Varieties",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Red Chilli Dosa (ரெட் சिल्ली தோசை)",
+    "category": "Dosa Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Rava Kichadi (ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Rava Kichadi (ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Vermicelli (Semiya) Kichadi (சேமியா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Vermicelli (Semiya) Kichadi (சேமியா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Samba Rava Kichadi (சம்பா ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Samba Rava Kichadi (சம்பா ரவா கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Samba Flaked Rice (Aval) Kichadi (சம்பா அவல் கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Samba Flaked Rice (Aval) Kichadi (சம்பா அவல் கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Corn (Makkacholam) Kichadi (மக்காச்சோள கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Corn (Makkacholam) Kichadi (மக்காச்சோள கிச்சடி)",
+    "category": "Kichadi Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Idli (இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 8
+  },
+  {
+    "name": "Idli (இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 8
+  },
+  {
+    "name": "Samba Rava Idli (சம்பா ரவா இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Samba Rava Idli (சம்பா ரவா இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Carrot Idli (கேரட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Carrot Idli (கேரட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Malli Poo Idli (Soft Feather-like Idli) (மல்லி பூ இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 10
+  },
+  {
+    "name": "Malli Poo Idli (Soft Feather-like Idli) (மல்லி பூ இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 10
+  },
+  {
+    "name": "Tender Coconut Idli (இளநீர் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Tender Coconut Idli (இளநீர் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Thattu Idli (Plate Idli) (தட்டு இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Thattu Idli (Plate Idli) (தட்டு இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Mini Idli (மினி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Mini Idli (மினி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Beetroot Idli (பீட்ரூட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Beetroot Idli (பீட்ரூட் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Green Idli (கிரீன் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Green Idli (கிரீன் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Thonnai Idli (Leaf-cup Idli) (தொன்னை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Thonnai Idli (Leaf-cup Idli) (தொன்னை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Veg Stuff Idli (வெஜ் ஸ்டப் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 18
+  },
+  {
+    "name": "Veg Stuff Idli (வெஜ் ஸ்டப் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 18
+  },
+  {
+    "name": "Masal Idli (மசால் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Masal Idli (மசால் இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Podi Idli (பொடி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Podi Idli (பொடி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Foxtail Millet (Thinai) Idli (திணை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Foxtail Millet (Thinai) Idli (திணை இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Coriander Idli (மல்லி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Coriander Idli (மல்லி இட்லி)",
+    "category": "Idli Varieties",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Oothappam (ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Oothappam (ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Masal Oothappam (மசால் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Masal Oothappam (மசால் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Veg Mix Oothappam (வெஜ் மிக்ஸ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Veg Mix Oothappam (வெஜ் மிக்ஸ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Onion Oothappam (ஆனியன் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Onion Oothappam (ஆனியன் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Potato (Urulai) Oothappam (உருளை ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Potato (Urulai) Oothappam (உருளை ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Podi Oothappam (பொடி ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Podi Oothappam (பொடி ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Veg Oothappam (வெஜ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Veg Oothappam (வெஜ் ஊத்தாப்பம்)",
+    "category": "Oothappam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Curd Rice (தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Curd Rice (தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Seeraga Samba Curd Rice (சீரக சம்பா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Seeraga Samba Curd Rice (சீரக சம்பா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Milk Rice (பால் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Milk Rice (பால் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Flaked Rice (Aval) Curd Rice (அவல் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Flaked Rice (Aval) Curd Rice (அவல் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Kodo Millet (Varagu) Curd Rice (வரகு தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Kodo Millet (Varagu) Curd Rice (வரகு தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Fruit Curd Rice (ப்ரூட் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Fruit Curd Rice (ப்ரூட் தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Vermicelli (Semiya) Curd Rice (சேமியா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Vermicelli (Semiya) Curd Rice (சேமியா தயிர் சாதம்)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Curd Pachadi (தயிர் பச்சடி)",
+    "category": "Curd Rice Varieties",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Curd Pachadi (தயிர் பச்சடி)",
+    "category": "Curd Rice Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Idiyappam / String Hoppers (இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Idiyappam / String Hoppers (இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Lemon Idiyappam (லெமன் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Lemon Idiyappam (லெமன் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Tomato Idiyappam (தக்காளி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Tomato Idiyappam (தக்காளி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Veg Idiyappam (வெஜ் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Veg Idiyappam (வெஜ் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Ragi Idiyappam (ராகி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Ragi Idiyappam (ராகி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Coriander Idiyappam (மல்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Coriander Idiyappam (மல்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Chilli Idiyappam (சில்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Chilli Idiyappam (சில்லி இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Coconut Idiyappam (தேங்காய் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Coconut Idiyappam (தேங்காய் இடியாப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Appam (ஆப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Appam (ஆப்பம்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "All Types of Puttu (அனைத்து புட்டு வகைகள்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "All Types of Puttu (அனைத்து புட்டு வகைகள்)",
+    "category": "Idiyappam & Appam Varieties",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Veg Kurma (வெஜ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Kurma (வெஜ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Kurma (வெஜ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Mushroom Gravy (காளான் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Mushroom Gravy (காளான் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Mushroom Gravy (காளான் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Paneer Butter Masala (பன்னீர் பட்டர் மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Paneer Butter Masala (பன்னீர் பட்டர் மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Paneer Butter Masala (பன்னீர் பட்டர் மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Green Peas Kurma (கீரீன் பீஸ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Green Peas Kurma (கீரீன் பீஸ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Green Peas Kurma (கீரீன் பீஸ் குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Liver Gravy (வெஜ் ஈரல் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Veg Liver Gravy (வெஜ் ஈரல் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Veg Liver Gravy (வெஜ் ஈரல் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Baby Corn Gravy (பேபிகார்ன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Baby Corn Gravy (பேபிகார்ன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Baby Corn Gravy (பேபிகார்ன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Cauliflower Manchurian (காளிபிளவர் மஞ்சூரியன்)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Cauliflower Manchurian (காளிபிளவர் மஞ்சூரியன்)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Cauliflower Manchurian (காளிபிளவர் மஞ்சூரியன்)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Chana Masala (சென்னா மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Chana Masala (சென்னா மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Chana Masala (சென்னா மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Vadacurry (வடகறி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Vadacurry (வடகறி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Vadacurry (வடகறி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Sothi Kurma (சொதி குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Sothi Kurma (சொதி குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Sothi Kurma (சொதி குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Mushroom Sukka (காளான் சுக்கா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Mushroom Sukka (காளான் சுக்கா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Mushroom Sukka (காளான் சுக்கா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Coconut Milk (தேங்காய் பால்)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Coconut Milk (தேங்காய் பால்)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Coconut Milk (தேங்காய் பால்)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Kadala Curry / Chickpeas Curry (கடலை கறி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Kadala Curry / Chickpeas Curry (கடலை கறி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Kadala Curry / Chickpeas Curry (கடலை கறி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Tomato Gravy (தக்காளி கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Tomato Gravy (தக்காளி கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Tomato Gravy (தக்காளி கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Veg Chicken Gravy (வெஜ் சிக்கன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Chicken Gravy (வெஜ் சிக்கன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Chicken Gravy (வெஜ் சிக்கன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Mutton Gravy (வெஜ் மட்டன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Mutton Gravy (வெஜ் மட்டன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Mutton Gravy (வெஜ் மட்டன் கிரேவி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Aloo Kurma (ஆலு குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Aloo Kurma (ஆலு குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Aloo Kurma (ஆலு குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Fish Curry (வெஜ் மீன் குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Fish Curry (வெஜ் மீன் குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Fish Curry (வெஜ் மீன் குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 50
+  },
+  {
+    "name": "Veg Paya (வெஜ் பாயா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 45
+  },
+  {
+    "name": "Veg Paya (வெஜ் பாயா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Veg Paya (வெஜ் பாயா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 40
+  },
+  {
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Pal Kurma (உருளை பால்குருமா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Potato Masala (Kizhangu Masal) (உருளைக்கிழங்கு மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 30
+  },
+  {
+    "name": "Potato Masala (Kizhangu Masal) (உருளைக்கிழங்கு மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Potato Masala (Kizhangu Masal) (உருளைக்கிழங்கு மசாலா)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Veg Mutton Curry (வெஜ் மட்டன் கறி)",
+    "category": "Kurma - Gravy",
+    "course": "breakfast",
+    "unitCost": 55
+  },
+  {
+    "name": "Veg Mutton Curry (வெஜ் மட்டன் கறி)",
+    "category": "Kurma - Gravy",
+    "course": "lunch",
+    "unitCost": 55
+  },
+  {
+    "name": "Veg Mutton Curry (வெஜ் மட்டன் கறி)",
+    "category": "Kurma - Gravy",
+    "course": "dinner",
+    "unitCost": 55
+  },
+  {
+    "name": "Idi Sambar / Freshly Ground Sambar (இடி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Idi Sambar / Freshly Ground Sambar (இடி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Idi Sambar / Freshly Ground Sambar (இடி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Onion Sambar (வெங்காய சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Onion Sambar (வெங்காய சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Onion Sambar (வெங்காய சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Moong Dal (Paasi Paruppu) Sambar (பாசி பருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 18
+  },
+  {
+    "name": "Moong Dal (Paasi Paruppu) Sambar (பாசி பருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 18
+  },
+  {
+    "name": "Moong Dal (Paasi Paruppu) Sambar (பாசி பருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 18
+  },
+  {
+    "name": "Radish Sambar (முள்ளங்கி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Radish Sambar (முள்ளங்கி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Radish Sambar (முள்ளங்கி சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Ladies Finger (Vendakkai) Sambar (வெண்டைக்காய் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Ladies Finger (Vendakkai) Sambar (வெண்டைக்காய் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Ladies Finger (Vendakkai) Sambar (வெண்டைக்காய் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Sweet Sambar (ஸ்வீட் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Sweet Sambar (ஸ்வீட் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Sweet Sambar (ஸ்வீட் சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Chinese Potato (Sirukizhangu) Sambar (சிறுகிழங்கு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Chinese Potato (Sirukizhangu) Sambar (சிறுகிழங்கு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Chinese Potato (Sirukizhangu) Sambar (சிறுகிழங்கு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Drumstick (Murungai) Sambar (முருங்கை சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Drumstick (Murungai) Sambar (முருங்கை சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Drumstick (Murungai) Sambar (முருங்கை சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Sambar (சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Sambar (சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Sambar (சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Moong Dal Sambar / Siruparuppu Sambar (சிறுபருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "breakfast",
+    "unitCost": 18
+  },
+  {
+    "name": "Moong Dal Sambar / Siruparuppu Sambar (சிறுபருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "lunch",
+    "unitCost": 18
+  },
+  {
+    "name": "Moong Dal Sambar / Siruparuppu Sambar (சிறுபருப்பு சாம்பார்)",
+    "category": "Sambar Varieties",
+    "course": "dinner",
+    "unitCost": 18
+  },
+  {
+    "name": "Badam Milk (பாதாம்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Badam Milk (பாதாம்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Palm Candy Milk (பனங்கற்கண்டு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Palm Candy Milk (பனங்கற்கண்டு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Pepper Milk (மிளகு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Pepper Milk (மிளகு பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Honey Milk (தேன் பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Honey Milk (தேன் பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Palm Jaggery (Karupatti) Milk (கருப்பட்டி பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Palm Jaggery (Karupatti) Milk (கருப்பட்டி பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Palm Jaggery Coffee (கருப்பட்டி காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Palm Jaggery Coffee (கருப்பட்டி காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Coffee / Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Coffee / Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Ginger Tea (இஞ்சி டீ)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Ginger Tea (இஞ்சி டீ)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Honey Milk (தேன்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Honey Milk (தேன்பால்)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Filter Coffee (பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Filter Coffee (பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Coffee (காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Coffee (காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Filter Coffee (காபி / பில்டர் காபி)",
+    "category": "Milk Varieties & Beverages",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Paniyaram (பனியாரம்)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Samosa (சமோசா)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 12
+  },
+  {
+    "name": "Samosa (சமோசா)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 12
+  },
+  {
+    "name": "Boli (போளி)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 20
+  },
+  {
+    "name": "Boli (போளி)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Somas (சோமாஸ்)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 15
+  },
+  {
+    "name": "Somas (சோமாஸ்)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Cutlet (கட்லட்)",
+    "category": "Snacks",
+    "course": "breakfast",
+    "unitCost": 25
+  },
+  {
+    "name": "Cutlet (கட்லட்)",
+    "category": "Snacks",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Kathamba Avial / Mixed Vegetable Avial (கதம்ப அவியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Cabbage Poriyal (கோஸ் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Veg Chilli (வெஜ் சில்லி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Ladies Finger Tomato Pachadi (வெண்டைக்காய் தக்காளி பச்சடி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Mushroom Chilli (காளான் சில்லி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Tomato Pachadi (தக்காளி பச்சடி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Potato Peas Kootu (உருளை பட்டாணி கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Spicy Potato Kootu (உருளை கார கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Potato Poriyal (உருளை பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Spicy Potato Poriyal (உருளை கார பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 22
+  },
+  {
+    "name": "Raw Banana (Vaalaikkai) Poriyal (வாழைக்காய் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Banana Flower Poriyal (வாழைப்பூ பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Ennai Kathirikkai / Oiled Brinjal Curry (எண்ணெய் கத்திரிக்காய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Oiled Broad Beans Curry (எண்ணெய் அவரைக்காய் / அவரை எண்ணைக்கறி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Kadalaikkari Kootu (கடலைக்கறி கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Carrot Poriyal (கேரட் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Beans, Carrot Poriyal (பீன்ஸ், கேரட் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Beans, Carrot Usili Poriyal (பீன்ஸ்,கேரட் உசிலி பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Stuffed Brinjal / Muttu Kathirikkai (மூட்டுக்கத்தரிக்காய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Chayote (Chow Chow) Milk Kootu (சவ்சவ் பால்கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Veg Liver Curry (வெஜ் ஈரல் கறி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Raw Banana Chops (வாழைக்காய் சாப்ஸ்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Elephant Foot Yam (Senai) Chops (சேனை சாப்ஸ்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Taro Root (Seemang Kizhangu) Chops (சேமங் கிழங்கு சாப்ஸ்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Butter Beans Milk Kootu (பட்டர் பீன்ஸ் பால் கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Brinjal Tamarind Curry / Kathirikkai Pulikkari (கத்தரிக்காய் புளிக்கறி)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Malli Thuvayal / Coriander Chutney Paste (மல்லித்துவையல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Coconut Thuvayal (தேங்காய் துவையல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Malabar Avial (மலபார் அவியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Yam Sukka / Senai Sukka (சேனைச்சுக்கா)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Veg Fish Roast (வெஜ் மீன் ரோஸ்ட்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Cauliflower Roast (காலிஃபிளவர் ரோஸ்ட்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Mango Pickles (மாங்காய் ஊறுகாய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Tomato Pickles (தக்காளி ஊறுகாய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Chilli Tamarind Pickle / Pulimilagai Oorugai (புளிமிளகாய் ஊறுகாய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Avial (அவியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Carrot Beans Poriyal (கேரட் பீன்ஸ் பொரியல்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Potato Peas Spicy Kootu (உருளை பட்டாணி கார கூட்டு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Snake Gourd Roast (புடலங்காய் ரோஸ்ட்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Lentils (பருப்பு)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Lentils + Ghee (பருப்பு + நெய்)",
+    "category": "Meals - Kootu, Poriyal, Avial",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Steamed Rice / Plain Rice (சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Coriander Rice (மல்லி சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Mint Rice (புதினா சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Sugar Candy (Karkandu) Rice (கற்கண்டு சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Tomato Rice (தக்காளி சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Sambar Rice (சாம்பார் சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Pepper Rice (மிளகு சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Coconut Rice (தேங்காய் சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Mango Rice (மாங்காய் சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Lemon Rice (எலுமிச்சை சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Puliyodharai / Tamarind Rice (புளியோதரை)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Dry Fish Flavored Veg Rice / Karuvattu Saatham (கருவாட்டு சாதம்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 50
+  },
+  {
+    "name": "Ghee Lentils / Ney Paruppu (நெய் பருப்பு)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Coriander Rice / Malli Rice (மல்லி ரைஸ்)",
+    "category": "Rice Varieties",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Kara Kuzhambu (காரக் குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Vatha Kuzhambu (வத்தக் குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Onion Tamarind Curry / Vengaya Pulikhuzhambu (வெங்காய புளிக்குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Aloo Sheela Kuzhambu (ஆலு சீலா குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Banana Flower Kuzhambu (வாழைப்பூ குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "More Kuzhambu / Buttermilk Curry (மோர்க்குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Fenugreek Curry / Vendhaya Kuzhambu (வெந்தயக்குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Sothi Kuzhambu (சொதி குழம்பு)",
+    "category": "Kuzhambu",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Tomato Rasam (தக்காளி ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Pepper Rasam (மிளகு ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Lentil Rasam / Paruppu Rasam (பருப்பு ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Garlic Rasam (பூண்டு ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Pineapple Rasam (பைனாப்பிள் ரசம்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Thick Buttermilk / Katti Mor (கட்டி மோர்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Curd (தயிர்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Buttermilk (மோர்)",
+    "category": "Rasam & Buttermilk",
+    "course": "lunch",
+    "unitCost": 10
+  },
+  {
+    "name": "Appalam (அப்பளம்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 8
+  },
+  {
+    "name": "Onion Vadagam (வெங்காய வடகம்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 12
+  },
+  {
+    "name": "Buttermilk Sun-dried Chillies / Mor Mithuku Vathal (மோர் மிதுக்கு வத்தல்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Sun-dried Crisps / Vathal (வத்தல்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 12
+  },
+  {
+    "name": "Mini Color Appalam (மினி கலர் அப்பளம்)",
+    "category": "Appalam, Vadagam & Vathal",
+    "course": "lunch",
+    "unitCost": 10
+  },
+  {
+    "name": "Milk Payasam (பால் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Milk Payasam (பால் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Rava Payasam (ரவா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Rava Payasam (ரவா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Tender Coconut Payasam (இளநீர் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Tender Coconut Payasam (இளநீர் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Lentil Payasam / Paruppu Payasam (பருப்பு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Lentil Payasam / Paruppu Payasam (பருப்பு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Rice Payasam (அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Rice Payasam (அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Ice Apple (Nungu) Payasam (நொங்கு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Ice Apple (Nungu) Payasam (நொங்கு பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Ada Pradhaman Payasam (அடை பிரதம பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Ada Pradhaman Payasam (அடை பிரதம பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Pineapple Payasam (பைனாப்பிள் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Pineapple Payasam (பைனாப்பிள் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Kavuni Rice Payasam (கவுனி அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 45
+  },
+  {
+    "name": "Kavuni Rice Payasam (கவுனி அரிசி பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 45
+  },
+  {
+    "name": "Flaked Rice (Aval) Payasam (அவல் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 30
+  },
+  {
+    "name": "Flaked Rice (Aval) Payasam (அவல் பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 30
+  },
+  {
+    "name": "Jackfruit (Pala) Payasam (பலா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 40
+  },
+  {
+    "name": "Jackfruit (Pala) Payasam (பலா பாயாசம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 40
+  },
+  {
+    "name": "Ice Cream (ஐஸ் கிரீம்)",
+    "category": "Payasam & Desserts",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Ice Cream (ஐஸ் கிரீம்)",
+    "category": "Payasam & Desserts",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Mutton Cola / Kola Urundai (கோலா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Mutton Cola / Kola Urundai (கோலா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Chicken 65 (சிக்கன் 65)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Chicken 65 (சிக்கன் 65)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Fish Fry (மீன் ப்ரை)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Fish Fry (மீன் ப்ரை)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Prawn Roast (இறால் ரோஸ்ட்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Prawn Roast (இறால் ரோஸ்ட்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Kuzhi Omelette (குழி ஆம்லேட்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 25
+  },
+  {
+    "name": "Kuzhi Omelette (குழி ஆம்லேட்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 25
+  },
+  {
+    "name": "Egg Gravy (முட்டை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 35
+  },
+  {
+    "name": "Egg Gravy (முட்டை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 35
+  },
+  {
+    "name": "Quail 65 / Kaadai 65 (காடை 65)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65
+  },
+  {
+    "name": "Quail 65 / Kaadai 65 (காடை 65)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65
+  },
+  {
+    "name": "Crab 65 / Nandu 65 (நண்டு 65)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Crab 65 / Nandu 65 (நண்டு 65)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Onion Fried Egg (ஆனியன் ப்ரை முட்டை)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 20
+  },
+  {
+    "name": "Onion Fried Egg (ஆனியன் ப்ரை முட்டை)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 20
+  },
+  {
+    "name": "Chicken Gravy (சிக்கன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Chicken Gravy (சிக்கன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Mutton Gravy (மட்டன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Mutton Gravy (மட்டன் கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Pepper Chicken Fry / Varuval (பெப்பர் சிக்கன் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65
+  },
+  {
+    "name": "Pepper Chicken Fry / Varuval (பெப்பர் சிக்கன் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65
+  },
+  {
+    "name": "Mutton Sukka (மட்டன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Mutton Sukka (மட்டன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Chicken Sukka (சிக்கன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Chicken Sukka (சிக்கன் சுக்கா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Fish Curry (மீன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Fish Curry (மீன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Mutton Chest Meat Fry / Nenjukari Varuval (மட்டன் நெஞ்சுக்கறி வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Mutton Chest Meat Fry / Nenjukari Varuval (மட்டன் நெஞ்சுக்கறி வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Mutton Curry (மட்டன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Mutton Curry (மட்டன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Chicken Curry (சிக்கன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65
+  },
+  {
+    "name": "Chicken Curry (சிக்கன் குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65
+  },
+  {
+    "name": "Chicken Semi Gravy (சிக்கன் செமி கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65
+  },
+  {
+    "name": "Chicken Semi Gravy (சிக்கன் செமி கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65
+  },
+  {
+    "name": "Chettinad Chicken (செட்டிநாடு சிக்கன்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Chettinad Chicken (செட்டிநாடு சிக்கன்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Bone Curry / Elumbu Kuzhambu (எலும்பு குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Bone Curry / Elumbu Kuzhambu (எலும்பு குழம்பு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Quail Gravy / Kaadai Gravy (காடை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 65
+  },
+  {
+    "name": "Quail Gravy / Kaadai Gravy (காடை கிரேவி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 65
+  },
+  {
+    "name": "Mutton Trotters Soup / Aattukaal Paya (ஆட்டுக்கால் பாயா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Mutton Trotters Soup / Aattukaal Paya (ஆட்டுக்கால் பாயா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Boti Fry / Kudal Varuval (குடல் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Boti Fry / Kudal Varuval (குடல் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Boti Blood Fry / Kudal Ratthakari (குடல் இரத்தக்கறி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 60
+  },
+  {
+    "name": "Boti Blood Fry / Kudal Ratthakari (குடல் இரத்தக்கறி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 60
+  },
+  {
+    "name": "Crab Fry / Nandu Varuval (நண்டு வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 75
+  },
+  {
+    "name": "Crab Fry / Nandu Varuval (நண்டு வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 75
+  },
+  {
+    "name": "Prawn Thokku (இறால் தொக்கு)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Prawn Thokku (இறால் தொக்கு)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Minced Meat Pepper Fry / Kothukari Pepper Varuval (கொத்துக்கறி பெப்பர் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 80
+  },
+  {
+    "name": "Minced Meat Pepper Fry / Kothukari Pepper Varuval (கொத்துக்கறி பெப்பர் வறுவல்)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 80
+  },
+  {
+    "name": "Chicken Dum Biryani (சிக்கன் தம் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 120
+  },
+  {
+    "name": "Chicken Dum Biryani (சிக்கன் தம் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 120
+  },
+  {
+    "name": "Mutton Biryani (மட்டன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 140
+  },
+  {
+    "name": "Mutton Biryani (மட்டன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 140
+  },
+  {
+    "name": "Prawn Biryani (இறால் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 130
+  },
+  {
+    "name": "Prawn Biryani (இறால் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 130
+  },
+  {
+    "name": "Fish Biryani (மீன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 120
+  },
+  {
+    "name": "Fish Biryani (மீன் பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 120
+  },
+  {
+    "name": "Plain Biryani / Kuska / Varattu Biryani (வரட்டு பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 70
+  },
+  {
+    "name": "Plain Biryani / Kuska / Varattu Biryani (வரட்டு பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 70
+  },
+  {
+    "name": "Quail Biryani / Kaadai Biryani (காடை பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 100
+  },
+  {
+    "name": "Quail Biryani / Kaadai Biryani (காடை பிரியாணி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 100
+  },
+  {
+    "name": "Onion Raitha (ஆனியன் ரைத்தா)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Onion Raitha (ஆனியன் ரைத்தா)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Cucumber Pachadi (வெள்ளரிக்காய் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Cucumber Pachadi (வெள்ளரிக்காய் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 15
+  },
+  {
+    "name": "Ash Gourd Curd Pachadi (தடியங்காய் தயிர் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "lunch",
+    "unitCost": 15
+  },
+  {
+    "name": "Ash Gourd Curd Pachadi (தடியங்காய் தயிர் பச்சடி)",
+    "category": "Non-Veg Section",
+    "course": "dinner",
+    "unitCost": 15
+  }
+]

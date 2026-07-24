@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "catwiacaf4pls9fscvqxnj",
+    "title": "Database Initialised",
+    "message": "Demo database seeded successfully with mock client CRM profiles.",
+    "type": "event",
+    "status": "unread",
+    "date": "2026-07-24",
+    "createdAt": "2026-07-24T15:27:24.363Z",
+    "updatedAt": "2026-07-24T15:27:24.363Z"
+  }
+]

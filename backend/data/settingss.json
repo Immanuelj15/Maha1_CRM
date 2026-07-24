@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "x3492uhmy2l4cpubm20g0p",
+    "businessName": "Gourmet Catering Co.",
+    "email": "contact@gourmetcatering.com",
+    "phone": "+1 (555) 789-0123",
+    "address": "456 Culinary Boulevard, Suite 100, Food City",
+    "gstNumber": "GST-US-991A8",
+    "logo": "",
+    "invoiceNotes": "We appreciate your business. Thank you for celebrating with us!",
+    "termsConditions": "A 50% deposit is required to confirm bookings. Balance is due 7 days prior to the event.",
+    "currencySymbol": "₹",
+    "createdAt": "2026-07-24T15:27:16.169Z",
+    "updatedAt": "2026-07-24T15:27:16.169Z"
+  }
+]

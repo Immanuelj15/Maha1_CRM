@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "mbo2rznqvvbuovqu6onnk",
+    "vesselId": "aw6b9yaxix52a3od0wy57",
+    "vesselName": "Water Dispenser Jugs",
+    "renterName": "Grand Plaza Hotel",
+    "phone": "+1 555-9000",
+    "assignedDate": "2026-06-15",
+    "returnDate": "2026-07-22",
+    "qty": 5,
+    "rentAmount": 150,
+    "deposit": 100,
+    "paidAmount": 0,
+    "balanceAmount": 150,
+    "status": "Rented",
+    "notes": "Needs cleaning on return",
+    "createdAt": "2026-07-24T15:27:24.017Z",
+    "updatedAt": "2026-07-24T15:27:24.017Z"
+  }
+]

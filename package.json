@@ -1,0 +1,18 @@
+{
+  "name": "catermaster-crm",
+  "version": "1.0.0",
+  "description": "CaterMaster CRM - Professional Catering Business Management Platform",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend --legacy-peer-deps",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "seed": "npm run seed --prefix backend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "private": true
+}

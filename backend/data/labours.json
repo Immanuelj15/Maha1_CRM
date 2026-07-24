@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "f5mg5gt9hbuef17f2sldu",
+    "name": "Marcus Aurelius",
+    "role": "Chef",
+    "phone": "555-0909",
+    "dailyWage": 180,
+    "status": "Active",
+    "createdAt": "2026-07-24T15:27:22.370Z",
+    "updatedAt": "2026-07-24T15:27:22.370Z"
+  },
+  {
+    "_id": "5ofwgtldmhpj62sglln1hq",
+    "name": "Lucius Verus",
+    "role": "Server",
+    "phone": "555-0808",
+    "dailyWage": 90,
+    "status": "Active",
+    "createdAt": "2026-07-24T15:27:22.392Z",
+    "updatedAt": "2026-07-24T15:27:22.392Z"
+  },
+  {
+    "_id": "mm0q9zbn8wesn51tokxxwf",
+    "name": "Commodus Rex",
+    "role": "Helper",
+    "phone": "555-0707",
+    "dailyWage": 75,
+    "status": "Active",
+    "createdAt": "2026-07-24T15:27:22.410Z",
+    "updatedAt": "2026-07-24T15:27:22.410Z"
+  }
+]
