@@ -29,7 +29,7 @@ if (storedToken && isTokenExpired(storedToken)) {
 }
 
 // Configure global Axios defaults
-axios.defaults.baseURL = ''; // Proxy handles mapping to http://localhost:5000
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL || '';
 if (storedToken) {
   axios.defaults.headers.common['Authorization'] = `Bearer ${storedToken}`;
 }
