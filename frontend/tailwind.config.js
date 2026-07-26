@@ -9,45 +9,47 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#C59B27', // Metallic Gold from Logo
-          hover: '#A9811C',
-          light: '#FDF9EB',
+          DEFAULT: '#7D1525', // Rich Royal Crimson Burgundy (High Contrast)
+          hover: '#610F1B',
+          light: '#FDF2F4',
+          glow: 'rgba(125, 21, 37, 0.2)',
         },
         secondary: {
-          DEFAULT: '#7A1C2C', // Deep Burgundy Maroon from Logo Border
-          hover: '#5F1321',
-          light: '#FDF2F4',
+          DEFAULT: '#B8860B', // Rich Golden Amber
+          hover: '#946B07',
+          light: '#FFFDF0',
+          glow: 'rgba(184, 134, 11, 0.2)',
         },
         accent: {
-          DEFAULT: '#E5B842', // Bright Gold Accent
-          hover: '#CFA332',
-          light: '#FFFDF0',
+          DEFAULT: '#4F46E5', // Vibrant Indigo Accent
+          hover: '#4338CA',
+          light: '#EEF2FF',
         },
         success: {
-          DEFAULT: '#10B981', // Emerald
+          DEFAULT: '#059669', // Emerald 600 (Higher Contrast)
           light: '#ECFDF5',
         },
         warning: {
-          DEFAULT: '#C59B27', // Gold
-          light: '#FDF9EB',
+          DEFAULT: '#D97706', // Amber 600
+          light: '#FFFBEB',
         },
         danger: {
-          DEFAULT: '#7A1C2C', // Burgundy
-          light: '#FDF2F4',
+          DEFAULT: '#DC2626', // Red 600
+          light: '#FEF2F2',
         },
-        darkBg: '#0F172A', // Slate 900
-        darkCard: '#1E293B', // Slate 800
+        darkBg: '#0B132B', // Deep Rich Navy Night
+        darkCard: '#1C2541', // Slate Navy Card
       },
       borderRadius: {
-        'premium': '20px',
+        'premium': '18px',
       },
       boxShadow: {
-        'premium': '0 10px 30px -10px rgba(197, 155, 39, 0.25)',
-        'premium-hover': '0 20px 40px -10px rgba(122, 28, 44, 0.3)',
-        'glass': '0 8px 32px 0 rgba(122, 28, 44, 0.08)',
+        'premium': '0 10px 30px -10px rgba(125, 21, 37, 0.2)',
+        'premium-hover': '0 20px 40px -10px rgba(125, 21, 37, 0.35)',
+        'glass': '0 8px 32px 0 rgba(11, 19, 43, 0.1)',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
       },
     },
   },
