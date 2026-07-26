@@ -16,9 +16,9 @@ export const connectDB = async () => {
 
   try {
     mongoose.set('strictQuery', false);
-    // Timeout quickly (3 seconds) so the app startup doesn't hang if Mongo isn't running
+    // Set generous 10s timeout for cloud MongoDB Atlas connections
     await mongoose.connect(mongoUri, {
-      serverSelectionTimeoutMS: 3000,
+      serverSelectionTimeoutMS: 10000,
     });
     console.log('✨ Connected successfully to MongoDB at:', mongoUri);
     dbMode = 'mongodb';
