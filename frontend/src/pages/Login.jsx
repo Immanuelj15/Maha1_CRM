@@ -10,9 +10,9 @@ export default function Login() {
   const { login, error, loading } = useAuthStore();
   const { theme } = useSettingsStore();
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [rememberMe, setRememberMe] = useState(false);
+  const [email, setEmail] = useState('admin@catermaster.com');
+  const [password, setPassword] = useState('admin123');
+  const [rememberMe, setRememberMe] = useState(true);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -29,12 +29,6 @@ export default function Login() {
     } else {
       toast.error(error || 'Invalid credentials.');
     }
-  };
-
-  const handleQuickLogin = async () => {
-    setEmail('admin@catermaster.com');
-    setPassword('admin123');
-    toast.success('Loaded seed admin credentials.');
   };
 
   return (
@@ -139,7 +133,7 @@ export default function Login() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-3 bg-gradient-to-r from-primary to-secondary hover:from-primary-hover hover:to-secondary-hover text-white text-xs font-bold rounded-xl shadow-premium hover:shadow-premium-hover transition-all duration-200 flex items-center justify-center gap-2 focus:outline-none"
+            className="w-full py-3 bg-gradient-to-r from-primary to-secondary hover:from-primary-hover hover:to-secondary-hover text-white text-xs font-bold rounded-xl shadow-premium hover:shadow-premium-hover transition-all duration-200 flex items-center justify-center gap-2 focus:outline-none cursor-pointer"
           >
             {loading ? (
               <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
@@ -148,18 +142,6 @@ export default function Login() {
             )}
           </button>
         </form>
-
-        {/* Demo Fast Login Trigger */}
-        <div className="border-t border-slate-200/50 dark:border-slate-800 pt-4 mt-6">
-          <button
-            onClick={handleQuickLogin}
-            type="button"
-            className="w-full py-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200/50 dark:hover:bg-slate-700/50 text-[10px] text-slate-500 dark:text-slate-400 font-bold rounded-lg border border-dashed border-slate-300 dark:border-slate-700 transition-colors flex items-center justify-center gap-2"
-          >
-            <Sparkles size={12} className="text-secondary" />
-            <span>Load Demo Credentials</span>
-          </button>
-        </div>
       </motion.div>
     </div>
   );
