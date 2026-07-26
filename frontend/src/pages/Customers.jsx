@@ -1316,8 +1316,24 @@ export default function Customers() {
               <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex gap-3">
                 <button
                   type="button"
-                  onClick={() => {
-                    window.open(`/api/v1/customers/${c._id}/pdf`, '_blank');
+                  onClick={async () => {
+                    try {
+                      toast.loading('Preparing Customer PDF...', { id: 'cust-pdf' });
+                      const res = await axios.get(`/api/v1/customers/${c._id}/pdf`, { responseType: 'blob' });
+                      const blob = new Blob([res.data], { type: 'application/pdf' });
+                      const url = window.URL.createObjectURL(blob);
+                      const link = document.createElement('a');
+                      link.href = url;
+                      link.setAttribute('download', `Customer-${c.name || c._id}-Requirements.pdf`);
+                      document.body.appendChild(link);
+                      link.click();
+                      link.remove();
+                      window.URL.revokeObjectURL(url);
+                      toast.success('PDF Downloaded!', { id: 'cust-pdf' });
+                    } catch (err) {
+                      console.error('Customer PDF error:', err);
+                      toast.error('Failed to download customer PDF.', { id: 'cust-pdf' });
+                    }
                   }}
                   className="flex-1 py-3 bg-[#5A1827] hover:bg-[#48121E] text-white text-xs font-bold rounded-xl shadow-premium transition-all duration-200 flex items-center justify-center gap-1.5 uppercase tracking-wide border border-transparent focus:outline-none"
                 >

@@ -172,10 +172,24 @@ export default function Events() {
   };
 
   // Compile and download grocery sheet PDF
-  const handleDownloadGroceryPDF = (id) => {
-    // We can open the compile API PDF stream directly in a new window/tab
-    window.open(`/api/v1/events/${id}/groceries?download=true`, '_blank');
-    toast.success('Compiling grocery list download...');
+  const handleDownloadGroceryPDF = async (id, eventName) => {
+    try {
+      toast.loading('Compiling grocery list PDF...', { id: 'grocery-pdf-toast' });
+      const res = await axios.get(`/api/v1/events/${id}/groceries?download=true`, { responseType: 'blob' });
+      const blob = new Blob([res.data], { type: 'application/pdf' });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', `Grocery-List-${eventName || 'Event'}.pdf`);
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      toast.success('Grocery PDF Downloaded!', { id: 'grocery-pdf-toast' });
+    } catch (err) {
+      console.error('Grocery PDF download error:', err);
+      toast.error('Failed to compile grocery list PDF.', { id: 'grocery-pdf-toast' });
+    }
   };
 
   return (

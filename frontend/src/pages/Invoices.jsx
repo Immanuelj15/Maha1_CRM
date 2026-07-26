@@ -246,9 +246,24 @@ export default function Invoices() {
   };
 
   // Triggers backend streaming download PDF
-  const handleDownloadPDF = (id) => {
-    window.open(`/api/v1/invoices/${id}/download`, '_blank');
-    toast.success('Downloading document PDF...');
+  const handleDownloadPDF = async (id, invNum) => {
+    try {
+      toast.loading('Preparing Invoice PDF...', { id: 'pdf-toast' });
+      const res = await axios.get(`/api/v1/invoices/${id}/download`, { responseType: 'blob' });
+      const blob = new Blob([res.data], { type: 'application/pdf' });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', `Invoice-${invNum || 'Document'}.pdf`);
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      toast.success('PDF Downloaded successfully!', { id: 'pdf-toast' });
+    } catch (err) {
+      console.error('PDF download error:', err);
+      toast.error('Failed to download PDF.', { id: 'pdf-toast' });
+    }
   };
 
   const handleOpenShareModal = (inv) => {
@@ -354,7 +369,7 @@ export default function Invoices() {
                         </span>
                       </td>
                       <td className="py-3 px-2 text-right space-x-1" onClick={e => e.stopPropagation()}>
-                        <button onClick={() => handleDownloadPDF(inv._id)} className="p-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-slate-400 hover:text-slate-700"><Download size={14} /></button>
+                        <button onClick={() => handleDownloadPDF(inv._id, inv.invoiceNumber)} className="p-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-slate-400 hover:text-slate-700"><Download size={14} /></button>
                         <button onClick={() => handleOpenShareModal(inv)} className="p-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-slate-400 hover:text-primary"><Send size={14} /></button>
                         <button onClick={() => handleDelete(inv._id)} className="p-1.5 hover:bg-danger/10 rounded-lg text-slate-400 hover:text-danger"><Trash size={14} /></button>
                       </td>
@@ -425,7 +440,7 @@ export default function Invoices() {
 
             <div className="flex gap-2">
               <button
-                onClick={() => handleDownloadPDF(selectedInvoice._id)}
+                onClick={() => handleDownloadPDF(selectedInvoice._id, selectedInvoice.invoiceNumber)}
                 className="flex-1 py-2 bg-primary hover:bg-primary-hover text-white text-xs font-bold rounded-xl shadow-premium focus:outline-none transition-colors flex items-center justify-center gap-1.5"
               >
                 <Download size={14} />
