@@ -54,18 +54,13 @@ const seed = async () => {
     // 2b. SEED DEFAULT MENU ITEMS
     console.log('🍽️ Seeding default menu items from JSON catalog...');
     const presetDishes = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'seed', 'menuitems.json'), 'utf-8'));
-    for (const item of presetDishes) {
-      await MenuItem.create(item);
-    }
+    await MenuItem.insertMany(presetDishes);
     console.log(`✅ Seeded ${presetDishes.length} menu items`);
 
     // 2c. SEED DEFAULT COMBOS
     console.log('🍱 Seeding default combos from JSON catalog...');
     const presetCombos = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'seed', 'combos.json'), 'utf-8'));
-
-    for (const combo of presetCombos) {
-      await Combo.create(combo);
-    }
+    await Combo.insertMany(presetCombos);
     console.log(`✅ Seeded ${presetCombos.length} combos`);
 
     // 3. SEED SETTINGS
