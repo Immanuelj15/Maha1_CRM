@@ -610,6 +610,8 @@ export const downloadCustomerPDF = async (req, res) => {
     return generateCustomerListPDF(customer, label, items, res);
   } catch (error) {
     console.error('Download customer PDF error:', error);
-    return res.status(500).json({ success: false, message: 'Internal Server Error' });
+    if (!res.headersSent) {
+      return res.status(500).json({ success: false, message: 'Internal Server Error' });
+    }
   }
 };

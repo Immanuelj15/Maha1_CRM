@@ -1,4 +1,5 @@
 import PDFDocument from 'pdfkit';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -7,9 +8,27 @@ const __dirname = path.dirname(__filename);
 const logoPath = path.join(__dirname, '..', '..', '..', 'frontend', 'src', 'assets', 'logo.png');
 
 /**
+ * Checks if Tamil TrueType font files exist on the host filesystem before registering.
+ * Prevents ENOENT crashes on Linux cloud environments (Render, Heroku, AWS).
+ */
+const checkTamilFontSupport = (doc) => {
+  try {
+    const regularFont = 'C:\\Windows\\Fonts\\latha.ttf';
+    const boldFont = 'C:\\Windows\\Fonts\\lathab.ttf';
+    if (fs.existsSync(regularFont) && fs.existsSync(boldFont)) {
+      doc.registerFont('Tamil', regularFont);
+      doc.registerFont('Tamil-Bold', boldFont);
+      return true;
+    }
+  } catch (err) {
+    console.error('Tamil font registration skipped:', err.message);
+  }
+  return false;
+};
+
+/**
  * Strips characters that PDFKit's built-in Helvetica font cannot render.
  * Helvetica only supports Latin-1 / WinAnsi charset (U+0000–U+00FF).
- * Tamil (U+0B80–U+0BFF), Arabic, Chinese etc. produce garbled bytes if passed directly.
  * Strategy: remove any (...) block that contains non-ASCII chars (Tamil annotations),
  * then strip any remaining non-ASCII characters.
  * e.g.  "Maida Poori (மைதா பூரி)"  →  "Maida Poori"
@@ -36,15 +55,8 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
   const doc = new PDFDocument({ margin: 20, size: 'A4' });
   doc.pipe(res);
 
-  // Register Latha Font (Tamil support)
-  let useTamil = false;
-  try {
-    doc.registerFont('Tamil', 'C:\\Windows\\Fonts\\latha.ttf');
-    doc.registerFont('Tamil-Bold', 'C:\\Windows\\Fonts\\lathab.ttf');
-    useTamil = true;
-  } catch (err) {
-    console.error('Error loading Tamil fonts, falling back to Helvetica:', err);
-  }
+  // Register Tamil Font safely if available on filesystem
+  const useTamil = checkTamilFontSupport(doc);
 
   const fontRegular = useTamil ? 'Tamil' : 'Helvetica';
   const fontBold = useTamil ? 'Tamil-Bold' : 'Helvetica-Bold';
@@ -480,15 +492,8 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
   const doc = new PDFDocument({ margin: 20, size: 'A4' });
   doc.pipe(res);
 
-  // Register Latha Font (Tamil support)
-  let useTamil = false;
-  try {
-    doc.registerFont('Tamil', 'C:\\Windows\\Fonts\\latha.ttf');
-    doc.registerFont('Tamil-Bold', 'C:\\Windows\\Fonts\\lathab.ttf');
-    useTamil = true;
-  } catch (err) {
-    console.error('Error loading Tamil fonts, falling back to Helvetica:', err);
-  }
+  // Register Tamil Font safely if available on filesystem
+  const useTamil = checkTamilFontSupport(doc);
 
   const fontRegular = useTamil ? 'Tamil' : 'Helvetica';
   const fontBold = useTamil ? 'Tamil-Bold' : 'Helvetica-Bold';
