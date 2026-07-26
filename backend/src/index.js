@@ -11,9 +11,17 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// 1. CORS Configuration (Must be first before helmet & routes to allow cross-origin preflight requests)
-app.use(cors());
-app.options('*', cors());
+// Custom Bulletproof CORS Middleware (Handles all cross-origin requests & OPTIONS preflight)
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  
+  if (req.method === 'OPTIONS') {
+    return res.status(204).end();
+  }
+  next();
+});
 
 // Security Middlewares
 app.use(helmet({
@@ -47,12 +55,14 @@ app.use('/api/v1', apiRouter);
 
 // 404 Route handler
 app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
   res.status(404).json({ success: false, message: 'Endpoint not found.' });
 });
 
 // Global Error Handler Middleware
 app.use((err, req, res, next) => {
   console.error('💥 Unhandled Exception:', err.stack || err.message);
+  res.header('Access-Control-Allow-Origin', '*');
   res.status(err.status || 500).json({
     success: false,
     message: err.message || 'Internal Server Error'
