@@ -261,8 +261,9 @@ export const downloadInvoicePDF = async (req, res) => {
       };
     }
 
+    const safeInvoiceNum = (invoice.invoiceNumber || 'Invoice').replace(/[^a-zA-Z0-9_\-]/g, '_');
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', `attachment; filename="Invoice-${invoice.invoiceNumber}.pdf"`);
+    res.setHeader('Content-Disposition', `attachment; filename="Invoice-${safeInvoiceNum}.pdf"`);
 
     generateInvoicePDF(invoice, businessSettings, res);
   } catch (error) {

@@ -579,9 +579,11 @@ export const downloadCustomerPDF = async (req, res) => {
       return res.status(404).json({ success: false, message: 'Customer not found.' });
     }
 
+    const safeName = (customer.name || 'Customer').replace(/[^a-zA-Z0-9_\-]/g, '_');
+
     if (!type || type === 'all') {
       res.setHeader('Content-Type', 'application/pdf');
-      res.setHeader('Content-Disposition', `attachment; filename="Requirements-${customer.name.replace(/\s+/g, '_')}.pdf"`);
+      res.setHeader('Content-Disposition', `attachment; filename="Requirements-${safeName}.pdf"`);
       return generateCustomerRequirementsPDF(customer, res);
     }
 
@@ -603,7 +605,7 @@ export const downloadCustomerPDF = async (req, res) => {
     }
 
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', `attachment; filename="${type}-${customer.name.replace(/\s+/g, '_')}.pdf"`);
+    res.setHeader('Content-Disposition', `attachment; filename="${type}-${safeName}.pdf"`);
 
     return generateCustomerListPDF(customer, label, items, res);
   } catch (error) {

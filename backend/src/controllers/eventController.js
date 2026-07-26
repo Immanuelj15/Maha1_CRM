@@ -261,8 +261,9 @@ export const compileEventGroceries = async (req, res) => {
     const compiledList = Object.values(ingredientsMap);
 
     if (req.query.download === 'true') {
+      const safeEventName = (event.name || 'Event').replace(/[^a-zA-Z0-9_\-]/g, '_');
       res.setHeader('Content-Type', 'application/pdf');
-      res.setHeader('Content-Disposition', `attachment; filename="GroceryList-${event.name.replace(/\s+/g, '_')}.pdf"`);
+      res.setHeader('Content-Disposition', `attachment; filename="GroceryList-${safeEventName}.pdf"`);
       return generateGroceryPDF(event, compiledList, res);
     }
 
