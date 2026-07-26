@@ -11,6 +11,9 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Trust reverse proxy (Required for Render, Vercel, Heroku, Nginx to read X-Forwarded-For)
+app.set('trust proxy', 1);
+
 // Custom Bulletproof CORS Middleware (Handles all cross-origin requests & OPTIONS preflight)
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -36,6 +39,8 @@ app.use(express.urlencoded({ extended: true }));
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 1000, // limit each IP to 1000 requests per window
+  standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
   message: { success: false, message: 'Too many requests from this IP, please try again later.' }
 });
 app.use('/api/', limiter);
