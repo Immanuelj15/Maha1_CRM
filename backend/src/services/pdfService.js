@@ -16,11 +16,14 @@ const logoPath = path.join(__dirname, '..', '..', '..', 'frontend', 'src', 'asse
  */
 const sanitizeForPDF = (text) => {
   if (!text) return '';
+  let str = String(text);
   // Remove parenthetical Tamil/Unicode annotations
-  let cleaned = String(text).replace(/\s*\([^)]*[\u0080-\uFFFF][^)]*\)/g, '');
-  // Strip any remaining non-Basic-Latin characters
+  let cleaned = str.replace(/\s*\([^)]*[\u0080-\uFFFF][^)]*\)/g, '');
+  // Strip any remaining non-ASCII characters
   cleaned = cleaned.replace(/[^\x00-\x7F]/g, '').trim();
-  return cleaned || String(text).replace(/[^\x00-\x7F]/g, '').trim();
+  if (cleaned.length > 0) return cleaned;
+  // Fallback if item name was entirely non-ASCII
+  return 'Item';
 };
 
 /**
@@ -173,9 +176,15 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
       // Fallback: draw circular vector logo if file not found
       doc.lineWidth(1).strokeColor(themeColor);
       doc.circle(82, 65, 30).stroke();
-      doc.font(fontRegular).fontSize(7).fillColor(themeColor)
-         .text('மகா\'ஸ்', 62, 58, { width: 40, align: 'center' })
-         .text('கிச்சன்', 62, 68, { width: 40, align: 'center' });
+      if (useTamil) {
+        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
+           .text('மகா\'ஸ்', 62, 58, { width: 40, align: 'center' })
+           .text('கிச்சன்', 62, 68, { width: 40, align: 'center' });
+      } else {
+        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
+           .text('Maha\'s', 62, 58, { width: 40, align: 'center' })
+           .text('Kitchen', 62, 68, { width: 40, align: 'center' });
+      }
     }
     
     // FSSAI below circle logo
@@ -183,17 +192,22 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
        .text('fssai', 40, 108, { width: 85, align: 'center' })
        .text('12425029000477', 30, 118, { width: 105, align: 'center' });
 
-    // Main brand title text in Tamil
-    doc.font(fontBold).fontSize(20).fillColor(themeColor)
-       .text('மகாலட்சுமி கேட்டரிங் சர்வீஸ் &', 135, 45, { width: 410, align: 'center' });
-    
-    doc.font(fontBold).fontSize(18)
-       .text('மகா\'ஸ் கிச்சன்', 135, 70, { width: 410, align: 'center' });
+    // Main brand title text
+    const headerTitle1 = useTamil ? 'மகாலட்சுமி கேட்டரிங் சர்வீஸ் &' : 'MAHALAKSHMI CATERING SERVICE &';
+    const headerTitle2 = useTamil ? 'மகா\'ஸ் கிச்சன்' : 'MAHA\'S KITCHEN';
+    const addressText = useTamil ? 'EB ஆபீஸ் எதிரில் கோவில்பட்டி - 628 501.' : 'EB Office Opposite, Kovilpatti - 628 501.';
+    const phoneText = useTamil ? 'செல் : 8682841582, 93608 84102.' : 'Phone : 8682841582, 93608 84102.';
 
-    // Address & phone cell (updated with phone cell 8682841582)
-    doc.font(fontRegular).fontSize(11)
-       .text('EB ஆபீஸ் எதிரில் கோவில்பட்டி - 628 501.', 135, 96, { width: 410, align: 'center' })
-       .text('செல் : 8682841582, 93608 84102.', 135, 114, { width: 410, align: 'center' });
+    doc.font(fontBold).fontSize(18).fillColor(themeColor)
+       .text(headerTitle1, 135, 45, { width: 410, align: 'center' });
+    
+    doc.font(fontBold).fontSize(16)
+       .text(headerTitle2, 135, 70, { width: 410, align: 'center' });
+
+    // Address & phone cell
+    doc.font(fontRegular).fontSize(10)
+       .text(addressText, 135, 94, { width: 410, align: 'center' })
+       .text(phoneText, 135, 112, { width: 410, align: 'center' });
 
     // Horizontal line below header
     doc.lineWidth(1).strokeColor(themeColor).moveTo(30, 142).lineTo(565, 142).stroke();
@@ -279,8 +293,9 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
        .text(grandTotal.toFixed(2), 460, 697, { width: 95, align: 'right' });
 
     // Footer bottom signature
+    const footerSign = useTamil ? 'For மகாலட்சுமி கேட்டரிங் சர்வீஸ் & மகா\'ஸ் கிச்சன்' : 'For Mahalakshmi Catering Service & Maha\'s Kitchen';
     doc.font(fontBold).fontSize(10).fillColor(themeColor)
-       .text('For மகாலட்சுமி கேட்டரிங் சர்வீஸ் & மகா\'ஸ் கிச்சன்', 300, 745, { width: 250, align: 'right' });
+       .text(footerSign, 300, 745, { width: 250, align: 'right' });
   };
 
   // Build the page structure
@@ -501,9 +516,15 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
       // Fallback circular vector logo
       doc.lineWidth(1).strokeColor(themeColor);
       doc.circle(82, 65, 30).stroke();
-      doc.font(fontRegular).fontSize(7).fillColor(themeColor)
-         .text('மகா\'ஸ்', 62, 58, { width: 40, align: 'center' })
-         .text('கிச்சன்', 62, 68, { width: 40, align: 'center' });
+      if (useTamil) {
+        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
+           .text('மகா\'ஸ்', 62, 58, { width: 40, align: 'center' })
+           .text('கிச்சன்', 62, 68, { width: 40, align: 'center' });
+      } else {
+        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
+           .text('Maha\'s', 62, 58, { width: 40, align: 'center' })
+           .text('Kitchen', 62, 68, { width: 40, align: 'center' });
+      }
     }
 
     doc.font(fontBold).fontSize(16).fillColor(themeColor)
