@@ -11,16 +11,13 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// 1. CORS Configuration (Must be first before helmet & routes to allow cross-origin preflight requests)
+app.use(cors());
+app.options('*', cors());
+
 // Security Middlewares
 app.use(helmet({
   crossOriginResourcePolicy: false // Allows loading local uploaded files if needed
-}));
-
-// CORS Configuration
-app.use(cors({
-  origin: '*', // In production, replace with specific frontend origin
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 // Request Parser
