@@ -173,68 +173,68 @@ export default function Dashboard() {
       {/* Analytics Charts & Calendar Section */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Main Area Chart */}
-        <div className="lg:col-span-2 p-5 rounded-premium bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 shadow-premium flex flex-col justify-between">
+        <div className="lg:col-span-2 p-6 rounded-premium bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 shadow-premium flex flex-col justify-between">
           <div className="mb-4">
-            <h3 className="font-bold text-sm">Monthly Financial Analytics</h3>
-            <p className="text-[10px] text-slate-400 mt-0.5">Overview of monthly revenue vs operational expenses</p>
+            <h3 className="font-extrabold text-base text-slate-900 dark:text-white">Monthly Financial Income & Revenue</h3>
+            <p className="text-xs font-medium text-slate-500 dark:text-slate-400 mt-0.5">Comparative visual overview of monthly revenue vs operational expenses</p>
           </div>
-          <div className="h-64">
+          <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={charts.monthlyRevenue}>
                 <defs>
                   <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#C59B27" stopOpacity={0.3}/>
-                    <stop offset="95%" stopColor="#C59B27" stopOpacity={0}/>
+                    <stop offset="5%" stopColor="#7D1525" stopOpacity={0.4}/>
+                    <stop offset="95%" stopColor="#7D1525" stopOpacity={0}/>
                   </linearGradient>
                   <linearGradient id="colorExpenses" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#7A1C2C" stopOpacity={0.3}/>
-                    <stop offset="95%" stopColor="#7A1C2C" stopOpacity={0}/>
+                    <stop offset="5%" stopColor="#B8860B" stopOpacity={0.4}/>
+                    <stop offset="95%" stopColor="#B8860B" stopOpacity={0}/>
                   </linearGradient>
                 </defs>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
-                <XAxis dataKey="month" tickLine={false} style={{ fontSize: 10 }} />
-                <YAxis tickLine={false} axisLine={false} style={{ fontSize: 10 }} />
-                <Tooltip />
-                <Area type="monotone" dataKey="revenue" name={`Revenue (${currencySymbol})`} stroke="#C59B27" fillOpacity={1} fill="url(#colorRevenue)" strokeWidth={2} />
-                <Area type="monotone" dataKey="expenses" name={`Expenses (${currencySymbol})`} stroke="#7A1C2C" fillOpacity={1} fill="url(#colorExpenses)" strokeWidth={2} />
+                <XAxis dataKey="month" tickLine={false} style={{ fontSize: 12, fontWeight: 600 }} />
+                <YAxis tickLine={false} axisLine={false} style={{ fontSize: 12, fontWeight: 600 }} />
+                <Tooltip contentStyle={{ borderRadius: '12px', fontWeight: 'bold' }} />
+                <Area type="monotone" dataKey="revenue" name={`Revenue (${currencySymbol})`} stroke="#7D1525" fillOpacity={1} fill="url(#colorRevenue)" strokeWidth={3} />
+                <Area type="monotone" dataKey="expenses" name={`Expenses (${currencySymbol})`} stroke="#B8860B" fillOpacity={1} fill="url(#colorExpenses)" strokeWidth={3} />
               </AreaChart>
             </ResponsiveContainer>
           </div>
         </div>
 
         {/* Small Pie Chart */}
-        <div className="p-5 rounded-premium bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 shadow-premium flex flex-col justify-between">
+        <div className="p-6 rounded-premium bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 shadow-premium flex flex-col justify-between">
           <div>
-            <h3 className="font-bold text-sm">Revenue vs Expenses</h3>
-            <p className="text-[10px] text-slate-400 mt-0.5">Summary of operating efficiency</p>
+            <h3 className="font-extrabold text-base text-slate-900 dark:text-white">Revenue vs Expenses</h3>
+            <p className="text-xs font-medium text-slate-500 dark:text-slate-400 mt-0.5">Summary of operating efficiency</p>
           </div>
-          <div className="h-52 flex items-center justify-center">
+          <div className="h-56 flex items-center justify-center">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
                   data={charts.revenueVsExpense}
                   cx="50%"
                   cy="50%"
-                  innerRadius={60}
-                  outerRadius={80}
-                  paddingAngle={5}
+                  innerRadius={65}
+                  outerRadius={85}
+                  paddingAngle={6}
                   dataKey="amount"
                 >
                   {charts.revenueVsExpense.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={index === 0 ? '#7D1525' : '#B8860B'} />
                   ))}
                 </Pie>
-                <Tooltip />
+                <Tooltip contentStyle={{ borderRadius: '12px', fontWeight: 'bold' }} />
               </PieChart>
             </ResponsiveContainer>
           </div>
-          <div className="flex justify-center gap-4 text-xs">
-            <div className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-primary" />
+          <div className="flex justify-center gap-6 text-sm font-bold">
+            <div className="flex items-center gap-2">
+              <span className="w-3 h-3 rounded-full bg-[#7D1525]" />
               <span>Revenue</span>
             </div>
-            <div className="flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-full bg-danger" />
+            <div className="flex items-center gap-2">
+              <span className="w-3 h-3 rounded-full bg-[#B8860B]" />
               <span>Expenses</span>
             </div>
           </div>
