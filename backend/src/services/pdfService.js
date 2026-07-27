@@ -1,5 +1,4 @@
 import PDFDocument from 'pdfkit';
-import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -8,68 +7,41 @@ const __dirname = path.dirname(__filename);
 const logoPath = path.join(__dirname, '..', '..', '..', 'frontend', 'src', 'assets', 'logo.png');
 
 /**
- * Checks if Tamil TrueType font files exist on the host filesystem before registering.
- * Prevents ENOENT crashes on Linux cloud environments (Render, Heroku, AWS).
- */
-const checkTamilFontSupport = (doc) => {
-  try {
-    const regularFont = 'C:\\Windows\\Fonts\\latha.ttf';
-    const boldFont = 'C:\\Windows\\Fonts\\lathab.ttf';
-    if (fs.existsSync(regularFont) && fs.existsSync(boldFont)) {
-      doc.registerFont('Tamil', regularFont);
-      doc.registerFont('Tamil-Bold', boldFont);
-      return true;
-    }
-  } catch (err) {
-    console.error('Tamil font registration skipped:', err.message);
-  }
-  return false;
-};
-
-/**
  * Strips characters that PDFKit's built-in Helvetica font cannot render.
- * Helvetica only supports Latin-1 / WinAnsi charset (U+0000–U+00FF).
- * Strategy: remove any (...) block that contains non-ASCII chars (Tamil annotations),
+ * Helvetica only supports basic ASCII charset (U+0020–U+007E).
+ * Strategy: remove any (...) block containing non-ASCII chars (e.g. Tamil annotations),
  * then strip any remaining non-ASCII characters.
- * e.g.  "Maida Poori (மைதா பூரி)"  →  "Maida Poori"
+ * e.g. "Maida Poori (மைதா பூரி)" -> "Maida Poori"
  */
 const sanitizeForPDF = (text) => {
   if (!text) return '';
   let str = String(text);
-  // Remove parenthetical Tamil/Unicode annotations
+  // Remove parenthetical non-ASCII annotations
   let cleaned = str.replace(/\s*\([^)]*[\u0080-\uFFFF][^)]*\)/g, '');
   // Strip any remaining non-ASCII characters
   cleaned = cleaned.replace(/[^\x00-\x7F]/g, '').trim();
   if (cleaned.length > 0) return cleaned;
-  // Fallback if item name was entirely non-ASCII
   return 'Item';
 };
 
 /**
  * Generate a professional invoice PDF
- * @param {Object} invoice - Invoice details
- * @param {Object} business - Business info (settings)
- * @param {res} res - Express response stream
  */
 export const generateInvoicePDF = (invoice, business, res, eventReportData = null) => {
   const doc = new PDFDocument({ margin: 20, size: 'A4' });
   doc.pipe(res);
 
-  // Register Tamil Font safely if available on filesystem
-  const useTamil = checkTamilFontSupport(doc);
-
-  const fontRegular = useTamil ? 'Tamil' : 'Helvetica';
-  const fontBold = useTamil ? 'Tamil-Bold' : 'Helvetica-Bold';
-  const themeColor = '#5A1827'; // Dark maroon/brown from template
+  const fontRegular = 'Helvetica';
+  const fontBold = 'Helvetica-Bold';
+  const themeColor = '#5A1827';
 
   // ── DYNAMIC ITEM COMPOSITION ──
   let pdfItems = [];
   let grandTotal = 0;
 
   if (eventReportData) {
-    const { customer, eventLabour, expenses, roleMap } = eventReportData;
+    const { customer, rentedVessels } = eventReportData;
 
-    // 1. Catering Service Cost (from customer details)
     if (customer) {
       const cateringAmount = customer.totalAmount || 0;
       pdfItems.push({
@@ -78,7 +50,6 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
       });
       grandTotal += cateringAmount;
 
-      // 2. Vessel Bill (from customer rentedVessels)
       const rented = customer.rentedVessels || [];
       if (rented.length > 0) {
         pdfItems.push({
@@ -88,90 +59,36 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
         });
         rented.forEach(v => {
           pdfItems.push({
-            description: `Vessel Rent: ${v.vesselName} (Qty: ${v.qty})`,
+            description: `Vessel Rent: ${sanitizeForPDF(v.vesselName)} (Qty: ${v.qty})`,
             amount: v.rentAmount || 0
           });
           grandTotal += v.rentAmount || 0;
         });
       }
     } else {
-      // Fallback to invoice items if customer is not found
-      invoice.items.forEach(it => {
+      (invoice.items || []).forEach(it => {
         pdfItems.push({
-          description: it.description,
-          amount: it.amount
+          description: sanitizeForPDF(it.description),
+          amount: it.amount || 0
         });
-        grandTotal += it.amount;
-      });
-    }
-
-    // 3. Labours who worked
-    if (eventLabour && eventLabour.workers && eventLabour.workers.length > 0) {
-      pdfItems.push({
-        description: '--- LABOUR CHARGES ---',
-        amount: 0,
-        isHeader: true
-      });
-
-      let roleCounts = {};
-      eventLabour.workers.forEach(w => {
-        const role = roleMap[w.workerId] || 'Server';
-        roleCounts[role] = (roleCounts[role] || 0) + 1;
-        
-        pdfItems.push({
-          description: `Labour Charge: ${w.name} (${role} - ${w.daysWorked} days worked)`,
-          amount: w.totalSalary
-        });
-        grandTotal += w.totalSalary;
-      });
-
-      // Role breakdown
-      const breakdownStr = Object.entries(roleCounts)
-        .map(([role, count]) => `${count} ${role}${count > 1 ? 's' : ''}`)
-        .join(', ');
-      
-      pdfItems.push({
-        description: `Staff Summary: ${breakdownStr}`,
-        amount: 0,
-        isSummaryLine: true
-      });
-    }
-
-    // 4. Logged Event Expenses
-    if (expenses && expenses.length > 0) {
-      pdfItems.push({
-        description: '--- EVENT EXPENSES ---',
-        amount: 0,
-        isHeader: true
-      });
-
-      expenses.forEach(exp => {
-        const desc = exp.description ? ` (${exp.description})` : '';
-        pdfItems.push({
-          description: `Event Expense: ${exp.category}${desc}`,
-          amount: exp.amount
-        });
-        grandTotal += exp.amount;
+        grandTotal += (it.amount || 0);
       });
     }
   } else {
-    // Standard invoice items if not linked to an event
-    invoice.items.forEach(it => {
+    (invoice.items || []).forEach(it => {
       pdfItems.push({
-        description: it.description,
-        amount: it.amount
+        description: sanitizeForPDF(it.description),
+        amount: it.amount || 0
       });
     });
-    grandTotal = invoice.total;
+    grandTotal = invoice.total || 0;
   }
 
   const drawPageBorders = () => {
-    // Fill page background with warm cream color to match the printed bill paper
     doc.save();
     doc.rect(0, 0, doc.page.width, doc.page.height).fill('#FDFBF7');
     doc.restore();
 
-    // Double Border
     doc.lineWidth(1.5).strokeColor(themeColor);
     doc.rect(20, 20, 555, 802).stroke();
     doc.lineWidth(0.5);
@@ -179,113 +96,78 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
   };
 
   const drawHeader = () => {
-    // Draw actual brand logo image from frontend assets
     const logoWidth = 75;
     try {
       doc.image(logoPath, 45, 32, { width: logoWidth });
     } catch (err) {
-      console.error('Error drawing logo image:', err);
-      // Fallback: draw circular vector logo if file not found
       doc.lineWidth(1).strokeColor(themeColor);
       doc.circle(82, 65, 30).stroke();
-      if (useTamil) {
-        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
-           .text('மகா\'ஸ்', 62, 58, { width: 40, align: 'center' })
-           .text('கிச்சன்', 62, 68, { width: 40, align: 'center' });
-      } else {
-        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
-           .text('Maha\'s', 62, 58, { width: 40, align: 'center' })
-           .text('Kitchen', 62, 68, { width: 40, align: 'center' });
-      }
+      doc.font(fontRegular).fontSize(7).fillColor(themeColor)
+         .text('Maha\'s', 62, 58, { width: 40, align: 'center' })
+         .text('Kitchen', 62, 68, { width: 40, align: 'center' });
     }
     
-    // FSSAI below circle logo
     doc.font(fontRegular).fontSize(8).fillColor(themeColor)
        .text('fssai', 40, 108, { width: 85, align: 'center' })
        .text('12425029000477', 30, 118, { width: 105, align: 'center' });
 
-    // Main brand title text
-    const headerTitle1 = useTamil ? 'மகாலட்சுமி கேட்டரிங் சர்வீஸ் &' : 'MAHALAKSHMI CATERING SERVICE &';
-    const headerTitle2 = useTamil ? 'மகா\'ஸ் கிச்சன்' : 'MAHA\'S KITCHEN';
-    const addressText = useTamil ? 'EB ஆபீஸ் எதிரில் கோவில்பட்டி - 628 501.' : 'EB Office Opposite, Kovilpatti - 628 501.';
-    const phoneText = useTamil ? 'செல் : 8682841582, 93608 84102.' : 'Phone : 8682841582, 93608 84102.';
-
     doc.font(fontBold).fontSize(18).fillColor(themeColor)
-       .text(headerTitle1, 135, 45, { width: 410, align: 'center' });
+       .text('MAHALAKSHMI CATERING SERVICE &', 135, 45, { width: 410, align: 'center' });
     
     doc.font(fontBold).fontSize(16)
-       .text(headerTitle2, 135, 70, { width: 410, align: 'center' });
+       .text('MAHA\'S KITCHEN', 135, 70, { width: 410, align: 'center' });
 
-    // Address & phone cell
     doc.font(fontRegular).fontSize(10)
-       .text(addressText, 135, 94, { width: 410, align: 'center' })
-       .text(phoneText, 135, 112, { width: 410, align: 'center' });
+       .text('EB Office Opposite, Kovilpatti - 628 501.', 135, 94, { width: 410, align: 'center' })
+       .text('Phone : 8682841582, 93608 84102.', 135, 112, { width: 410, align: 'center' });
 
-    // Horizontal line below header
     doc.lineWidth(1).strokeColor(themeColor).moveTo(30, 142).lineTo(565, 142).stroke();
   };
 
   const drawBillInfo = () => {
-    // Bill number, title and Date
     doc.font(fontRegular).fontSize(11).fillColor(themeColor);
-    
-    // Bill No
     doc.text('No.', 40, 155);
     doc.font(fontBold).fontSize(11).fillColor('#1F2937')
-       .text(invoice.invoiceNumber || '74', 70, 155);
+       .text(String(invoice.invoiceNumber || '1'), 70, 155);
 
-    // CASH BILL (centered)
     doc.font(fontBold).fontSize(14).fillColor(themeColor)
        .text('CASH BILL', 250, 152, { width: 100, align: 'center' });
     
-    // Underline CASH BILL
     doc.lineWidth(1).strokeColor(themeColor)
        .moveTo(260, 166).lineTo(340, 166).stroke();
 
-    // Date
     doc.font(fontRegular).fontSize(11).fillColor(themeColor)
-       .text('தேதி:', 430, 155);
+       .text('Date:', 425, 155);
     
-    const dateStr = invoice.date ? invoice.date : '';
+    const dateStr = String(invoice.date || '');
     doc.font(fontBold).fontSize(11).fillColor('#1F2937')
-       .text(dateStr, 470, 155, { width: 90, align: 'left' });
+       .text(dateStr, 465, 155, { width: 95, align: 'left' });
 
-    // Underline date
     doc.lineWidth(0.5).strokeColor(themeColor)
-       .moveTo(465, 168).lineTo(560, 168).stroke();
+       .moveTo(460, 168).lineTo(560, 168).stroke();
 
-    // Customer Name M/s line
     doc.font(fontRegular).fontSize(11).fillColor(themeColor)
        .text('M/s.', 40, 182);
 
-    // Draw the customer's name on top of the line
     doc.font(fontBold).fontSize(11).fillColor('#1F2937')
-       .text(invoice.customerName || '', 70, 182);
+       .text(sanitizeForPDF(invoice.customerName) || 'Customer', 70, 182);
 
-    // Dotted/Dashed underline for M/s to match the printed layout
     doc.save();
     doc.lineWidth(0.5).strokeColor(themeColor)
        .dash(1, { space: 2 })
        .moveTo(65, 195).lineTo(560, 195).stroke();
     doc.restore();
 
-    // Line below M/s
     doc.lineWidth(0.5).strokeColor(themeColor).moveTo(30, 202).lineTo(565, 202).stroke();
   };
 
   const drawTableGrid = () => {
     doc.lineWidth(1).strokeColor(themeColor);
-    // Draw outer box: y=210 to y=690
     doc.rect(30, 210, 535, 480).stroke();
-
-    // Table Header horizontal line: y=235
     doc.moveTo(30, 235).lineTo(565, 235).stroke();
+    doc.moveTo(70, 210).lineTo(70, 690).stroke();
+    doc.moveTo(460, 210).lineTo(460, 690).stroke();
 
-    // Columns vertical dividers
-    doc.moveTo(70, 210).lineTo(70, 690).stroke(); // SI No divider
-    doc.moveTo(460, 210).lineTo(460, 690).stroke(); // Particulars divider
-
-    // Column text headers
     doc.font(fontBold).fontSize(11).fillColor(themeColor)
        .text('SI', 30, 213, { width: 40, align: 'center' })
        .text('No.', 30, 222, { width: 40, align: 'center' })
@@ -296,7 +178,6 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
 
   const drawFooter = () => {
     doc.lineWidth(1).strokeColor(themeColor);
-    // Standard single row
     doc.rect(30, 690, 535, 25).stroke();
     doc.moveTo(460, 690).lineTo(460, 715).stroke();
 
@@ -304,20 +185,16 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
        .text('TOTAL', 380, 697)
        .text(grandTotal.toFixed(2), 460, 697, { width: 95, align: 'right' });
 
-    // Footer bottom signature
-    const footerSign = useTamil ? 'For மகாலட்சுமி கேட்டரிங் சர்வீஸ் & மகா\'ஸ் கிச்சன்' : 'For Mahalakshmi Catering Service & Maha\'s Kitchen';
     doc.font(fontBold).fontSize(10).fillColor(themeColor)
-       .text(footerSign, 300, 745, { width: 250, align: 'right' });
+       .text('For Mahalakshmi Catering Service & Maha\'s Kitchen', 260, 745, { width: 290, align: 'right' });
   };
 
-  // Build the page structure
   drawPageBorders();
   drawHeader();
   drawBillInfo();
   drawTableGrid();
   drawFooter();
 
-  // Print items inside the table grid
   let currentY = 245;
   const itemsPerPage = 18;
   let itemsCount = 0;
@@ -327,34 +204,23 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
       doc.addPage();
       drawPageBorders();
       drawHeader();
-      drawBillInfo();
       drawTableGrid();
       drawFooter();
       currentY = 245;
       itemsCount = 0;
     }
 
-    // Clean names to prevent font characters layout issue
-    const cleanDesc = sanitizeForPDF(item.description);
-
     if (item.isHeader) {
-      doc.font(fontBold).fontSize(9).fillColor(themeColor)
-         .text(cleanDesc, 85, currentY, { width: 365 });
-    } else if (item.isSummaryLine) {
-      doc.font(fontRegular).fontSize(8.5).fillColor('#4B5563')
-         .text(cleanDesc, 85, currentY, { width: 365 });
+      doc.font(fontBold).fontSize(10).fillColor(themeColor)
+         .text(item.description, 85, currentY + 3);
     } else {
       doc.font(fontRegular).fontSize(10).fillColor('#1F2937')
-         .text((index + 1).toString(), 30, currentY, { width: 40, align: 'center' })
-         .text(cleanDesc, 85, currentY, { width: 365 });
-
-      const amtVal = item.amount || 0;
-      const amtStr = amtVal.toFixed(2);
-
-      doc.font(fontRegular).fontSize(10).fillColor('#1F2937')
-         .text(amtStr, 460, currentY, { width: 95, align: 'right' });
+         .text((index + 1).toString(), 30, currentY + 3, { width: 40, align: 'center' })
+         .text(item.description, 85, currentY + 3, { width: 365 })
+         .text(Number(item.amount || 0).toFixed(2), 460, currentY + 3, { width: 95, align: 'right' });
     }
 
+    doc.lineWidth(0.2).strokeColor('#E5E7EB').moveTo(30, currentY + 22).lineTo(565, currentY + 22).stroke();
     currentY += 24;
     itemsCount++;
   });
@@ -363,30 +229,30 @@ export const generateInvoicePDF = (invoice, business, res, eventReportData = nul
 };
 
 /**
- * Generate a grocery requirement sheet for an event
- * @param {Object} event - Event details
- * @param {Array} groceries - Aggregated grocery list
- * @param {res} res - Express response stream
+ * Generate event grocery list PDF
  */
 export const generateGroceryPDF = (event, groceries, res) => {
   const doc = new PDFDocument({ margin: 50, size: 'A4' });
   doc.pipe(res);
 
-  const primaryColor = '#06B6D4';
+  const fontRegular = 'Helvetica';
+  const fontBold = 'Helvetica-Bold';
+  const primaryColor = '#7D1525';
   const textDark = '#1F2937';
   const textMuted = '#4B5563';
   const dividerColor = '#E5E7EB';
 
-  doc.fillColor(primaryColor)
-     .fontSize(20).text('EVENT GROCERY LIST', 50, 50)
-     .fontSize(10).fillColor(textMuted)
-     .text(`Generated for Event: ${event.name}`, 50, 75)
-     .text(`Event Date: ${event.date}`, 50, 90)
-     .text(`Guest Count: ${event.guestCount}`, 50, 105);
+  doc.font(fontBold).fontSize(20).fillColor(primaryColor)
+     .text('EVENT GROCERY LIST', 50, 50);
+
+  doc.font(fontRegular).fontSize(10).fillColor(textMuted)
+     .text(`Generated for Event: ${sanitizeForPDF(event.name)}`, 50, 75)
+     .text(`Event Date: ${String(event.date || 'N/A')}`, 50, 90)
+     .text(`Guest Count: ${String(event.guestCount || '0')}`, 50, 105);
 
   doc.moveTo(50, 125).lineTo(550, 125).strokeColor(dividerColor).stroke();
 
-  doc.fontSize(11).fillColor(primaryColor)
+  doc.font(fontBold).fontSize(11).fillColor(primaryColor)
      .text('Ingredient Name', 50, 145)
      .text('Category', 220, 145)
      .text('Qty Required', 370, 145, { width: 80, align: 'right' })
@@ -401,18 +267,20 @@ export const generateGroceryPDF = (event, groceries, res) => {
     if (currentY > 700) { doc.addPage(); currentY = 50; }
     const itemCost = (item.quantity || 0) * (item.unitCost || 0);
     totalEstimatedCost += itemCost;
-    doc.fontSize(10).fillColor(textDark)
+
+    doc.font(fontRegular).fontSize(10).fillColor(textDark)
        .text(sanitizeForPDF(item.name), 50, currentY)
-       .text(item.category || 'General', 220, currentY)
-       .text(`${item.quantity} ${item.unit || 'kg'}`, 370, currentY, { width: 80, align: 'right' })
+       .text(sanitizeForPDF(item.category || 'General'), 220, currentY)
+       .text(`${item.quantity || 0} ${sanitizeForPDF(item.unit || 'kg')}`, 370, currentY, { width: 80, align: 'right' })
        .text(`Rs.${itemCost.toFixed(2)}`, 470, currentY, { width: 80, align: 'right' });
+
     currentY += 20;
   });
 
   doc.moveTo(50, currentY).lineTo(550, currentY).strokeColor(dividerColor).stroke();
   currentY += 15;
 
-  doc.fontSize(11).fillColor(primaryColor)
+  doc.font(fontBold).fontSize(11).fillColor(primaryColor)
      .text('Total Estimated Material Cost:', 250, currentY)
      .text(`Rs.${totalEstimatedCost.toFixed(2)}`, 470, currentY, { width: 80, align: 'right' });
 
@@ -420,39 +288,32 @@ export const generateGroceryPDF = (event, groceries, res) => {
 };
 
 /**
- * Generate a professional customer-specific list PDF (menu, vegetables, or groceries)
- * @param {Object} customer - Customer details
- * @param {string} type - 'menu', 'vegetables', or 'groceries'
- * @param {Array} items - List of items
- * @param {res} res - Express response stream
+ * Generate customer specific list PDF (menu, vegetables, or groceries)
  */
 export const generateCustomerListPDF = (customer, type, items, res) => {
   const doc = new PDFDocument({ margin: 50, size: 'A4' });
   doc.pipe(res);
 
-  const colors = {
-    'menu': '#4F46E5',
-    'vegetables': '#10B981',
-    'groceries': '#F59E0B'
-  };
-  const primaryColor = colors[type.toLowerCase()] || '#4F46E5';
+  const fontRegular = 'Helvetica';
+  const fontBold = 'Helvetica-Bold';
+  const primaryColor = '#7D1525';
   const textDark = '#1F2937';
   const textMuted = '#4B5563';
   const dividerColor = '#E5E7EB';
 
-  doc.fillColor(primaryColor)
-     .fontSize(20)
-     .text(`CUSTOMER ${type.toUpperCase()} REQUIREMENTS`, 50, 50)
-     .fontSize(10).fillColor(textMuted)
+  doc.font(fontBold).fontSize(20).fillColor(primaryColor)
+     .text(`CUSTOMER ${type.toUpperCase()} REQUIREMENTS`, 50, 50);
+
+  doc.font(fontRegular).fontSize(10).fillColor(textMuted)
      .text(`Customer Name: ${sanitizeForPDF(customer.name)}`, 50, 78)
-     .text(`Phone: ${customer.phone}`, 50, 93)
-     .text(`Email: ${customer.email}`, 50, 108)
-     .text(`Event Date: ${customer.eventDate || 'N/A'}`, 50, 123)
-     .text(`Event Type: ${customer.eventType || 'N/A'}`, 50, 138);
+     .text(`Phone: ${String(customer.phone || '-')}`, 50, 93)
+     .text(`Email: ${String(customer.email || '-')}`, 50, 108)
+     .text(`Event Date: ${String(customer.eventDate || 'N/A')}`, 50, 123)
+     .text(`Event Type: ${String(customer.eventType || 'N/A')}`, 50, 138);
 
   doc.moveTo(50, 155).lineTo(550, 155).strokeColor(dividerColor).stroke();
 
-  doc.fontSize(11).fillColor(primaryColor)
+  doc.font(fontBold).fontSize(11).fillColor(primaryColor)
      .text('S.No', 50, 175)
      .text('Item / Ingredient Name', 100, 175)
      .text('Qty', 380, 175, { width: 80, align: 'right' })
@@ -464,13 +325,12 @@ export const generateCustomerListPDF = (customer, type, items, res) => {
   items.forEach((item, index) => {
     if (currentY > 720) { doc.addPage(); currentY = 50; }
 
-    // Strip Tamil annotations — PDFKit Helvetica cannot render Unicode Tamil script
     const rawName = typeof item === 'string' ? item : (item.name || '');
     const itemName = sanitizeForPDF(rawName);
     const itemUnit = typeof item === 'string' ? 'Standard' : (item.unit || 'Standard');
-    const itemQty = typeof item === 'string' ? '-' : (item.qty !== undefined ? item.qty.toString() : '-');
+    const itemQty = typeof item === 'string' ? '-' : (item.qty !== undefined ? String(item.qty) : '-');
 
-    doc.fontSize(10).fillColor(textDark)
+    doc.font(fontRegular).fontSize(10).fillColor(textDark)
        .text((index + 1).toString(), 50, currentY)
        .text(itemName, 100, currentY, { width: 270 })
        .text(itemQty, 380, currentY, { width: 80, align: 'right' })
@@ -484,28 +344,21 @@ export const generateCustomerListPDF = (customer, type, items, res) => {
 };
 
 /**
- * Generate a unified requirements list PDF (menu, vegetables, and groceries)
- * @param {Object} customer - Customer details
- * @param {res} res - Express response stream
+ * Generate unified requirements list PDF (menu, vegetables, and groceries)
  */
 export const generateCustomerRequirementsPDF = (customer, res) => {
   const doc = new PDFDocument({ margin: 20, size: 'A4' });
   doc.pipe(res);
 
-  // Register Tamil Font safely if available on filesystem
-  const useTamil = checkTamilFontSupport(doc);
-
-  const fontRegular = useTamil ? 'Tamil' : 'Helvetica';
-  const fontBold = useTamil ? 'Tamil-Bold' : 'Helvetica-Bold';
-  const themeColor = '#5A1827'; // Dark maroon/brown from template
+  const fontRegular = 'Helvetica';
+  const fontBold = 'Helvetica-Bold';
+  const themeColor = '#5A1827';
 
   const drawPageBorders = () => {
-    // Fill page background with warm cream color
     doc.save();
     doc.rect(0, 0, doc.page.width, doc.page.height).fill('#FDFBF7');
     doc.restore();
 
-    // Double Border
     doc.lineWidth(1.5).strokeColor(themeColor);
     doc.rect(20, 20, 555, 802).stroke();
     doc.lineWidth(0.5);
@@ -513,23 +366,15 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
   };
 
   const drawMainHeader = () => {
-    // Draw actual brand logo image from frontend assets
     const logoWidth = 75;
     try {
       doc.image(logoPath, 45, 32, { width: logoWidth });
     } catch (err) {
-      // Fallback circular vector logo
       doc.lineWidth(1).strokeColor(themeColor);
       doc.circle(82, 65, 30).stroke();
-      if (useTamil) {
-        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
-           .text('மகா\'ஸ்', 62, 58, { width: 40, align: 'center' })
-           .text('கிச்சன்', 62, 68, { width: 40, align: 'center' });
-      } else {
-        doc.font(fontRegular).fontSize(7).fillColor(themeColor)
-           .text('Maha\'s', 62, 58, { width: 40, align: 'center' })
-           .text('Kitchen', 62, 68, { width: 40, align: 'center' });
-      }
+      doc.font(fontRegular).fontSize(7).fillColor(themeColor)
+         .text('Maha\'s', 62, 58, { width: 40, align: 'center' })
+         .text('Kitchen', 62, 68, { width: 40, align: 'center' });
     }
 
     doc.font(fontBold).fontSize(16).fillColor(themeColor)
@@ -538,7 +383,7 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
        .text('MAHA\'S KITCHEN', 135, 62, { width: 410, align: 'center' });
 
     doc.font(fontRegular).fontSize(10)
-       .text('EB Bus opposite Kovilpatti - 628 501.', 135, 84, { width: 410, align: 'center' })
+       .text('EB Office Opposite, Kovilpatti - 628 501.', 135, 84, { width: 410, align: 'center' })
        .text('Phone : 8682841582.', 135, 100, { width: 410, align: 'center' });
 
     doc.lineWidth(1).strokeColor(themeColor).moveTo(30, 125).lineTo(565, 125).stroke();
@@ -552,25 +397,25 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor);
     doc.text('Client Name:', 40, 160);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.name) || '—', 110, 160);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.name) || '-', 110, 160);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Phone Number:', 40, 175);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.phone ? String(customer.phone) : '—', 110, 175);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.phone ? String(customer.phone) : '-', 110, 175);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Email Address:', 40, 190);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.email ? String(customer.email) : '—', 110, 190);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.email ? String(customer.email) : '-', 110, 190);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Venue/Address:', 40, 205);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.address) || '—', 110, 205, { width: 180 });
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.address) || '-', 110, 205, { width: 180 });
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Event Date:', 310, 160);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventDate ? String(customer.eventDate) : '—', 380, 160);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventDate ? String(customer.eventDate) : '-', 380, 160);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Event Type:', 310, 175);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventType ? String(customer.eventType) : '—', 380, 175);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventType ? String(customer.eventType) : '-', 380, 175);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Guests Count:', 310, 190);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.guestCount ? String(customer.guestCount) : '—', 380, 190);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.guestCount ? String(customer.guestCount) : '-', 380, 190);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Service Type:', 310, 205);
     doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.serviceType ? String(customer.serviceType) : 'Catering', 380, 205);
@@ -627,8 +472,8 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
     menuItems.forEach((item, index) => {
       ensureSpace(20);
       const itemName = sanitizeForPDF(typeof item === 'string' ? item : (item.name || ''));
-      const itemCourse = typeof item === 'string' ? '—' : (item.course || '—');
-      const itemCategory = typeof item === 'string' ? '—' : (item.category || '—');
+      const itemCourse = typeof item === 'string' ? '-' : (item.course || '-');
+      const itemCategory = typeof item === 'string' ? '-' : (item.category || '-');
 
       doc.font(fontRegular).fontSize(9).fillColor('#1F2937')
          .text((index + 1).toString(), 40, currentY + 4)
@@ -666,7 +511,7 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
     vegItems.forEach((item, index) => {
       ensureSpace(20);
       const name = sanitizeForPDF(item.name || '');
-      const qty = item.qty !== undefined ? item.qty.toString() : '—';
+      const qty = item.qty !== undefined ? String(item.qty) : '-';
       const unit = sanitizeForPDF(item.unit || '');
 
       doc.font(fontRegular).fontSize(9).fillColor('#1F2937')
@@ -704,7 +549,7 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
     grocItems.forEach((item, index) => {
       ensureSpace(20);
       const name = sanitizeForPDF(item.name || '');
-      const qty = item.qty !== undefined ? item.qty.toString() : '—';
+      const qty = item.qty !== undefined ? String(item.qty) : '-';
       const unit = sanitizeForPDF(item.unit || '');
 
       doc.font(fontRegular).fontSize(9).fillColor('#1F2937')
