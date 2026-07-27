@@ -28,6 +28,12 @@ const resolveCustomFont = () => {
   return null;
 };
 
+// ── DEPLOYMENT DIAGNOSTIC LOGS ──
+console.log("===== PDF SERVICE VERSION =====");
+console.log("PDF Service File:", import.meta.url);
+console.log("Resolved Font:", resolveCustomFont());
+console.log("Current Working Directory:", process.cwd());
+
 /**
  * Strips characters that PDFKit's built-in Helvetica font cannot render.
  */
@@ -60,6 +66,13 @@ const applyFont = (doc, fontPath, isBold = false) => {
 export const generateInvoicePDF = (invoice, business, res, eventReportData = null, req = null) => {
   const fontPath = resolveCustomFont();
   const doc = new PDFDocument({ margin: 20, size: 'A4' });
+
+  doc.on('error', (err) => {
+    console.error('💥 [PDFKit Stream Error - generateInvoicePDF] Full Stack Trace:', err.stack || err);
+    if (!res.headersSent) {
+      res.status(500).json({ success: false, message: 'PDF Stream Error' });
+    }
+  });
 
   try {
     doc.pipe(res);
@@ -264,6 +277,13 @@ export const generateGroceryPDF = (event, groceries, res, req = null) => {
   const fontPath = resolveCustomFont();
   const doc = new PDFDocument({ margin: 50, size: 'A4' });
 
+  doc.on('error', (err) => {
+    console.error('💥 [PDFKit Stream Error - generateGroceryPDF] Full Stack Trace:', err.stack || err);
+    if (!res.headersSent) {
+      res.status(500).json({ success: false, message: 'PDF Stream Error' });
+    }
+  });
+
   try {
     doc.pipe(res);
     const primaryColor = '#7D1525';
@@ -334,6 +354,13 @@ export const generateCustomerListPDF = (customer, type, items, res, req = null) 
   const fontPath = resolveCustomFont();
   const doc = new PDFDocument({ margin: 50, size: 'A4' });
 
+  doc.on('error', (err) => {
+    console.error('💥 [PDFKit Stream Error - generateCustomerListPDF] Full Stack Trace:', err.stack || err);
+    if (!res.headersSent) {
+      res.status(500).json({ success: false, message: 'PDF Stream Error' });
+    }
+  });
+
   try {
     doc.pipe(res);
     const primaryColor = '#7D1525';
@@ -400,6 +427,13 @@ export const generateCustomerListPDF = (customer, type, items, res, req = null) 
 export const generateCustomerRequirementsPDF = (customer, res, req = null) => {
   const fontPath = resolveCustomFont();
   const doc = new PDFDocument({ margin: 20, size: 'A4' });
+
+  doc.on('error', (err) => {
+    console.error('💥 [PDFKit Stream Error - generateCustomerRequirementsPDF] Full Stack Trace:', err.stack || err);
+    if (!res.headersSent) {
+      res.status(500).json({ success: false, message: 'PDF Stream Error' });
+    }
+  });
 
   try {
     doc.pipe(res);
