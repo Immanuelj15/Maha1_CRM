@@ -3,6 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+throw new Error("THIS IS MY NEW PDF SERVICE");
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const logoPath = path.join(__dirname, '..', '..', '..', 'frontend', 'src', 'assets', 'logo.png');
