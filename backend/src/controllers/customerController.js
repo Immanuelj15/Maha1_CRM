@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 import { Customer, Event, Invoice, Notification, Vessel, Rental, Payment, EventLabour } from '../models/schemas.js';
 import { generateCustomerListPDF, generateCustomerRequirementsPDF } from '../services/pdfService.js';
 
@@ -385,7 +386,14 @@ export const getCustomers = async (req, res) => {
 export const getCustomerById = async (req, res) => {
   try {
     const { id } = req.params;
-    const customer = await Customer.findById(id);
+    let customer = null;
+    if (mongoose.Types.ObjectId.isValid(id)) {
+      customer = await Customer.findById(id);
+    }
+    if (!customer) {
+      customer = await Customer.findOne({ _id: id });
+    }
+
     if (!customer) {
       return res.status(404).json({ success: false, message: 'Customer not found.' });
     }
@@ -574,7 +582,14 @@ export const downloadCustomerPDF = async (req, res) => {
     const { id } = req.params;
     const { type } = req.query; // 'menu', 'vegetables', 'groceries', or 'all' / undefined
 
-    const customer = await Customer.findById(id);
+    let customer = null;
+    if (mongoose.Types.ObjectId.isValid(id)) {
+      customer = await Customer.findById(id);
+    }
+    if (!customer) {
+      customer = await Customer.findOne({ _id: id });
+    }
+
     if (!customer) {
       return res.status(404).json({ success: false, message: 'Customer not found.' });
     }
