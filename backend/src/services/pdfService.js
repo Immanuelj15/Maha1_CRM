@@ -552,28 +552,28 @@ export const generateCustomerRequirementsPDF = (customer, res) => {
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor);
     doc.text('Client Name:', 40, 160);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.name), 110, 160);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.name) || '—', 110, 160);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Phone Number:', 40, 175);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.phone, 110, 175);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.phone ? String(customer.phone) : '—', 110, 175);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Email Address:', 40, 190);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.email || '—', 110, 190);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.email ? String(customer.email) : '—', 110, 190);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Venue/Address:', 40, 205);
     doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(sanitizeForPDF(customer.address) || '—', 110, 205, { width: 180 });
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Event Date:', 310, 160);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventDate || '—', 380, 160);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventDate ? String(customer.eventDate) : '—', 380, 160);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Event Type:', 310, 175);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventType || '—', 380, 175);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.eventType ? String(customer.eventType) : '—', 380, 175);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Guests Count:', 310, 190);
     doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.guestCount ? String(customer.guestCount) : '—', 380, 190);
 
     doc.font(fontBold).fontSize(9).fillColor(themeColor).text('Service Type:', 310, 205);
-    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.serviceType || 'Catering', 380, 205);
+    doc.font(fontRegular).fontSize(9).fillColor('#1F2937').text(customer.serviceType ? String(customer.serviceType) : 'Catering', 380, 205);
 
     doc.lineWidth(1).strokeColor(themeColor).moveTo(30, 230).lineTo(565, 230).stroke();
   };
