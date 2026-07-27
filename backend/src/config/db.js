@@ -16,9 +16,13 @@ export const connectDB = async () => {
 
   try {
     mongoose.set('strictQuery', false);
-    // Set generous 10s timeout for cloud MongoDB Atlas connections
+    // Enterprise connection pooling & socket options for MongoDB Atlas
     await mongoose.connect(mongoUri, {
       serverSelectionTimeoutMS: 10000,
+      socketTimeoutMS: 45000,
+      maxPoolSize: 10,
+      minPoolSize: 2,
+      autoIndex: true
     });
     console.log('✨ Connected successfully to MongoDB at:', mongoUri);
     dbMode = 'mongodb';

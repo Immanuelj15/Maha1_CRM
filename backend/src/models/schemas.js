@@ -6,18 +6,20 @@ const Schema = mongoose.Schema;
 // User Schema
 const UserSchema = new Schema({
   username: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
+  email: { type: String, required: true, unique: true, index: true },
   password: { type: String, required: true },
   role: { type: String, default: 'admin' }, // admin, manager, staff
   avatar: { type: String, default: '' },
   businessName: { type: String, default: 'CaterMaster Business' }
 }, { timestamps: true });
 
+UserSchema.index({ email: 1 });
+
 // Customer Schema
 const CustomerSchema = new Schema({
-  name: { type: String, required: true },
-  phone: { type: String, required: true },
-  email: { type: String, required: true },
+  name: { type: String, required: true, index: true },
+  phone: { type: String, default: '', index: true },
+  email: { type: String, default: '' },
   address: { type: String, default: '' },
   eventType: { type: String, default: '' },
   eventDate: { type: String, default: '' },
@@ -36,16 +38,19 @@ const CustomerSchema = new Schema({
   rentedVessels: { type: Array, default: [] } // [{ vesselId, vesselName, qty, rentAmount, deposit, returnDate, rentalId }]
 }, { timestamps: true });
 
+CustomerSchema.index({ phone: 1 });
+CustomerSchema.index({ name: 1 });
+
 // Event Schema
 const EventSchema = new Schema({
   name: { type: String, required: true },
-  customerId: { type: String, default: '' },
+  customerId: { type: String, default: '', index: true },
   customerName: { type: String, default: '' },
   location: { type: String, default: '' },
-  date: { type: String, required: true },
+  date: { type: String, required: true, index: true },
   guestCount: { type: Number, default: 0 },
   eventType: { type: String, default: '' }, // Wedding, Birthday, Corporate, Anniversary, etc.
-  status: { type: String, default: 'Inquiry' }, // Inquiry, Confirmed, Ongoing, Completed, Cancelled
+  status: { type: String, default: 'Inquiry', index: true }, // Inquiry, Confirmed, Ongoing, Completed, Cancelled
   menuPlan: {
     breakfast: { type: Array, default: [] }, // [{ name, qty, estimatedCost }]
     lunch: { type: Array, default: [] },
@@ -54,30 +59,38 @@ const EventSchema = new Schema({
   timeline: { type: Array, default: [] } // [{ time, activity }]
 }, { timestamps: true });
 
+EventSchema.index({ customerId: 1 });
+EventSchema.index({ date: 1 });
+
 // Grocery (Inventory) Schema
 const GrocerySchema = new Schema({
-  name: { type: String, required: true },
-  category: { type: String, required: true }, // Vegetables, Groceries, Dairy, Spices, Others
+  name: { type: String, required: true, index: true },
+  category: { type: String, required: true, index: true }, // Vegetables, Groceries, Dairy, Spices, Others
   stock: { type: Number, default: 0 },
   unit: { type: String, default: 'kg' }, // kg, ltr, packet, pcs
   unitCost: { type: Number, default: 0 },
   lowStockThreshold: { type: Number, default: 5 }
 }, { timestamps: true });
 
+GrocerySchema.index({ name: 1, category: 1 });
+
 // Expense Schema
 const ExpenseSchema = new Schema({
   amount: { type: Number, required: true },
-  category: { type: String, required: true }, // Grocery, Vegetable, Labour, Transportation, Fuel, Maintenance, Miscellaneous
-  date: { type: String, required: true },
+  category: { type: String, required: true, index: true }, // Grocery, Vegetable, Labour, Transportation, Fuel, Maintenance, Miscellaneous
+  date: { type: String, required: true, index: true },
   status: { type: String, default: 'Paid' }, // Paid, Pending
   description: { type: String, default: '' },
   eventId: { type: String, default: '' },
   eventName: { type: String, default: '' }
 }, { timestamps: true });
 
+ExpenseSchema.index({ date: 1 });
+ExpenseSchema.index({ category: 1 });
+
 // Labour Schema
 const LabourSchema = new Schema({
-  name: { type: String, required: true },
+  name: { type: String, required: true, index: true },
   role: { type: String, default: 'Server' }, // Chef, Server, Cleaner, Helper
   phone: { type: String, default: '' },
   dailyWage: { type: Number, default: 0 },
@@ -86,7 +99,7 @@ const LabourSchema = new Schema({
 
 // Attendance Schema
 const AttendanceSchema = new Schema({
-  date: { type: String, required: true }, // YYYY-MM-DD
+  date: { type: String, required: true, index: true }, // YYYY-MM-DD
   records: [{
     workerId: { type: String, required: true },
     workerName: { type: String, required: true },
@@ -96,9 +109,11 @@ const AttendanceSchema = new Schema({
   }]
 }, { timestamps: true });
 
+AttendanceSchema.index({ date: 1 });
+
 // Vessel Schema
 const VesselSchema = new Schema({
-  name: { type: String, required: true },
+  name: { type: String, required: true, index: true },
   totalQty: { type: Number, default: 0 },
   rentedQty: { type: Number, default: 0 },
   availableQty: { type: Number, default: 0 },
@@ -108,9 +123,9 @@ const VesselSchema = new Schema({
 
 // Rental (Vessel Renting) Schema
 const RentalSchema = new Schema({
-  vesselId: { type: String, required: true },
+  vesselId: { type: String, required: true, index: true },
   vesselName: { type: String, required: true },
-  renterName: { type: String, required: true },
+  renterName: { type: String, required: true, index: true },
   phone: { type: String, default: '' },
   assignedDate: { type: String, required: true },
   returnDate: { type: String, required: true },
@@ -123,13 +138,16 @@ const RentalSchema = new Schema({
   notes: { type: String, default: '' }
 }, { timestamps: true });
 
+RentalSchema.index({ vesselId: 1 });
+RentalSchema.index({ renterName: 1 });
+
 // Invoice Schema
 const InvoiceSchema = new Schema({
-  invoiceNumber: { type: String, required: true },
+  invoiceNumber: { type: String, required: true, unique: true, index: true },
   eventId: { type: String, default: '' },
-  customerName: { type: String, required: true },
+  customerName: { type: String, required: true, index: true },
   customerEmail: { type: String, default: '' },
-  date: { type: String, required: true },
+  date: { type: String, required: true, index: true },
   items: [{
     description: { type: String, required: true },
     quantity: { type: Number, default: 1 },
@@ -144,24 +162,31 @@ const InvoiceSchema = new Schema({
   pdfUrl: { type: String, default: '' }
 }, { timestamps: true });
 
+InvoiceSchema.index({ invoiceNumber: 1 });
+InvoiceSchema.index({ customerName: 1 });
+InvoiceSchema.index({ date: 1 });
+
 // Payment Schema
 const PaymentSchema = new Schema({
-  invoiceNumber: { type: String, required: true },
-  customerName: { type: String, required: true },
+  invoiceNumber: { type: String, required: true, index: true },
+  customerName: { type: String, required: true, index: true },
   amount: { type: Number, required: true },
   method: { type: String, default: 'Cash' }, // Cash, UPI, Bank, Cheque
-  date: { type: String, required: true },
+  date: { type: String, required: true, index: true },
   reference: { type: String, default: '' },
   notes: { type: String, default: '' }
 }, { timestamps: true });
+
+PaymentSchema.index({ invoiceNumber: 1 });
+PaymentSchema.index({ date: 1 });
 
 // Notification Schema
 const NotificationSchema = new Schema({
   title: { type: String, required: true },
   message: { type: String, required: true },
   type: { type: String, default: 'event' }, // event, payment, vessel, labour
-  status: { type: String, default: 'unread' }, // read, unread
-  date: { type: String, required: true }
+  status: { type: String, default: 'unread', index: true }, // read, unread
+  date: { type: String, required: true, index: true }
 }, { timestamps: true });
 
 // Settings Schema
@@ -177,46 +202,28 @@ const SettingsSchema = new Schema({
   currencySymbol: { type: String, default: '₹' }
 }, { timestamps: true });
 
-// Export Compiled Models via proxy registry
-export const User = createModel('User', UserSchema);
-export const Customer = createModel('Customer', CustomerSchema);
-export const Event = createModel('Event', EventSchema);
-export const Grocery = createModel('Grocery', GrocerySchema);
-export const Expense = createModel('Expense', ExpenseSchema);
-export const Labour = createModel('Labour', LabourSchema);
-export const Attendance = createModel('Attendance', AttendanceSchema);
-export const Vessel = createModel('Vessel', VesselSchema);
-export const Rental = createModel('Rental', RentalSchema);
-export const Invoice = createModel('Invoice', InvoiceSchema);
-export const Payment = createModel('Payment', PaymentSchema);
-export const Notification = createModel('Notification', NotificationSchema);
-
-export const Settings = createModel('Settings', SettingsSchema);
-
 // MenuItem Schema
 const MenuItemSchema = new Schema({
-  name: { type: String, required: true },
+  name: { type: String, required: true, index: true },
   unitCost: { type: Number, required: true },
-  course: { type: String, required: true }, // breakfast, lunch, dinner
-  category: { type: String, default: 'Others' }
+  course: { type: String, required: true, index: true }, // breakfast, lunch, dinner
+  category: { type: String, default: 'Others', index: true }
 }, { timestamps: true });
 
-export const MenuItem = createModel('MenuItem', MenuItemSchema);
+MenuItemSchema.index({ name: 1, course: 1 });
 
 // Combo Schema
 const ComboSchema = new Schema({
-  name: { type: String, required: true },
+  name: { type: String, required: true, index: true },
   description: { type: String, default: '' },
   items: [{ type: String }], // Array of dish names
   course: { type: String, default: 'dinner' }, // breakfast, lunch, dinner
   category: { type: String, default: 'Combo' } // e.g. Traditional Lunch, Night Tiffin
 }, { timestamps: true });
 
-export const Combo = createModel('Combo', ComboSchema);
-
 // EventLabour Schema
 const EventLabourSchema = new Schema({
-  eventId: { type: String, required: true },
+  eventId: { type: String, required: true, index: true },
   eventName: { type: String, required: true },
   eventDate: { type: String, required: true },
   customerName: { type: String, default: '' },
@@ -234,5 +241,22 @@ const EventLabourSchema = new Schema({
   }]
 }, { timestamps: true });
 
-export const EventLabour = createModel('EventLabour', EventLabourSchema);
+EventLabourSchema.index({ eventId: 1 });
 
+// Export Compiled Models via proxy registry
+export const User = createModel('User', UserSchema);
+export const Customer = createModel('Customer', CustomerSchema);
+export const Event = createModel('Event', EventSchema);
+export const Grocery = createModel('Grocery', GrocerySchema);
+export const Expense = createModel('Expense', ExpenseSchema);
+export const Labour = createModel('Labour', LabourSchema);
+export const Attendance = createModel('Attendance', AttendanceSchema);
+export const Vessel = createModel('Vessel', VesselSchema);
+export const Rental = createModel('Rental', RentalSchema);
+export const Invoice = createModel('Invoice', InvoiceSchema);
+export const Payment = createModel('Payment', PaymentSchema);
+export const Notification = createModel('Notification', NotificationSchema);
+export const Settings = createModel('Settings', SettingsSchema);
+export const MenuItem = createModel('MenuItem', MenuItemSchema);
+export const Combo = createModel('Combo', ComboSchema);
+export const EventLabour = createModel('EventLabour', EventLabourSchema);
