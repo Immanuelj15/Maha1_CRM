@@ -578,10 +578,10 @@ export const deleteCustomer = async (req, res) => {
 };
 
 export const downloadCustomerPDF = async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { type } = req.query; // 'menu', 'vegetables', 'groceries', or 'all' / undefined
+  const { id } = req.params;
+  const { type } = req.query; // 'menu', 'vegetables', 'groceries', or 'all' / undefined
 
+  try {
     let customer = null;
     if (mongoose.Types.ObjectId.isValid(id)) {
       customer = await Customer.findById(id);
@@ -591,7 +591,11 @@ export const downloadCustomerPDF = async (req, res) => {
     }
 
     if (!customer) {
-      return res.status(404).json({ success: false, message: 'Customer not found.' });
+      console.warn(`⚠️ [PDF Download Warning] Customer ID not found: ${id}, Request URL: ${req.originalUrl}`);
+      if (!res.headersSent) {
+        return res.status(404).json({ success: false, message: 'Customer not found.' });
+      }
+      return;
     }
 
     const safeName = (customer.name || 'Customer').replace(/[^a-zA-Z0-9_\-]/g, '_');
@@ -599,11 +603,14 @@ export const downloadCustomerPDF = async (req, res) => {
     if (!type || type === 'all') {
       res.setHeader('Content-Type', 'application/pdf');
       res.setHeader('Content-Disposition', `attachment; filename="Requirements-${safeName}.pdf"`);
-      return generateCustomerRequirementsPDF(customer, res);
+      return generateCustomerRequirementsPDF(customer, res, req);
     }
 
     if (!['menu', 'vegetables', 'groceries'].includes(type)) {
-      return res.status(400).json({ success: false, message: 'Invalid PDF type. Must be menu, vegetables, groceries, or all.' });
+      if (!res.headersSent) {
+        return res.status(400).json({ success: false, message: 'Invalid PDF type. Must be menu, vegetables, groceries, or all.' });
+      }
+      return;
     }
 
     let items = [];
@@ -622,9 +629,10 @@ export const downloadCustomerPDF = async (req, res) => {
     res.setHeader('Content-Type', 'application/pdf');
     res.setHeader('Content-Disposition', `attachment; filename="${type}-${safeName}.pdf"`);
 
-    return generateCustomerListPDF(customer, label, items, res);
+    return generateCustomerListPDF(customer, label, items, res, req);
   } catch (error) {
-    console.error('Download customer PDF error:', error);
+    console.error('💥 [PDF Controller Error] Full Stack Trace:', error.stack || error);
+    console.error(`📌 Request Details -> Customer ID: ${id}, URL: ${req.originalUrl}`);
     if (!res.headersSent) {
       return res.status(500).json({ success: false, message: 'Internal Server Error' });
     }
